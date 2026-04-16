@@ -16,12 +16,30 @@ const categoryImages: Record<string, string> = {
   'maintenance-and-engineering': '/images/cat-maintenance.webp',
 }
 
-// Special WordPress slugs that don't follow the standard pattern
+// Data slug → WordPress URL slug (for "Read More" links)
 const specialCertSlugs: Record<string, string> = {
   'gbac-star': 'gbac-star-blockchain-certificates',
   'issa-cims-gb': 'issa-cims-gb-blockchain-certificates',
   'osha-hazard-communication': 'osha-hazard-blockchain-certificates',
   'npma-bed-bug-training': 'npma-bed-bug-training-blockain-certifications',
+  'leed-certification': 'ardhin-3-blockchain-hotel-certificates',
+  'ashrae-188-legionella': 'ashrae-188-legionella-water-safety-plan-blockchain-hotel-certificates',
+  'background-screening': 'background-screening-standards-blockchain-hotel-certificates',
+  'massage-therapy-licensing': 'certifications-fitness-spa-wellness-blockchain-hotel-certificates',
+  'energy-star': 'energy-star-certification-for-hotels-blockchain-hotel-certificates',
+  'epa-ahera-mold-asbestos': 'epa-ahera-iicrc-mold-and-asbestos-awareness-certification-blockchain-hotel-certificates',
+  'first-aid-training': 'first-aid-and-training-blockchain-hotel-certificates',
+  'fitness-equipment-safety': 'fitness-equipment-safety-and-maintenance-blockchain-hotel-certificates',
+  'food-waste-composting': 'food-waste-composting-compliance-blockchain-hotel-certificates',
+  'green-key-global': 'green-key-global-sustainable-tourism-blockchain-hotel-certificates',
+  'halal-kosher-kitchen': 'halal-kosher-kitchen-compliance-blockchain-hotel-certificates',
+  'iso-14001': 'iso-14001-environmental-management-systems-blockchain-hotel-certificates',
+  'osha-confined-space-ladder': 'osha-confined-space-and-ladder-safety-blockchain-hotel-certificates',
+  'osha-workplace-safety': 'osha-nebosh-iosh-workplace-safety-blockchain-hotel-certificates',
+  'pool-hot-tub-water-quality': 'pool-and-hot-tub-water-quality-blockchain-hotel-certificates',
+  'trsa-hygienically-clean': 'servsafe-haccp-laundry-sanitation-compliance-blockchain-hotel-certificates',
+  'true-zero-waste': 'true-zero-waste-certification-blockchain-hotel-certificates',
+  'water-energy-efficiency': 'water-energy-efficiency-programs-blockchain-hotel-certificates',
 }
 
 function getCertWpSlug(dataSlug: string): string {

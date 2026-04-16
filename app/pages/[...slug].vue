@@ -13,6 +13,24 @@ const specialCertSlugs: Record<string, string> = {
   'issa-cims-gb-blockchain-certificates': 'issa-cims-gb',
   'osha-hazard-blockchain-certificates': 'osha-hazard-communication',
   'npma-bed-bug-training-blockain-certifications': 'npma-bed-bug-training',
+  'ardhin-3-blockchain-hotel-certificates': 'leed-certification',
+  'ashrae-188-legionella-water-safety-plan-blockchain-hotel-certificates': 'ashrae-188-legionella',
+  'background-screening-standards-blockchain-hotel-certificates': 'background-screening',
+  'certifications-fitness-spa-wellness-blockchain-hotel-certificates': 'massage-therapy-licensing',
+  'energy-star-certification-for-hotels-blockchain-hotel-certificates': 'energy-star',
+  'epa-ahera-iicrc-mold-and-asbestos-awareness-certification-blockchain-hotel-certificates': 'epa-ahera-mold-asbestos',
+  'first-aid-and-training-blockchain-hotel-certificates': 'first-aid-training',
+  'fitness-equipment-safety-and-maintenance-blockchain-hotel-certificates': 'fitness-equipment-safety',
+  'food-waste-composting-compliance-blockchain-hotel-certificates': 'food-waste-composting',
+  'green-key-global-sustainable-tourism-blockchain-hotel-certificates': 'green-key-global',
+  'halal-kosher-kitchen-compliance-blockchain-hotel-certificates': 'halal-kosher-kitchen',
+  'iso-14001-environmental-management-systems-blockchain-hotel-certificates': 'iso-14001',
+  'osha-confined-space-and-ladder-safety-blockchain-hotel-certificates': 'osha-confined-space-ladder',
+  'osha-nebosh-iosh-workplace-safety-blockchain-hotel-certificates': 'osha-workplace-safety',
+  'pool-and-hot-tub-water-quality-blockchain-hotel-certificates': 'pool-hot-tub-water-quality',
+  'servsafe-haccp-laundry-sanitation-compliance-blockchain-hotel-certificates': 'trsa-hygienically-clean',
+  'true-zero-waste-certification-blockchain-hotel-certificates': 'true-zero-waste',
+  'water-energy-efficiency-programs-blockchain-hotel-certificates': 'water-energy-efficiency',
 }
 
 // Category WordPress slugs → internal category slugs
@@ -27,6 +45,7 @@ const categorySlugs: Record<string, string> = {
   'hr-security-ops-blockchain-certificates': 'hr-security-ops',
   'laundry-and-linen-services-blockchain-certificates': 'laundry-and-linen-services',
   'maintenance-and-engineering-blockchain-certificates': 'maintenance-and-engineering',
+  'maintenance-and-engineering-blockchain-hotel-certificates': 'maintenance-and-engineering',
 }
 
 // Top-level page redirects
