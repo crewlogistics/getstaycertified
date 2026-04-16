@@ -50,8 +50,8 @@ useHead({
   <div v-if="category">
     <!-- HERO -->
     <section class="bg-ink text-white">
-      <div class="container-x pt-[140px] md:pt-[220px] pb-[80px] md:pb-[120px] text-left">
-        <h1 class="font-medium leading-[1.05] tracking-tight text-[42px] sm:text-[56px] md:text-[72px] lg:text-[85px]">
+      <div class="container-x pt-[140px] md:pt-[220px] pb-[80px] md:pb-[120px] text-center">
+        <h1 class="font-medium leading-[1.05] tracking-tight text-[56px] sm:text-[72px] md:text-[90px] lg:text-[110px]">
           {{ category.heroTagline }}
         </h1>
       </div>
