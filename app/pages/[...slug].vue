@@ -130,11 +130,6 @@ if (!matchedCategory && !topLevelPages[fullSlug]) {
   if (certDataSlug) {
     certResult = getCertBySlug(certDataSlug)
   }
-
-  // 404 only if nothing matched and not a redirect
-  if (!certResult) {
-    throw createError({ statusCode: 404, message: 'Page not found' })
-  }
 }
 
 // --- SEO head ---
