@@ -11,7 +11,7 @@
     font-feature-settings: 'ss01';
   }
   h1, h2, h3, h4 {
-    @apply font-medium;
+    @apply font-light;
   }
 }
 
@@ -35,10 +35,10 @@
     @apply mx-auto w-full max-w-container px-6 md:px-10;
   }
   .eyebrow {
-    @apply inline-block text-[11px] font-medium uppercase tracking-[0.22em] text-ink/60;
+    @apply inline-block text-[14px] font-light uppercase tracking-[2px] text-ink/60;
   }
   .section-heading {
-    @apply text-[38px] md:text-[46px] font-medium leading-[1.15] tracking-tight text-ink;
+    @apply text-[38px] md:text-[52px] font-light leading-[1.06] tracking-[-2px] text-ink;
   }
   .nav-link {
     @apply text-[12px] font-medium uppercase tracking-[0.08em] text-[#9aa3ad] hover:text-white transition;

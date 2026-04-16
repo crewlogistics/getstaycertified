@@ -42,13 +42,15 @@ const partners = [
 <template>
   <!-- HERO -->
   <section class="bg-ink text-white">
-    <div class="container-x py-32 md:py-48 text-center">
-      <p class="text-white/70 text-[14px] md:text-[16px] font-normal mb-6">StayCertified&trade;</p>
-      <h1 class="font-medium leading-[1.05] tracking-tight text-[48px] sm:text-[64px] md:text-[78px] lg:text-[85px]">
+    <div class="container-x pt-[140px] md:pt-[220px] pb-[100px] md:pb-[160px] text-center">
+      <h1 class="font-medium leading-[1.15] tracking-tight text-[48px] sm:text-[64px] md:text-[78px] lg:text-[85px]">
+        StayCertified&trade;
+      </h1>
+      <p class="font-medium leading-[1.15] tracking-tight text-[40px] sm:text-[56px] md:text-[72px] lg:text-[80px] text-white">
         Verified Environments.<br />
         Trusted Operations.
-      </h1>
-      <p class="mt-10 text-[18px] md:text-[20px] text-white/75 font-light max-w-3xl mx-auto leading-relaxed">
+      </p>
+      <p class="mt-8 text-[24px] md:text-[40px] text-white/75 font-extralight max-w-4xl mx-auto leading-[1.1]">
         The certification and compliance layer behind every qualified facility.
       </p>
     </div>
@@ -105,7 +107,7 @@ const partners = [
         >
           <img src="/images/tick-icon.webp" alt="" class="flex-shrink-0 w-10 h-10" />
           <div>
-            <h3 class="text-[14px] font-semibold uppercase tracking-[0.1em] text-ink">
+            <h3 class="text-[14px] font-light uppercase tracking-[2px] text-ink">
               {{ feature.title }}
             </h3>
             <p class="mt-3 text-ink/70 text-[14px] leading-[1.7]">
@@ -120,7 +122,7 @@ const partners = [
   <!-- DARK BANNER: Certification handled. Start to finish. -->
   <section class="bg-ink text-white">
     <div class="container-x py-20 md:py-24 text-center">
-      <h2 class="font-medium leading-[1.1] tracking-tight text-[38px] md:text-[56px]">
+      <h2 class="font-light leading-[1.06] tracking-[-2px] text-[38px] md:text-[52px]">
         Certification handled. Start to finish.
       </h2>
     </div>

@@ -119,7 +119,7 @@ const maintenance = [
             {{ step.number }}
           </div>
           <div>
-            <h3 class="text-[14px] font-semibold uppercase tracking-[0.1em] text-ink">
+            <h3 class="text-[14px] font-light uppercase tracking-[2px] text-ink">
               {{ step.title }}
             </h3>
             <p class="mt-4 text-ink/75 text-[15px] leading-[1.75]">
@@ -142,7 +142,7 @@ const maintenance = [
   <!-- DARK BANNER -->
   <section class="bg-ink text-white">
     <div class="container-x py-20 md:py-24 text-center">
-      <h2 class="font-medium leading-[1.1] tracking-tight text-[38px] md:text-[56px]">
+      <h2 class="font-light leading-[1.06] tracking-[-2px] text-[38px] md:text-[52px]">
         Certification handled. Start to finish.
       </h2>
     </div>

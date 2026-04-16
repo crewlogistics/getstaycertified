@@ -153,7 +153,7 @@ const upcomingFeatures = [
         >
           <img src="/images/tick-icon.webp" alt="" class="flex-shrink-0 w-10 h-10" />
           <div>
-            <h3 class="text-[14px] font-semibold uppercase tracking-[0.1em] text-ink">
+            <h3 class="text-[14px] font-light uppercase tracking-[2px] text-ink">
               {{ feature.title }}
             </h3>
             <p class="mt-3 text-ink/70 text-[14px] leading-[1.7]">
@@ -177,7 +177,7 @@ const upcomingFeatures = [
   <!-- DARK BANNER -->
   <section class="bg-ink text-white">
     <div class="container-x py-20 md:py-24 text-center">
-      <h2 class="font-medium leading-[1.1] tracking-tight text-[38px] md:text-[56px]">
+      <h2 class="font-light leading-[1.06] tracking-[-2px] text-[38px] md:text-[52px]">
         Customizable Features
       </h2>
     </div>
@@ -194,7 +194,7 @@ const upcomingFeatures = [
         >
           <img src="/images/tick-icon.webp" alt="" class="flex-shrink-0 w-10 h-10" />
           <div>
-            <h3 class="text-[14px] font-semibold uppercase tracking-[0.1em] text-ink">
+            <h3 class="text-[14px] font-light uppercase tracking-[2px] text-ink">
               {{ feature.title }}
             </h3>
             <p class="mt-3 text-ink/70 text-[14px] leading-[1.7]">
