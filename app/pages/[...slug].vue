@@ -106,7 +106,7 @@ const fullSlug = (route.params.slug as string[]).join('/')
 
 // --- Top-level page redirect ---
 if (topLevelPages[fullSlug]) {
-  navigateTo(topLevelPages[fullSlug], { redirectCode: 301 })
+  await navigateTo(topLevelPages[fullSlug], { redirectCode: 301 })
 }
 
 // --- Category page ---
@@ -117,7 +117,7 @@ const matchedCategory = matchedCategorySlug ? getCategoryBySlug(matchedCategoryS
 let certDataSlug: string | undefined
 let certResult: ReturnType<typeof getCertBySlug> | undefined
 
-if (!matchedCategory) {
+if (!matchedCategory && !topLevelPages[fullSlug]) {
   // Check special slugs first
   if (specialCertSlugs[fullSlug]) {
     certDataSlug = specialCertSlugs[fullSlug]
@@ -130,11 +130,11 @@ if (!matchedCategory) {
   if (certDataSlug) {
     certResult = getCertBySlug(certDataSlug)
   }
-}
 
-// 404 if nothing matched
-if (!matchedCategory && !certResult && !topLevelPages[fullSlug]) {
-  throw createError({ statusCode: 404, message: 'Page not found' })
+  // 404 only if nothing matched and not a redirect
+  if (!certResult) {
+    throw createError({ statusCode: 404, message: 'Page not found' })
+  }
 }
 
 // --- SEO head ---
