@@ -50,7 +50,7 @@ useHead({
   <div v-if="category">
     <!-- HERO -->
     <section class="bg-ink text-white">
-      <div class="container-x py-32 md:py-48 text-center">
+      <div class="container-x pt-[140px] md:pt-[220px] pb-[80px] md:pb-[120px] text-left">
         <h1 class="font-medium leading-[1.05] tracking-tight text-[42px] sm:text-[56px] md:text-[72px] lg:text-[85px]">
           {{ category.heroTagline }}
         </h1>
@@ -110,6 +110,11 @@ useHead({
           </details>
         </div>
       </div>
+    </section>
+
+    <!-- FULL-BLEED PHOTO -->
+    <section class="bg-white">
+      <img :src="heroImage" alt="Hotel compliance" class="hero-img" />
     </section>
 
     <!-- PRICING -->

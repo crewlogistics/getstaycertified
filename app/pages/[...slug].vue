@@ -155,8 +155,8 @@ function getCertWpSlug(dataSlug: string): string {
   <div v-if="cert && category">
     <!-- HERO -->
     <section class="bg-ink text-white">
-      <div class="container-x py-32 md:py-48 text-center">
-        <h1 class="font-medium leading-[1.05] tracking-tight text-[36px] sm:text-[48px] md:text-[64px] lg:text-[72px] max-w-4xl mx-auto">
+      <div class="container-x pt-[140px] md:pt-[220px] pb-[80px] md:pb-[120px] text-left">
+        <h1 class="font-medium leading-[1.05] tracking-tight text-[36px] sm:text-[48px] md:text-[64px] lg:text-[72px]">
           {{ cert.title }}
         </h1>
       </div>
@@ -171,22 +171,9 @@ function getCertWpSlug(dataSlug: string): string {
       />
     </section>
 
-    <!-- BREADCRUMB + ISSUING BODY -->
-    <section class="bg-mist">
-      <div class="container-x py-6">
-        <nav class="flex items-center gap-2 text-[12px] uppercase tracking-[0.08em] text-ink/50">
-          <NuxtLink to="/certifications" class="hover:text-ink transition">Certifications</NuxtLink>
-          <span>&rsaquo;</span>
-          <NuxtLink :to="`/certifications/${category.slug}`" class="hover:text-ink transition">{{ category.navLabel }}</NuxtLink>
-          <span>&rsaquo;</span>
-          <span class="text-ink/80">{{ cert.title }}</span>
-        </nav>
-      </div>
-    </section>
-
     <!-- ISSUING BODY -->
-    <section v-if="cert.issuingBody" class="bg-mist border-b border-rule">
-      <div class="container-x pb-8">
+    <section v-if="cert.issuingBody" class="bg-mist">
+      <div class="container-x py-6">
         <p class="text-[11px] font-medium uppercase tracking-[0.15em] text-ink/40">
           Certification Issuing Body | {{ cert.issuingBody }}
         </p>
@@ -196,33 +183,21 @@ function getCertWpSlug(dataSlug: string): string {
     <!-- CONTENT -->
     <section class="bg-white">
       <div class="container-x py-[80px] md:py-[140px]">
-        <div class="max-w-3xl mx-auto">
-          <div class="space-y-6 text-ink/75 text-[16px] leading-[1.8]">
-            <p v-for="(para, i) in cert.description" :key="i">
-              {{ para }}
-            </p>
+        <div class="grid gap-14 md:grid-cols-2">
+          <div>
+            <p class="eyebrow mb-6">Certification Issuing Body | {{ cert.issuingBody }}</p>
+            <h2 class="section-heading">{{ cert.title }}</h2>
           </div>
-
-          <div class="mt-16 text-center">
-            <NuxtLink to="/contact" class="btn-coral-lg">
-              Get Certified Now
-            </NuxtLink>
+          <div class="md:pt-16 space-y-5 text-ink/75 text-[15px] leading-[1.75]">
+            <p v-for="(para, i) in cert.description" :key="i">{{ para }}</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- BACK TO CATEGORY -->
-    <section class="bg-mist">
-      <div class="container-x py-16 text-center">
-        <p class="eyebrow mb-4">More {{ category.title }} Certifications</p>
-        <NuxtLink
-          :to="`/certifications/${category.slug}`"
-          class="text-coral hover:text-coral-hover text-[14px] font-medium uppercase tracking-[0.05em] transition"
-        >
-          &larr; View All {{ category.navLabel }} Certifications
-        </NuxtLink>
-      </div>
+    <!-- FULL-BLEED PHOTO -->
+    <section class="bg-white">
+      <img src="/images/features-inspector.webp" alt="Hotel compliance" class="hero-img" />
     </section>
 
     <!-- PRICING -->
@@ -233,7 +208,7 @@ function getCertWpSlug(dataSlug: string): string {
   <div v-else-if="matchedCategory">
     <!-- HERO -->
     <section class="bg-ink text-white">
-      <div class="container-x py-32 md:py-48 text-center">
+      <div class="container-x pt-[140px] md:pt-[220px] pb-[80px] md:pb-[120px] text-left">
         <h1 class="font-medium leading-[1.05] tracking-tight text-[42px] sm:text-[56px] md:text-[72px] lg:text-[85px]">
           {{ matchedCategory.heroTagline }}
         </h1>
@@ -293,6 +268,11 @@ function getCertWpSlug(dataSlug: string): string {
           </details>
         </div>
       </div>
+    </section>
+
+    <!-- FULL-BLEED PHOTO -->
+    <section class="bg-white">
+      <img :src="heroImage" alt="Hotel compliance" class="hero-img" />
     </section>
 
     <!-- PRICING -->
