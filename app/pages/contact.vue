@@ -31,7 +31,7 @@ useHead({
 
   <!-- CONTACT FORM -->
   <section class="bg-white">
-    <div class="container-x py-24 md:py-32">
+    <div class="container-x py-[80px] md:py-[140px]">
       <div class="max-w-2xl mx-auto">
         <div class="text-center mb-12">
           <p class="eyebrow mb-6">We&rsquo;re here to help</p>

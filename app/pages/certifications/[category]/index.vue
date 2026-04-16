@@ -68,7 +68,7 @@ useHead({
 
     <!-- INTRO -->
     <section class="bg-mist">
-      <div class="container-x py-24 md:py-32">
+      <div class="container-x py-[80px] md:py-[140px]">
         <div class="grid gap-14 md:grid-cols-2">
           <div>
             <p class="eyebrow mb-6">{{ category.navLabel }} Blockchain Certifications</p>
@@ -87,7 +87,7 @@ useHead({
 
     <!-- CERTIFICATIONS ACCORDION -->
     <section class="bg-white">
-      <div class="container-x py-24 md:py-32">
+      <div class="container-x py-[80px] md:py-[140px]">
         <div class="max-w-4xl mx-auto">
           <details
             v-for="cert in category.certifications"

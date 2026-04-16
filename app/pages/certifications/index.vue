@@ -99,7 +99,7 @@ const categories = [
 
   <!-- CATEGORIES GRID -->
   <section class="bg-white">
-    <div class="container-x py-24 md:py-32">
+    <div class="container-x py-[80px] md:py-[140px]">
       <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto">
         <NuxtLink
           v-for="cat in categories"

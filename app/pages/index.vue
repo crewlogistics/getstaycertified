@@ -67,7 +67,7 @@ const partners = [
 
   <!-- INTRO: Never worry about staying certified -->
   <section class="bg-mist">
-    <div class="container-x py-24 md:py-32">
+    <div class="container-x py-[80px] md:py-[140px]">
       <div class="grid gap-14 md:grid-cols-2">
         <div>
           <p class="eyebrow mb-6">Stay certified and compliant &mdash; in minutes</p>
@@ -98,7 +98,7 @@ const partners = [
 
   <!-- FEATURE GRID: 2 x 3 with circular tick icon on the left -->
   <section id="features" class="bg-white">
-    <div class="container-x py-24 md:py-32">
+    <div class="container-x py-[80px] md:py-[120px]">
       <div class="grid gap-x-16 gap-y-12 md:grid-cols-2 max-w-5xl mx-auto">
         <div
           v-for="feature in features"
@@ -121,7 +121,7 @@ const partners = [
 
   <!-- DARK BANNER: Certification handled. Start to finish. -->
   <section class="bg-ink text-white">
-    <div class="container-x py-20 md:py-24 text-center">
+    <div class="container-x py-[120px] md:py-[260px] text-center">
       <h2 class="font-light leading-[1.06] tracking-[-2px] text-[38px] md:text-[52px]">
         Certification handled. Start to finish.
       </h2>
@@ -142,7 +142,7 @@ const partners = [
 
   <!-- HOTEL PARTNER LOGOS BAR -->
   <section class="bg-white">
-    <div class="container-x py-20 md:py-24">
+    <div class="container-x py-[80px] md:py-[120px]">
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 items-center gap-10 md:gap-12">
         <div
           v-for="partner in partners"

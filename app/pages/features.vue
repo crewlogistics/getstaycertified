@@ -117,7 +117,7 @@ const upcomingFeatures = [
 
   <!-- INTRO -->
   <section class="bg-mist">
-    <div class="container-x py-24 md:py-32">
+    <div class="container-x py-[80px] md:py-[140px]">
       <div class="grid gap-14 md:grid-cols-2">
         <div>
           <p class="eyebrow mb-6">Features</p>
@@ -144,7 +144,7 @@ const upcomingFeatures = [
 
   <!-- CORE FEATURES GRID -->
   <section class="bg-white">
-    <div class="container-x py-24 md:py-32">
+    <div class="container-x py-[80px] md:py-[140px]">
       <div class="grid gap-x-16 gap-y-12 md:grid-cols-2 max-w-5xl mx-auto">
         <div
           v-for="feature in coreFeatures"
@@ -176,7 +176,7 @@ const upcomingFeatures = [
 
   <!-- DARK BANNER -->
   <section class="bg-ink text-white">
-    <div class="container-x py-20 md:py-24 text-center">
+    <div class="container-x py-[120px] md:py-[260px] text-center">
       <h2 class="font-light leading-[1.06] tracking-[-2px] text-[38px] md:text-[52px]">
         Customizable Features
       </h2>
@@ -185,7 +185,7 @@ const upcomingFeatures = [
 
   <!-- CUSTOMIZABLE FEATURES -->
   <section class="bg-white">
-    <div class="container-x py-24 md:py-32">
+    <div class="container-x py-[80px] md:py-[140px]">
       <div class="grid gap-x-16 gap-y-12 md:grid-cols-2 max-w-5xl mx-auto">
         <div
           v-for="feature in customFeatures"
@@ -217,7 +217,7 @@ const upcomingFeatures = [
 
   <!-- WHAT'S NEXT -->
   <section class="bg-mist">
-    <div class="container-x py-24 md:py-32">
+    <div class="container-x py-[80px] md:py-[140px]">
       <div class="max-w-3xl mx-auto text-center mb-16">
         <p class="eyebrow mb-6">What&rsquo;s next for StayCertified&trade;</p>
         <h2 class="section-heading">

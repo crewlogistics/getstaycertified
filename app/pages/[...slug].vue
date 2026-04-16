@@ -195,7 +195,7 @@ function getCertWpSlug(dataSlug: string): string {
 
     <!-- CONTENT -->
     <section class="bg-white">
-      <div class="container-x py-24 md:py-32">
+      <div class="container-x py-[80px] md:py-[140px]">
         <div class="max-w-3xl mx-auto">
           <div class="space-y-6 text-ink/75 text-[16px] leading-[1.8]">
             <p v-for="(para, i) in cert.description" :key="i">
@@ -251,7 +251,7 @@ function getCertWpSlug(dataSlug: string): string {
 
     <!-- INTRO -->
     <section class="bg-mist">
-      <div class="container-x py-24 md:py-32">
+      <div class="container-x py-[80px] md:py-[140px]">
         <div class="grid gap-14 md:grid-cols-2">
           <div>
             <p class="eyebrow mb-6">{{ matchedCategory.navLabel }} Blockchain Certifications</p>
@@ -270,7 +270,7 @@ function getCertWpSlug(dataSlug: string): string {
 
     <!-- CERTIFICATIONS ACCORDION -->
     <section class="bg-white">
-      <div class="container-x py-24 md:py-32">
+      <div class="container-x py-[80px] md:py-[140px]">
         <div class="max-w-4xl mx-auto">
           <details
             v-for="cert in matchedCategory.certifications"

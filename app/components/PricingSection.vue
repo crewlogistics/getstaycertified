@@ -76,7 +76,7 @@ const displayPeriod = computed(() => {
 <template>
   <!-- PRICING INTRO -->
   <section class="bg-white">
-    <div class="container-x py-24 md:py-32">
+    <div class="container-x py-[80px] md:py-[140px]">
       <div class="max-w-4xl mx-auto text-center">
         <p class="eyebrow mb-6">Compliance made scalable</p>
         <h2 class="section-heading">
@@ -100,7 +100,7 @@ const displayPeriod = computed(() => {
 
   <!-- PRICING CARDS -->
   <section id="pricing" class="bg-mist">
-    <div class="container-x py-20 md:py-28">
+    <div class="container-x py-[100px] md:py-[160px]">
       <h3 class="text-center text-[22px] md:text-[26px] font-medium text-ink">
         Save up to 17% with an Annual Plan
       </h3>
