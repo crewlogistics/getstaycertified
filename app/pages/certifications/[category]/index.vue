@@ -16,6 +16,18 @@ const categoryImages: Record<string, string> = {
   'maintenance-and-engineering': '/images/cat-maintenance.webp',
 }
 
+// Special WordPress slugs that don't follow the standard pattern
+const specialCertSlugs: Record<string, string> = {
+  'gbac-star': 'gbac-star-blockchain-certificates',
+  'issa-cims-gb': 'issa-cims-gb-blockchain-certificates',
+  'osha-hazard-communication': 'osha-hazard-blockchain-certificates',
+  'npma-bed-bug-training': 'npma-bed-bug-training-blockain-certifications',
+}
+
+function getCertWpSlug(dataSlug: string): string {
+  return specialCertSlugs[dataSlug] || `${dataSlug}-blockchain-hotel-certificates`
+}
+
 const route = useRoute()
 const slug = route.params.category as string
 const category = getCategoryBySlug(slug)
@@ -73,35 +85,29 @@ useHead({
       </div>
     </section>
 
-    <!-- CERTIFICATIONS LIST -->
+    <!-- CERTIFICATIONS ACCORDION -->
     <section class="bg-white">
       <div class="container-x py-24 md:py-32">
-        <div class="space-y-8 max-w-4xl mx-auto">
-          <NuxtLink
+        <div class="max-w-4xl mx-auto">
+          <details
             v-for="cert in category.certifications"
             :key="cert.slug"
-            :to="`/certifications/${slug}/${cert.slug}`"
-            class="group block bg-white rounded-lg p-8 border border-rule hover:border-coral/40 hover:shadow-lg transition"
+            class="group border-b border-rule"
           >
-            <div class="flex items-start gap-5">
-              <div class="flex-shrink-0 w-12 h-12 rounded-full bg-tick group-hover:bg-coral flex items-center justify-center transition">
-                <svg class="w-5 h-5 text-white" viewBox="0 0 20 20" fill="currentColor">
-                  <path fill-rule="evenodd" d="M16.7 5.3a1 1 0 010 1.4l-8 8a1 1 0 01-1.4 0l-4-4a1 1 0 011.4-1.4L8 12.6l7.3-7.3a1 1 0 011.4 0z" clip-rule="evenodd"/>
-                </svg>
-              </div>
-              <div>
-                <h3 class="text-[14px] font-semibold uppercase tracking-[0.08em] text-ink group-hover:text-coral transition">
-                  {{ cert.title }}
-                </h3>
-                <p v-if="cert.issuingBody" class="mt-1 text-[11px] uppercase tracking-[0.1em] text-ink/40">
-                  {{ cert.issuingBody }}
-                </p>
-                <p class="mt-3 text-ink/70 text-[14px] leading-[1.7]">
-                  {{ cert.summary }}
-                </p>
-              </div>
+            <summary class="flex items-center justify-between py-5 cursor-pointer">
+              <span class="text-[15px] font-medium text-ink">{{ cert.title }}</span>
+              <span class="text-ink/40 transition group-open:rotate-45 text-[20px] leading-none">+</span>
+            </summary>
+            <div class="pb-6 pr-12">
+              <p class="text-ink/70 text-[14px] leading-[1.7]">{{ cert.summary }}</p>
+              <NuxtLink
+                :to="`/${getCertWpSlug(cert.slug)}`"
+                class="inline-block mt-4 text-[13px] font-semibold text-ink hover:text-coral transition"
+              >
+                Read More
+              </NuxtLink>
             </div>
-          </NuxtLink>
+          </details>
         </div>
       </div>
     </section>
