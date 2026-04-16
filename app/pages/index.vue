@@ -103,11 +103,7 @@ const partners = [
           :key="feature.title"
           class="flex items-start gap-5"
         >
-          <div class="flex-shrink-0 w-12 h-12 rounded-full bg-tick flex items-center justify-center">
-            <svg class="w-5 h-5 text-white" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M16.7 5.3a1 1 0 010 1.4l-8 8a1 1 0 01-1.4 0l-4-4a1 1 0 011.4-1.4L8 12.6l7.3-7.3a1 1 0 011.4 0z" clip-rule="evenodd"/>
-            </svg>
-          </div>
+          <img src="/images/tick-icon.webp" alt="" class="flex-shrink-0 w-10 h-10" />
           <div>
             <h3 class="text-[14px] font-semibold uppercase tracking-[0.1em] text-ink">
               {{ feature.title }}
