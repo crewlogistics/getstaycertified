@@ -5,6 +5,9 @@ export default defineNuxtConfig({
   ],
   devtools: { enabled: true },
   compatibilityDate: '2024-04-03',
+  nitro: {
+    preset: 'static',
+  },
   css: ['~/assets/css/tailwind.css'],
   app: {
     head: {

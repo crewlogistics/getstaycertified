@@ -27,3 +27,5 @@ logs
 _reference/
 
 pnpm-lock.yaml
+# Local Netlify folder
+.netlify
