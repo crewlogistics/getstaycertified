@@ -72,31 +72,24 @@ useHead({
 
     <!-- ISSUING BODY -->
     <section v-if="cert.issuingBody" class="bg-mist">
-      <div class="container-x py-6">
-        <p class="text-[11px] font-medium uppercase tracking-[0.15em] text-ink/40">
+      <div class="container-x py-8">
+        <p class="eyebrow">
           Certification Issuing Body | {{ cert.issuingBody }}
         </p>
       </div>
     </section>
 
     <!-- CONTENT -->
-    <section class="bg-mist">
+    <section class="bg-white">
       <div class="container-x py-[80px] md:py-[140px]">
-        <!-- Eyebrow + Heading -->
-        <p class="eyebrow mb-6">Certification Issuing Body | {{ cert.issuingBody }}</p>
         <h2 class="section-heading mb-12">{{ cert.title }}</h2>
-        <!-- Body text in 2-column grid -->
-        <div class="grid gap-10 md:grid-cols-2">
-          <div class="space-y-5">
-            <p v-for="(para, i) in cert.description.slice(0, Math.ceil(cert.description.length / 2))" :key="'l'+i" class="text-ink/70 text-[15px] leading-[1.75]">
-              {{ para }}
-            </p>
-          </div>
-          <div class="space-y-5">
-            <p v-for="(para, i) in cert.description.slice(Math.ceil(cert.description.length / 2))" :key="'r'+i" class="text-ink/70 text-[15px] leading-[1.75]">
-              {{ para }}
-            </p>
-          </div>
+        <div class="max-w-4xl space-y-6">
+          <p v-if="cert.description[0]" class="text-ink/80 text-[18px] md:text-[20px] leading-[1.6]">
+            {{ cert.description[0] }}
+          </p>
+          <p v-for="(para, i) in cert.description.slice(1)" :key="i" class="text-ink/70 text-[15px] leading-[1.75]">
+            {{ para }}
+          </p>
         </div>
       </div>
     </section>
