@@ -132,7 +132,7 @@ useHead({
 
     <!-- FULL-BLEED PHOTO -->
     <section class="bg-white">
-      <img :src="heroImage" alt="Hotel compliance" class="hero-img" />
+      <img src="/images/features-inspector.webp" alt="Hotel compliance" class="hero-img" />
     </section>
 
     <!-- PRICING -->
