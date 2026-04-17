@@ -41,6 +41,9 @@ if (!category || !cert) {
 }
 
 const heroImage = certImages[certSlug] || categoryImages[categorySlug] || '/images/certifications-hero.webp'
+const displayHeroTitle = (cert as any).heroTitle || cert.title
+const displayFullTitle = (cert as any).fullTitle || cert.title
+const accordionSections = (cert as any).accordionSections || []
 
 useHead({
   title: `${cert.title} - StayCertified`,
@@ -56,7 +59,7 @@ useHead({
     <section class="bg-ink text-white">
       <div class="container-x pt-[60px] md:pt-[80px] pb-[40px] md:pb-[50px] text-left">
         <h1 class="font-semibold leading-[1.0] tracking-tight text-[32px] sm:text-[36px] md:text-[42px] max-w-lg">
-          {{ cert.title }}
+          {{ displayHeroTitle }}
         </h1>
       </div>
     </section>
@@ -65,7 +68,7 @@ useHead({
     <section class="bg-white">
       <img
         :src="heroImage"
-        :alt="cert.title"
+        :alt="displayHeroTitle"
         class="hero-img"
       />
     </section>
@@ -82,7 +85,7 @@ useHead({
     <!-- CONTENT -->
     <section class="bg-white">
       <div class="container-x py-[80px] md:py-[140px]">
-        <h2 class="section-heading mb-12">{{ cert.title }}</h2>
+        <h2 class="section-heading mb-12">{{ displayFullTitle }}</h2>
         <div class="max-w-4xl space-y-6">
           <p v-if="cert.description[0]" class="text-ink/80 text-[18px] md:text-[20px] leading-[1.6]">
             {{ cert.description[0] }}
@@ -90,6 +93,27 @@ useHead({
           <p v-for="(para, i) in cert.description.slice(1)" :key="i" class="text-ink/70 text-[15px] leading-[1.75]">
             {{ para }}
           </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACCORDION SECTIONS -->
+    <section v-if="accordionSections.length > 0" class="bg-white">
+      <div class="container-x pb-[80px] md:pb-[140px]">
+        <div class="max-w-4xl mx-auto">
+          <details
+            v-for="(section, i) in accordionSections"
+            :key="i"
+            class="group border-b border-rule"
+          >
+            <summary class="flex items-center justify-between py-5 cursor-pointer">
+              <span class="text-[15px] font-medium text-ink">{{ section.title }}</span>
+              <span class="text-ink/40 transition group-open:rotate-45 text-[20px] leading-none">+</span>
+            </summary>
+            <div class="pb-6 pr-12">
+              <p class="text-ink/70 text-[14px] leading-[1.7]">{{ section.body }}</p>
+            </div>
+          </details>
         </div>
       </div>
     </section>
