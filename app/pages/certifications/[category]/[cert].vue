@@ -4,16 +4,74 @@ import { getCategoryBySlug } from '~/data/certifications'
 definePageMeta({ layout: 'default' })
 
 const certImages: Record<string, string> = {
-  'fire-suppression-system': '/images/cert-fire-suppression.webp',
+  // Fire & Life Safety
+  'fire-safety-extinguisher-training': '/images/cert-fire-safety-extinguisher-training.webp',
+  'fire-suppression-system': '/images/cert-fire-suppression-system.webp',
+  'emergency-evacuation-planning': '/images/cert-emergency-evacuation-planning.webp',
+  'first-aid-training': '/images/cert-first-aid-training.webp',
+  'first-aid-cpr-aed': '/images/cert-first-aid-cpr-aed.webp',
+  'chemical-handling-safety': '/images/cert-chemical-handling-safety.webp',
+
+  // Housekeeping
   'gbac-star': '/images/cert-gbac-star.webp',
-  'issa-cims-gb': '/images/cert-issa-cims.webp',
-  'osha-hazard-communication': '/images/cert-osha-hazcom.webp',
-  'npma-bed-bug-training': '/images/cert-bed-bug.webp',
+  'issa-cims-gb': '/images/cert-issa-cims-gb.webp',
+  'osha-hazard-communication': '/images/cert-osha-hazard-communication.webp',
+  'npma-bed-bug-training': '/images/cert-npma-bed-bug-training.webp',
   'pest-control': '/images/cert-pest-control.webp',
+  'trsa-hygienically-clean': '/images/cert-trsa-hygienically-clean.webp',
+
+  // Food & Beverage
   'alcohol-service': '/images/cert-alcohol-service.webp',
-  'servsafe-haccp-iso-22000': '/images/cert-servsafe.webp',
-  'allergen-awareness-training': '/images/cert-allergen.webp',
-  'health-department-kitchen': '/images/cert-health-dept.webp',
+  'servsafe-haccp-iso-22000': '/images/cert-servsafe-haccp-iso-22000.webp',
+  'allergen-awareness-training': '/images/cert-allergen-awareness-training.webp',
+  'health-department-kitchen': '/images/cert-health-department-kitchen.webp',
+  'halal-kosher-kitchen': '/images/cert-halal-kosher-kitchen.webp',
+  'food-waste-composting': '/images/cert-food-waste-composting.webp',
+
+  // Front Desk & Concierge
+  'customer-service': '/images/cert-customer-service.webp',
+  'language-proficiency': '/images/cert-language-proficiency.webp',
+  'code-of-conduct-anti-trafficking': '/images/cert-code-of-conduct-anti-trafficking.webp',
+  'child-protection-training': '/images/cert-child-protection-training.webp',
+
+  // HR, Security & Ops
+  'workplace-harassment-prevention': '/images/cert-workplace-harassment-prevention.webp',
+  'workplace-violence-prevention': '/images/cert-workplace-violence-prevention.webp',
+  'security-officer-licensing': '/images/cert-security-officer-licensing.webp',
+  'background-screening': '/images/cert-background-screening.webp',
+  'osha-workplace-safety': '/images/cert-osha-workplace-safety.webp',
+
+  // Back Office & Finance
+  'pci-dss-compliance': '/images/cert-pci-dss-compliance.webp',
+  'data-protection-cybersecurity': '/images/cert-data-protection-cybersecurity.webp',
+  'data-privacy-pci-compliance': '/images/cert-data-privacy-pci-compliance.webp',
+  'financial-auditing-anti-fraud': '/images/cert-financial-auditing-anti-fraud.webp',
+  'accounting-standards-training': '/images/cert-accounting-standards-training.webp',
+  'kyc-anti-money-laundering': '/images/cert-kyc-anti-money-laundering.webp',
+
+  // Maintenance & Engineering
+  'boiler-pressure-vessel': '/images/cert-boiler-pressure-vessel.webp',
+  'elevator-escalator': '/images/cert-elevator-escalator.webp',
+  'state-electrical-license': '/images/cert-state-electrical-license.webp',
+  'epa-section-608-hvac': '/images/cert-epa-section-608-hvac.webp',
+  'osha-confined-space-ladder': '/images/cert-osha-confined-space-ladder.webp',
+  'maintenance-and-engineering': '/images/cert-maintenance-and-engineering.webp',
+
+  // Environmental Sustainability
+  'iso-14001': '/images/cert-iso-14001.webp',
+  'energy-star': '/images/cert-energy-star.webp',
+  'green-key-global': '/images/cert-green-key-global.webp',
+  'true-zero-waste': '/images/cert-true-zero-waste.webp',
+  'epa-ahera-mold-asbestos': '/images/cert-epa-ahera-mold-asbestos.webp',
+  'ashrae-188-legionella': '/images/cert-ashrae-188-legionella.webp',
+  'water-energy-efficiency': '/images/cert-water-energy-efficiency.webp',
+
+  // Fitness, Spa & Wellness
+  'massage-therapy-licensing': '/images/cert-massage-therapy-licensing.webp',
+  'spa-hygiene-infection-control': '/images/cert-spa-hygiene-infection-control.webp',
+  'fitness-equipment-safety': '/images/cert-fitness-equipment-safety.webp',
+  'pool-hot-tub-water-quality': '/images/cert-pool-hot-tub-water-quality.webp',
+  'sauna-steam-room-maintenance': '/images/cert-sauna-steam-room-maintenance.webp',
 }
 
 const categoryImages: Record<string, string> = {
@@ -56,9 +114,9 @@ useHead({
 <template>
   <div v-if="cert && category">
     <!-- HERO -->
-    <section class="bg-ink text-white">
-      <div class="container-x pt-[120px] md:pt-[180px] pb-[80px] md:pb-[120px] text-center">
-        <h1 class="font-medium leading-[1.05] tracking-tight text-[48px] sm:text-[64px] md:text-[80px] lg:text-[90px]">
+    <section class="bg-ink text-white min-h-[60vh] md:min-h-[70vh] flex items-end">
+      <div class="container-x pb-[40px] md:pb-[60px]">
+        <h1 class="font-semibold leading-[1.0] tracking-tight text-[32px] sm:text-[38px] md:text-[42px] max-w-xl">
           {{ displayHeroTitle }}
         </h1>
       </div>
