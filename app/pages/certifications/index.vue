@@ -13,7 +13,7 @@ const categories = [
     slug: 'back-office-and-finance',
     title: 'Back Office and Finance',
     description: 'Accounting standards, financial auditing, anti-fraud compliance, and data protection certifications.',
-    image: '/images/cat-back-office.png',
+    image: '/images/features-front-desk.webp',
   },
   {
     slug: 'environmental-sustainability',

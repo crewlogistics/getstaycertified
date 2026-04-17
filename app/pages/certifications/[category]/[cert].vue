@@ -17,7 +17,7 @@ const certImages: Record<string, string> = {
 }
 
 const categoryImages: Record<string, string> = {
-  'back-office-and-finance': '/images/cat-back-office.png',
+  'back-office-and-finance': '/images/features-front-desk.webp',
   'environmental-sustainability': '/images/cat-environmental.webp',
   'fire-life-safety': '/images/cat-fire-life-safety.webp',
   'fitness-spa-wellness': '/images/cat-fitness-spa.webp',
@@ -80,15 +80,22 @@ useHead({
     </section>
 
     <!-- CONTENT -->
-    <section class="bg-white">
+    <section class="bg-mist">
       <div class="container-x py-[80px] md:py-[140px]">
-        <div class="grid gap-14 md:grid-cols-2">
-          <div>
-            <p class="eyebrow mb-6">Certification Issuing Body | {{ cert.issuingBody }}</p>
-            <h2 class="section-heading">{{ cert.title }}</h2>
+        <!-- Eyebrow + Heading -->
+        <p class="eyebrow mb-6">Certification Issuing Body | {{ cert.issuingBody }}</p>
+        <h2 class="section-heading mb-12">{{ cert.title }}</h2>
+        <!-- Body text in 2-column grid -->
+        <div class="grid gap-10 md:grid-cols-2">
+          <div class="space-y-5">
+            <p v-for="(para, i) in cert.description.slice(0, Math.ceil(cert.description.length / 2))" :key="'l'+i" class="text-ink/70 text-[15px] leading-[1.75]">
+              {{ para }}
+            </p>
           </div>
-          <div class="md:pt-16 space-y-5 text-ink/75 text-[15px] leading-[1.75]">
-            <p v-for="(para, i) in cert.description" :key="i">{{ para }}</p>
+          <div class="space-y-5">
+            <p v-for="(para, i) in cert.description.slice(Math.ceil(cert.description.length / 2))" :key="'r'+i" class="text-ink/70 text-[15px] leading-[1.75]">
+              {{ para }}
+            </p>
           </div>
         </div>
       </div>

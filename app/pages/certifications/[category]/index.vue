@@ -4,7 +4,7 @@ import { getCategoryBySlug } from '~/data/certifications'
 definePageMeta({ layout: 'default' })
 
 const categoryImages: Record<string, string> = {
-  'back-office-and-finance': '/images/cat-back-office.png',
+  'back-office-and-finance': '/images/features-front-desk.webp',
   'environmental-sustainability': '/images/cat-environmental.webp',
   'fire-life-safety': '/images/cat-fire-life-safety.webp',
   'fitness-spa-wellness': '/images/cat-fitness-spa.webp',
@@ -87,15 +87,23 @@ useHead({
     <!-- INTRO -->
     <section class="bg-mist">
       <div class="container-x py-[80px] md:py-[140px]">
-        <div class="grid gap-14 md:grid-cols-2">
-          <div>
-            <p class="eyebrow mb-6">{{ category.navLabel }} Blockchain Certifications</p>
-            <h2 class="section-heading">
-              {{ category.title }}
-            </h2>
+        <!-- Eyebrow + Heading -->
+        <p class="eyebrow mb-6">Hotel Operations Blockchain Certifications</p>
+        <h2 class="section-heading mb-12">
+          {{ category.title }}
+        </h2>
+        <!-- Lead paragraph + body text in 2-column grid -->
+        <div class="grid gap-10 md:grid-cols-2">
+          <div class="space-y-5">
+            <p v-if="category.description[0]" class="text-ink/80 text-[18px] md:text-[20px] leading-[1.6]">
+              {{ category.description[0] }}
+            </p>
+            <p v-for="(para, i) in category.description.slice(1, Math.ceil(category.description.length / 2) + 1)" :key="'l'+i" class="text-ink/70 text-[15px] leading-[1.75]">
+              {{ para }}
+            </p>
           </div>
-          <div class="md:pt-16 space-y-5 text-ink/75 text-[15px] leading-[1.75]">
-            <p v-for="(para, i) in category.description" :key="i">
+          <div class="space-y-5">
+            <p v-for="(para, i) in category.description.slice(Math.ceil(category.description.length / 2) + 1)" :key="'r'+i" class="text-ink/70 text-[15px] leading-[1.75]">
               {{ para }}
             </p>
           </div>
