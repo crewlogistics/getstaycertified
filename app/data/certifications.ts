@@ -142,7 +142,7 @@ export const categories: CertCategory[] = [
         title: 'Financial Auditing & Anti-Fraud (CFE)',
         heroTitle: 'CFE Certification: Global Standard for Hotel Financial Fraud Prevention',
         fullTitle: 'ACFE Certified Fraud Examiner (CFE) Certification',
-        issuingBody: 'Association of Certified Fraud Examiners (ACFE)',
+        issuingBody: 'Association of Certified Fraud Examiners (ACFE), U.S. Sarbanes-Oxley Act, COSO Internal Control Framework, ISO 37001 (Anti-Bribery), OECD Anti-Corruption Guidelines',
         summary: 'The Certified Fraud Examiner (CFE) credential validates a hotel professional’s ability to detect, prevent, and investigate financial misconduct.',
         description: [
           'The Certified Fraud Examiner (CFE) credential by ACFE validates a hotel professional’s ability to detect, prevent, and investigate financial misconduct. It strengthens audit outcomes, enhances internal controls, and protects property assets from fraud and abuse.',
@@ -194,7 +194,7 @@ export const categories: CertCategory[] = [
         title: 'Data Protection & Cybersecurity',
         heroTitle: 'ISO 27001 & GDPR: Data Protection & Cybersecurity Certification for Hotel Finance Leaders',
         fullTitle: 'ISO 27001 / GDPR Data Protection & Cybersecurity Certification',
-        issuingBody: 'ISO/IEC, European Union (GDPR)',
+        issuingBody: 'International Organization for Standardization (ISO), European Union (GDPR \u2013 General Data Protection Regulation)',
         summary: 'ISO 27001 and GDPR certifications provide hotels with a rigorous framework for data protection, risk management, and privacy compliance.',
         description: [
           'ISO 27001 and GDPR certifications provide hotels with a rigorous framework for data protection, risk management, and privacy compliance. These standards reduce vulnerability to cyberattacks, build legal resilience, and enhance trust across digital guest and business interactions.',
@@ -363,7 +363,7 @@ export const categories: CertCategory[] = [
         title: 'ISO 14001 Environmental Management',
         heroTitle: 'ISO 14001: Environmental Management Certification for Operational Integrity',
         fullTitle: 'ISO 14001 Environmental Management Systems (EMS)',
-        issuingBody: 'International Organization for Standardization (ISO)',
+        issuingBody: 'U.S. Green Building Council (USGBC)',
         summary: 'ISO 14001 Environmental Management Systems (EMS) provides a framework for environmental stewardship in hotel operations.',
         description: [
           'The ISO 14001 Environmental Management System standard enables hotels to design and execute a structured, globally recognized sustainability strategy. It transforms environmental responsibility into daily operations—measurable, auditable, and aligned with brand trust.',
@@ -634,7 +634,7 @@ export const categories: CertCategory[] = [
         title: 'Emergency Evacuation Planning (FEMA)',
         heroTitle: 'FEMA Evacuation Plan: Certified Emergency Readiness & Guest Evacuation Strategy',
         fullTitle: 'FEMA Evacuation Plan – Emergency Evacuation Planning & Compliance',
-        issuingBody: 'NFPA, Local Fire Marshal',
+        issuingBody: 'NFPA (National Fire Protection Association), Local Fire Marshal or Fire Authority Having Jurisdiction (AHJ)',
         summary: 'FEMA Emergency Evacuation Planning certification ensures hotel personnel are trained in structured, role-specific evacuation protocols.',
         description: [
           'Emergency Evacuation Planning certification from FEMA ensures hotel personnel are trained in structured, role-specific evacuation protocols for fire, earthquake, or other disasters. This training reduces panic, saves lives, and fulfills compliance obligations. Fully auditable on StayCertified™ blockchain system.',
@@ -686,7 +686,7 @@ export const categories: CertCategory[] = [
         title: 'Red Cross First Aid Training',
         heroTitle: 'Red Cross First Aid & AED Training: Certified Hotel Emergency Response',
         fullTitle: 'Red Cross First Aid – Certified Emergency Health Response for Hospitality',
-        issuingBody: 'American Red Cross, American Heart Association (AHA)',
+        issuingBody: 'American Red Cross, American Heart Association (AHA), International Liaison Committee on Resuscitation (ILCOR)',
         summary: 'Red Cross First Aid training prepares hotel employees to respond to on-site medical crises.',
         description: [
           'Red Cross First Aid & AED Training empowers hotel staff to deliver immediate, life-saving care during guest or employee health emergencies—from CPR to injury stabilization—ensuring regulatory compliance and guest safety trust.',
@@ -738,7 +738,7 @@ export const categories: CertCategory[] = [
         title: 'ASME Elevator & Escalator Certification',
         heroTitle: 'ASME A17.1 Elevator Certification: Vertical Safety Compliance for Hotels',
         fullTitle: 'ASME Elevator Cert – Certified Vertical Transportation Safety Compliance',
-        issuingBody: 'ASME (American Society of Mechanical Engineers)',
+        issuingBody: 'ASME (American Society of Mechanical Engineers), Local Building Departments, and Fire Marshal Authorities',
         summary: 'ASME A17.1-compliant elevator certification verifies that elevators and escalators meet safety engineering and accessibility protocols.',
         description: [
           'ASME Elevator Certification ensures that all hotel elevators, lifts, and escalators meet strict mechanical safety, accessibility, and operational codes—protecting guests, reducing liability, and passing city inspections with blockchain-backed audit trails.',
@@ -789,7 +789,7 @@ export const categories: CertCategory[] = [
         title: 'ASME Boiler & Pressure Vessel',
         heroTitle: 'ASME Boiler Certification: Pressure Safety Compliance for Hotel Boilers',
         fullTitle: 'ASME Boiler Certification – Pressure Vessel Compliance for Hotel Operations',
-        issuingBody: 'ASME, National Board of Boiler and Pressure Vessel Inspectors',
+        issuingBody: 'ASME (American Society of Mechanical Engineers), the National Board of Boiler and Pressure Vessel Inspectors, Local Fire and Mechanical Authorities',
         summary: 'ASME Boiler Certification is mandatory for hotels operating pressure systems for hot water, heating, or laundry.',
         description: [
           'ASME Boiler Certification is mandatory for hotels operating pressure systems for hot water, heating, or laundry. It guarantees the safe operation of boilers and pressure vessels, protecting staff, guests, and infrastructure. Certified inspections are immutably tracked via StayCertified™ blockchain compliance hub.',
@@ -841,7 +841,7 @@ export const categories: CertCategory[] = [
         title: 'OSHA Workplace Violence Prevention',
         heroTitle: 'OSHA Workplace Violence Prevention: Staff Safety through De-escalation Training',
         fullTitle: 'Workplace Violence Prevention',
-        issuingBody: 'Occupational Safety and Health Administration (OSHA)',
+        issuingBody: 'Occupational Safety and Health Administration (OSHA), Local Labor Departments, and Industry-Specific HR Safety Guidelines',
         summary: 'OSHA’s Workplace Violence Prevention Certification empowers staff to identify risk factors and apply de-escalation tactics.',
         description: [
           'Workplace violence can occur in any hotel—front desks, bars, back offices, or housekeeping. OSHA’s Workplace Violence Prevention Certification empowers staff to identify risk factors, apply de-escalation tactics, and implement safe reporting protocols, creating a psychologically secure environment for all.',
@@ -958,7 +958,7 @@ export const categories: CertCategory[] = [
         title: 'ASTM Fitness Equipment Safety',
         heroTitle: 'ASTM Equipment Safety: Certified Standards for Hotel Fitness Equipment',
         fullTitle: 'ASTM Equipment Safety – Certification for Safe Fitness Equipment Operation',
-        issuingBody: 'ASTM International',
+        issuingBody: 'ASTM International (Formerly American Society for Testing and Materials) Plus Manufacturer Safety Certifications',
         summary: 'ASTM Equipment Safety certification confirms hotel fitness centers meet internationally recognized safety and maintenance standards.',
         description: [
           'ASTM Equipment Safety certification confirms that hotel fitness centers meet internationally recognized safety and maintenance standards for exercise equipment. This certification protects guest health, minimizes legal risk, and enhances the hotel’s wellness credibility—verifiable on the StayCertified™ blockchain.',
@@ -1010,7 +1010,7 @@ export const categories: CertCategory[] = [
         title: 'ISPA Spa Hygiene & Infection Control',
         heroTitle: 'ISPA Spa Hygiene Certification: Guest Safety and Wellness, Verified',
         fullTitle: 'ISPA Certification – Spa Hygiene, Safety, and Regulatory Compliance',
-        issuingBody: 'International Spa Association (ISPA)',
+        issuingBody: 'International Spa Association (ISPA), Local and State/Provincial Health Departments, and Licensing Boards',
         summary: 'ISPA Certification ensures spa hygiene, safety, and regulatory compliance for hotel wellness operations.',
         description: [
           'ISPA and health department certification validates that hotel spa facilities operate under strict hygiene, infection control, and licensing regulations. It builds confidence among guests, regulators, and wellness partners while enabling clean, safe, and legally compliant spa environments.',
@@ -1114,7 +1114,7 @@ export const categories: CertCategory[] = [
         title: 'Sauna & Steam Room Safety',
         heroTitle: 'UL/CSA Sauna Safety: Certified Heat System Compliance for Wellness Zones',
         fullTitle: 'Electrical & Thermal Safety Compliance for Steam and Sauna Rooms',
-        issuingBody: 'UL/CSA Standards',
+        issuingBody: 'Underwriters Laboratories (UL), Canadian Standards Association (CSA), Local Building/Fire Codes',
         summary: 'UL/CSA electrical and thermal safety compliance for hotel steam and sauna rooms.',
         description: [
           'UL/CSA certification verifies that steam and sauna equipment in hotel wellness areas complies with rigorous electrical, structural, and temperature safety standards. It prevents overheating, fire, or electrical risk—ensuring wellness zones are safe, compliant, and trusted under StayCertified™.',
@@ -1166,7 +1166,7 @@ export const categories: CertCategory[] = [
         title: 'First Aid, CPR & AED Training',
         heroTitle: 'Emergency Response Readiness for Hospitality Wellness Teams',
         fullTitle: 'Red Cross / AHA CPR Certification: Emergency Response, Verified',
-        issuingBody: 'American Red Cross, American Heart Association (AHA)',
+        issuingBody: 'American Red Cross, American Heart Association (AHA), or Equivalent National Health Authorities',
         summary: 'Red Cross/AHA CPR Certification for emergency response in hotel wellness facilities.',
         description: [
           'Red Cross and AHA CPR certification equips hotel wellness staff with lifesaving skills to respond to cardiac arrest, choking, or trauma incidents. It’s more than a credential—it’s a visible promise of guest safety, embedded in StayCertified™ blockchain-verified emergency compliance system.',
@@ -1218,7 +1218,7 @@ export const categories: CertCategory[] = [
         title: 'Massage Therapy Licensing',
         heroTitle: 'Massage Therapy License: Legal Spa Credential Health & Safety',
         fullTitle: 'Massage Therapy License – Legal Credentialing for Hotel Spa Professionals',
-        issuingBody: 'State Board of Cosmetology & Massage Therapy',
+        issuingBody: 'State Board of Cosmetology & Massage Therapy (Varies by Region), Department of Health, or Provincial Regulatory Colleges',
         summary: 'Licensure by a state or regional massage therapy board is a legal requirement for any hotel providing massage or esthetic services.',
         description: [
           'Licensure by a state or regional massage therapy board is a legal requirement for any hotel providing massage or esthetic services. It ensures therapists meet educational, ethical, and hygiene standards—critical for regulatory compliance, guest safety, and brand protection.',
@@ -1283,7 +1283,7 @@ export const categories: CertCategory[] = [
         title: 'ServSafe, HACCP & ISO 22000',
         heroTitle: 'Safe Food. Protected Guests. Certified Operations.',
         fullTitle: 'ServSafe, HACCP & ISO 22000: Global Standards for Food Safety in Hospitality',
-        issuingBody: 'ServSafe, HACCP, ISO 22000',
+        issuingBody: 'ServSafe | HACCP | ISO 22000 \u2013 Global Food Safety Certification',
         summary: 'Global standards for food safety in hospitality—from preparation to service.',
         description: [
           'ServSafe, HACCP, and ISO 22000 are the global benchmarks in hotel food safety. These certifications enforce structured systems to prevent contamination, ensure regulatory compliance, and protect both guests and F&B operations from critical health and legal risks.',
@@ -1335,7 +1335,7 @@ export const categories: CertCategory[] = [
         title: 'Health Department Kitchen Certification',
         heroTitle: 'The Certification that keeps your Kitchen Open and Compliant',
         fullTitle: 'Health Department Kitchen Certification: Your Legal License to Serve Food Safely',
-        issuingBody: 'Local/Municipal Health Departments',
+        issuingBody: 'Local / Municipal Health Departments',
         summary: 'Your legal license to serve food safely—certified by local health authorities.',
         description: [
           'This government-mandated kitchen certification confirms that a hotel’s food service operations meet local health codes for cleanliness, temperature control, waste handling, and facility hygiene. It is a legal prerequisite to operating and a frontline shield against foodborne illness and regulatory sanctions.',
@@ -1490,7 +1490,7 @@ export const categories: CertCategory[] = [
         title: 'Halal & Kosher Kitchen Compliance',
         heroTitle: 'Halal and Kosher Certification: Faith-Based Dining Guests can Trust',
         fullTitle: 'Halal / Kosher Certification – Verified Religious Dietary Compliance',
-        issuingBody: 'IFANCA, Orthodox Union (OU), regional authorities',
+        issuingBody: 'Halal: IFANCA (Islamic Food and Nutrition Council of America), JAKIM (Malaysia), ESMA (UAE), and Others. Kosher: Orthodox Union (OU), OK Kosher, KOF-K, and Regional Rabbinical Councils',
         summary: 'Ensures hotel food handling, ingredients, and preparation comply with Islamic and Jewish dietary laws.',
         description: [
           'Halal and Kosher certifications ensure that a hotel’s food handling, ingredients, sourcing, and preparation are compliant with Islamic and Jewish dietary laws. These credentials enhance guest inclusion, trust, and cultural respect.',
@@ -1541,7 +1541,7 @@ export const categories: CertCategory[] = [
         title: 'Pest Control Certification',
         heroTitle: 'Pests don’t just Spread Disease —they Destroy Reputations',
         fullTitle: 'Pest Control Certification: Required Licensing for Safe and Compliant Kitchens',
-        issuingBody: 'State/Local Health Department, Certified Pest Management Agencies',
+        issuingBody: 'State or Local Health Department | Department of Agriculture | Certified Pest Management Agencies',
         summary: 'Required licensing for safe and compliant hotel kitchens.',
         description: [
           'The Pest Control Certification is a government-issued license authorizing the safe and legal treatment of pest threats in food service areas. It prevents infestation, supports inspection readiness, and protects hotel guests and operations.',
@@ -1656,7 +1656,7 @@ export const categories: CertCategory[] = [
         title: 'PCI + GDPR + CCPA Data Privacy',
         heroTitle: 'PCI + GDPR + CCPA + CPRA Compliance: Certified Guest Data Security & Privacy Standars',
         fullTitle: 'Certified Guest Data Security for Front Desk & Admin Roles',
-        issuingBody: 'PCI Security Standards Council, EU (GDPR), California (CCPA)',
+        issuingBody: 'PCI Security Standards Council, European Union (GDPR), California Attorney General (CCPA)',
         summary: 'Certified guest data security for front desk and admin roles.',
         description: [
           'Certified PCI/GDPR/CCPA/CPRA compliance equips hotel front-desk and admin teams to process payments securely, protect guest data, and manage consent responsibly. This certification is essential for digital trust, legal protection, and audit-proof hospitality operations across global markets.',
@@ -1708,7 +1708,7 @@ export const categories: CertCategory[] = [
         title: 'Language Proficiency Certification',
         heroTitle: 'Language Proficiency Certification – CEFR / ACTFL Standards for Multilingual Guest Service',
         fullTitle: 'Language Proficiency Certification: Validated Guest Communication Skills',
-        issuingBody: 'ACTFL, CEFR, ILR',
+        issuingBody: 'ACTFL (American Council on the Teaching of Foreign Languages), CEFR (Common European Framework of Reference for Languages), ILR (U.S. Government)',
         summary: 'Verifies that hotel staff possess communication skills to interact with guests in non-native languages.',
         description: [
           'Language Proficiency Certification verifies that hotel staff meet internationally recognized fluency benchmarks—CEFR or ACTFL—enabling high-quality multilingual guest service. This credential supports accessibility, guest satisfaction, and inclusive hospitality worldwide.',
@@ -1760,7 +1760,7 @@ export const categories: CertCategory[] = [
         title: 'The Code – Anti-Trafficking Compliance',
         heroTitle: 'The Code Certification: Hotel Staff Trained Against Child Trafficking',
         fullTitle: 'The Code Certification – Ethical Travel Compliance to Combat Child Trafficking',
-        issuingBody: 'ECPAT International',
+        issuingBody: 'ECPAT International (End Child Prostitution and Trafficking), Supported by the UNWTO and WTTC',
         summary: 'A voluntary set of industry-supported actions that train hotel staff to prevent child sex trafficking in hospitality.',
         description: [
           'The Code is a voluntary set of industry-supported actions that train hotel staff to prevent child sex trafficking in hospitality. By signing and complying with The Code, hotels take an auditable stand against exploitation, turning frontline awareness into a global force for protection.',
@@ -1825,7 +1825,7 @@ export const categories: CertCategory[] = [
         title: 'GBAC STAR Accreditation',
         heroTitle: 'GBAC STAR: Verified​ Infection Control for Hotels that Prioritize Guest Safety',
         fullTitle: 'GBAC STAR Facility Accreditation',
-        issuingBody: 'Global Biorisk Advisory Council (GBAC), a division of ISSA',
+        issuingBody: 'Global Biorisk Advisory Council (GBAC), a Division of ISSA',
         summary: 'Verified cleaning, disinfection, and infectious disease prevention for hotel operations.',
         description: [
           'GBAC STAR certifies that a hotel’s facility adheres to the highest global standards for infection control. It provides an auditable system of cleaning, disinfection, and outbreak preparedness—trusted by guests, regulators, and institutional partners.',
@@ -1929,7 +1929,7 @@ export const categories: CertCategory[] = [
         title: 'OSHA Hazard Communication (HAZCOM)',
         heroTitle: 'OSHA HAZCOM: The Chemical Safety Standard Every Housekeeper Needs to Know',
         fullTitle: 'OSHA Hazard Communication Standard (HAZCOM)',
-        issuingBody: 'Occupational Safety and Health Administration (OSHA)',
+        issuingBody: 'Occupational Safety and Health Administration (OSHA), WHMIS (Canada), GHS (Globally Harmonized System)',
         summary: 'OSHA Hazard Communication Standard ensures safe handling of chemicals in hotel housekeeping.',
         description: [
           'The OSHA Hazard Communication Standard (HAZCOM) certifies hotel housekeeping teams to identify, label, and handle chemical substances safely. It builds a legally compliant, globally aligned foundation that protects both staff and guests in every room cleaned.',
@@ -2046,7 +2046,7 @@ export const categories: CertCategory[] = [
         title: 'NAPBS/FCRA Background Screening',
         heroTitle: 'NAPBS/FCRA: Compliant Background Checks for Safer Hospitality Hiring',
         fullTitle: 'NAPBS/FCRA-Compliant Background Screening',
-        issuingBody: 'NAPBS (now PBSA), Fair Credit Reporting Act (FCRA)',
+        issuingBody: 'National Association of Professional Background Screeners (NAPBS, Now PBSA), Fair Credit Reporting Act (FCRA, U.S. Federal Trade Commission)',
         summary: 'NAPBS/FCRA-compliant background screening for safe and lawful hotel hiring.',
         description: [
           'NAPBS/FCRA-compliant background screening ensures hotels legally vet staff through structured checks—covering criminal history, identity, and employment verification—while protecting candidate rights and reinforcing guest safety, data security, and brand trust.',
@@ -2150,7 +2150,7 @@ export const categories: CertCategory[] = [
         title: 'AML/KYC Compliance Training',
         heroTitle: 'AML/KYC Training: Guest Identity and Transaction Risk Training for Hotels',
         fullTitle: 'AML/KYC Compliance Training',
-        issuingBody: 'Various regulatory bodies',
+        issuingBody: 'State Licensing Boards & National Electrical Code (NEC)',
         summary: 'Empowers hotel staff to detect suspicious activity, verify identities, and prevent misuse of hospitality assets for money laundering.',
         description: [
           'AML/KYC training empowers hotel staff to detect suspicious activity, verify identities, and prevent misuse of hospitality assets for money laundering. It aligns your property with global compliance frameworks—especially relevant for high-end bookings and cross-border clientele.',
@@ -2202,7 +2202,7 @@ export const categories: CertCategory[] = [
         title: 'Licensed Security Officer Certification',
         heroTitle: 'Security Officer Licensing: Verified Guard Compliance for Guest Protection',
         fullTitle: 'Licensed Security Officer Certification',
-        issuingBody: 'State licensing authorities',
+        issuingBody: 'U.S. Equal Employment Opportunity Commission (EEOC)',
         summary: 'Licensed Security Officer Certification for hotel security personnel.',
         description: [
           'Licensed Security Officer certification verifies that guards meet all legal and operational standards for protecting hotel properties. It ensures background checks, training, and regulatory alignment—offering peace of mind to guests and defensibility for operators during incidents.',
@@ -2306,7 +2306,7 @@ export const categories: CertCategory[] = [
         title: 'OSHA/NEBOSH/IOSH Workplace Safety',
         heroTitle: 'Workplace Safety Training: Global Certification for Engineering Staff Protection',
         fullTitle: 'OSHA / NEBOSH / IOSH Workplace Safety Certification',
-        issuingBody: 'OSHA, NEBOSH, IOSH',
+        issuingBody: 'U.S. Occupational Safety and Health Administration (OSHA), National Examination Board in Occupational Safety and Health (NEBOSH, UK), Institution of Occupational Safety and Health (IOSH, UK)',
         summary: 'Comprehensive workplace safety certification covering hazard identification, risk assessment, and compliance.',
         description: [
           'Workplace Safety Certifications from OSHA, NEBOSH, and IOSH ensure hotel engineering staff are trained in hazard identification, risk prevention, and emergency procedures. From electrical to chemical to physical hazards, this training creates a legally compliant, globally aligned safety culture.',
@@ -2423,7 +2423,7 @@ export const categories: CertCategory[] = [
         title: 'Chemical Handling Safety Training',
         heroTitle: 'Chemical Safety Training: OSHA / WHMIS Compliance for Safer Hotel Laundries',
         fullTitle: 'Chemical Safety Training – Industrial Laundry Chemical Compliance',
-        issuingBody: 'OSHA (U.S.), WHMIS (Canada)',
+        issuingBody: 'Occupational Safety and Health Administration (OSHA \u2013 U.S.) | Workplace Hazardous Materials Information System (WHMIS \u2013 Canada)',
         summary: 'Chemical safety training for industrial laundry chemical compliance.',
         description: [
           'The TRSA Hygienically Clean Certification validates that a hotel’s laundry services follow strict, medically verified standards for cleaning, disinfection, and contamination control. It ensures that all linens—guest-facing and staff—are safe, sanitized, and traceably clean across every cycle.',
@@ -2475,7 +2475,7 @@ export const categories: CertCategory[] = [
         title: 'EPA WaterSense Certification',
         heroTitle: 'EPA WaterSense – Certified Water Conservation for Hotel Laundry Operations',
         fullTitle: 'EPA WaterSense Certification: Water-Smart Laundry for Sustainable Hotels',
-        issuingBody: 'U.S. Environmental Protection Agency (EPA)',
+        issuingBody: 'United States Environmental Protection Agency (EPA)',
         summary: 'EPA WaterSense Certification for water-smart laundry operations in sustainable hotels.',
         description: [
           'WaterSense by the EPA recognizes facilities that implement high-efficiency washers, conservation technologies, and responsible water management strategies. For hotels, it means a laundry operation that supports both profitability and planet protection—anchored in verified performance.',
@@ -2592,7 +2592,7 @@ export const categories: CertCategory[] = [
         title: 'EPA Section 608 HVAC Certification',
         heroTitle: 'EPA 608: Mandatory HVAC Certification for Refrigerant Safety & Compliance',
         fullTitle: 'EPA Section 608 HVAC Certification',
-        issuingBody: 'U.S. Environmental Protection Agency (EPA)',
+        issuingBody: 'U.S. Environmental Protection Agency (EPA), NATE Certification, Clean Air Act (Title VI, Section 608)',
         summary: 'EPA Section 608 HVAC Certification for refrigerant handling and climate system compliance.',
         description: [
           'The EPA Section 608 Certification is a federally mandated credential for HVAC technicians who service systems containing refrigerants. It proves your engineering staff can handle, recover, and dispose of refrigerants properly—minimizing leaks, regulatory risk, and environmental impact.',
@@ -2644,7 +2644,7 @@ export const categories: CertCategory[] = [
         title: 'EPA AHERA/IICRC Mold & Asbestos Awareness',
         heroTitle: 'AHERA/IICRC: Certified Mold & Asbestos Risk Training for Safe Renovations',
         fullTitle: 'EPA AHERA / IICRC Mold & Asbestos Awareness Certification',
-        issuingBody: 'U.S. EPA, IICRC',
+        issuingBody: 'U.S. Environmental Protection Agency (EPA), Institute of Inspection Cleaning and Restoration Certification (IICRC), AHERA, ANSI/IICRC S520 Standard, OSHA 29 CFR 1926.1101',
         summary: 'Mold and asbestos awareness certification for hotel maintenance staff.',
         description: [
           'EPA AHERA and IICRC mold awareness training ensures hotel engineers and custodial teams can identify early signs of asbestos and mold exposure. It prevents health risks during renovation, water damage, or HVAC failures—protecting guests, preserving indoor air quality, and ensuring safe operations.',
@@ -2696,7 +2696,7 @@ export const categories: CertCategory[] = [
         title: 'OSHA Confined Space & Ladder Safety',
         heroTitle: 'OSHA Confined Space & Ladder Safety: Certified Training for Elevated Risk',
         fullTitle: 'OSHA Confined Space & Ladder Safety Certification',
-        issuingBody: 'OSHA',
+        issuingBody: 'Occupational Safety and Health Administration (OSHA), OSHA 29 CFR 1910 Subparts D & I, ANSI Z117.1, ANSI A14',
         summary: 'OSHA Confined Space & Ladder Safety Certification for hotel engineering teams.',
         description: [
           'OSHA Confined Space and Ladder Safety certification prepares hotel maintenance staff to safely enter restricted spaces and perform elevated work. It ensures that workers are trained, protected, and in compliance with OSHA safety regulations—mitigating injury risk and legal exposure in high-risk zones.',
@@ -2748,7 +2748,7 @@ export const categories: CertCategory[] = [
         title: 'ASHRAE 188 Legionella Water Safety',
         heroTitle: 'ASHRAE 188: The Legionella Risk Control Standard for Hotel Water Systems',
         fullTitle: 'ASHRAE 188 Legionella Water Safety Plan',
-        issuingBody: 'ASHRAE, CDC, ANSI',
+        issuingBody: 'American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASHRAE), U.S. Centers for Disease Control (CDC), ANSI/ASHRAE Standard 188, ISO 13843',
         summary: 'ASHRAE 188 Legionella Water Safety Plan for hotel water system compliance.',
         description: [
           'ASHRAE 188 establishes the gold standard for preventing Legionella in hotel water systems. Certification ensures engineering teams implement risk management protocols across cooling towers, showers, spas, and plumbing—protecting guests from Legionnaires’ disease through proactive, proven control plans.',
