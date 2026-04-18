@@ -115,25 +115,29 @@ useHead({
     <section class="bg-white">
       <div class="container-x py-[80px] md:py-[140px]">
         <div class="max-w-4xl mx-auto">
-          <details
+          <div
             v-for="cert in category.certifications"
             :key="cert.slug"
-            class="group border-b border-rule"
+            class="border-t border-ink/10"
           >
-            <summary class="flex items-center justify-between py-5 cursor-pointer">
-              <span class="text-[15px] font-medium text-ink">{{ cert.title }}</span>
-              <span class="text-ink/40 transition group-open:rotate-45 text-[20px] leading-none">+</span>
-            </summary>
-            <div class="pb-6 pr-12">
-              <p class="text-ink/70 text-[14px] leading-[1.7]">{{ cert.summary }}</p>
-              <NuxtLink
-                :to="`/${getCertWpSlug(cert.slug)}`"
-                class="inline-block mt-4 text-[13px] font-semibold text-ink hover:text-coral transition"
-              >
-                Read More
-              </NuxtLink>
-            </div>
-          </details>
+            <details class="group py-4">
+              <summary class="flex items-center justify-between py-4 cursor-pointer">
+                <span class="text-[13px] font-medium uppercase tracking-[2px] text-[#2c5282]">{{ cert.title }}</span>
+                <span class="text-[#2c5282] text-[28px] leading-none font-light transition group-open:hidden">+</span>
+                <span class="text-[#2c5282] text-[28px] leading-none font-light hidden group-open:inline">&mdash;</span>
+              </summary>
+              <div class="pb-6 pt-2">
+                <p class="text-ink/70 text-[15px] leading-[1.75] max-w-3xl">{{ cert.summary }}</p>
+                <NuxtLink
+                  :to="`/${getCertWpSlug(cert.slug)}`"
+                  class="inline-block mt-4 text-[13px] font-semibold text-ink hover:text-coral transition"
+                >
+                  Read More
+                </NuxtLink>
+              </div>
+            </details>
+          </div>
+          <div class="border-t border-ink/10"></div>
         </div>
       </div>
     </section>
