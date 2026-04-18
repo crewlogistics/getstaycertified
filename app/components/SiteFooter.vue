@@ -12,7 +12,7 @@ const partners = [
 
 <template>
   <!-- HOTEL PARTNER LOGOS CAROUSEL -->
-  <section class="bg-white overflow-hidden">
+  <section class="bg-ink overflow-hidden">
     <div class="container-x py-[60px] md:py-[80px]">
       <div class="relative overflow-hidden">
         <div class="flex animate-scroll gap-16 items-center">
@@ -21,7 +21,7 @@ const partners = [
             :key="partner.name + Math.random()"
             :src="partner.src"
             :alt="partner.name"
-            class="h-[40px] md:h-[50px] w-auto object-contain grayscale opacity-50 flex-shrink-0"
+            class="h-[40px] md:h-[50px] w-auto object-contain brightness-0 invert opacity-70 flex-shrink-0"
           />
         </div>
       </div>
