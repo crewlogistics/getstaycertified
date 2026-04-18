@@ -28,14 +28,6 @@ const features = [
   },
 ]
 
-const partners = [
-  { name: 'InterContinental Hotels Group', src: '/images/hotel-ihg.webp' },
-  { name: 'Holiday Inn Express', src: '/images/hotel-holiday-inn-express.webp' },
-  { name: 'Homewood Suites by Hilton', src: '/images/hotel-homewood-suites.webp' },
-  { name: 'MainStay Suites', src: '/images/hotel-mainstay-suites.webp' },
-  { name: 'Microtel by Wyndham', src: '/images/hotel-microtel.webp' },
-  { name: 'Ramada', src: '/images/hotel-ramada.webp' },
-]
 
 </script>
 
@@ -140,22 +132,4 @@ const partners = [
   <!-- PRICING -->
   <PricingSection />
 
-  <!-- HOTEL PARTNER LOGOS BAR -->
-  <section class="bg-white">
-    <div class="container-x py-[80px] md:py-[120px]">
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 items-center gap-10 md:gap-12">
-        <div
-          v-for="partner in partners"
-          :key="partner.name"
-          class="flex items-center justify-center"
-        >
-          <img
-            :src="partner.src"
-            :alt="partner.name"
-            class="max-h-14 w-auto object-contain grayscale opacity-70 hover:opacity-100 transition"
-          />
-        </div>
-      </div>
-    </div>
-  </section>
 </template>

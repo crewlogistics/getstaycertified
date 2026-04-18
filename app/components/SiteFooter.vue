@@ -1,4 +1,33 @@
+<script setup lang="ts">
+const partners = [
+  { name: 'Homewood Suites by Hilton', src: '/images/hotel-homewood-suites.webp' },
+  { name: 'InterContinental Hotels Group', src: '/images/hotel-ihg.webp' },
+  { name: 'Holiday Inn Express', src: '/images/hotel-holiday-inn-express.webp' },
+  { name: 'MainStay Suites', src: '/images/hotel-mainstay-suites.webp' },
+  { name: 'Microtel by Wyndham', src: '/images/hotel-microtel.webp' },
+  { name: 'Ramada', src: '/images/hotel-ramada.webp' },
+  { name: 'Staybridge Suites', src: '/images/hotel-staybridge-suites.webp' },
+]
+</script>
+
 <template>
+  <!-- HOTEL PARTNER LOGOS CAROUSEL -->
+  <section class="bg-white overflow-hidden">
+    <div class="container-x py-[60px] md:py-[80px]">
+      <div class="relative overflow-hidden">
+        <div class="flex animate-scroll gap-16 items-center">
+          <img
+            v-for="partner in [...partners, ...partners]"
+            :key="partner.name + Math.random()"
+            :src="partner.src"
+            :alt="partner.name"
+            class="h-[40px] md:h-[50px] w-auto object-contain grayscale opacity-50 flex-shrink-0"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
   <footer id="contact" class="bg-ink text-white">
     <!-- Top bar: logo -->
     <div class="container-x pt-[80px] md:pt-[100px] pb-[60px] md:pb-[80px]">
