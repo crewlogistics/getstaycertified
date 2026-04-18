@@ -114,9 +114,9 @@ useHead({
 <template>
   <div v-if="cert && category">
     <!-- HERO -->
-    <section class="bg-ink text-white">
-      <div class="container-x pt-[120px] md:pt-[180px] pb-[80px] md:pb-[120px] text-center">
-        <h1 class="font-medium leading-[1.1] tracking-tight text-[48px] sm:text-[64px] md:text-[80px] lg:text-[90px]">
+    <section class="bg-ink text-white min-h-[400px] md:min-h-[710px] flex items-center justify-center">
+      <div class="max-w-[1000px] mx-auto px-6 md:px-10 text-center">
+        <h1 class="font-medium leading-[1.05] tracking-tight text-[50px] sm:text-[70px] md:text-[90px] lg:text-[110px]">
           {{ displayHeroTitle }}
         </h1>
       </div>
