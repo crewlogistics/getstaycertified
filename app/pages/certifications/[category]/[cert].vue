@@ -131,33 +131,39 @@ useHead({
       />
     </section>
 
-    <!-- ISSUING BODY -->
-    <section v-if="cert.issuingBody" class="bg-mist">
-      <div class="container-x py-8">
-        <p class="eyebrow">
+    <!-- GREY PANEL: Issuing body + title + two-column body copy -->
+    <section class="bg-mist">
+      <div class="container-x py-[80px] md:py-[140px]">
+        <!-- Issuing body eyebrow -->
+        <p v-if="cert.issuingBody" class="eyebrow mb-8">
           Certification Issuing Body | {{ cert.issuingBody }}
         </p>
-      </div>
-    </section>
 
-    <!-- CONTENT -->
-    <section class="bg-white">
-      <div class="container-x py-[80px] md:py-[140px]">
+        <!-- Full title -->
         <h2 class="section-heading mb-12">{{ displayFullTitle }}</h2>
-        <div class="max-w-4xl space-y-6">
-          <p v-if="cert.description[0]" class="text-ink/80 text-[18px] md:text-[20px] leading-[1.6]">
-            {{ cert.description[0] }}
-          </p>
-          <p v-for="(para, i) in cert.description.slice(1)" :key="i" class="text-ink/70 text-[15px] leading-[1.75]">
-            {{ para }}
-          </p>
+
+        <!-- Two-column body copy -->
+        <div class="grid gap-10 md:grid-cols-2">
+          <div class="space-y-5">
+            <p v-if="cert.description[0]" class="text-ink/80 text-[18px] md:text-[20px] leading-[1.6]">
+              {{ cert.description[0] }}
+            </p>
+            <p v-for="(para, i) in cert.description.slice(1, Math.ceil(cert.description.length / 2) + 1)" :key="'l'+i" class="text-ink/70 text-[15px] leading-[1.75]">
+              {{ para }}
+            </p>
+          </div>
+          <div class="space-y-5">
+            <p v-for="(para, i) in cert.description.slice(Math.ceil(cert.description.length / 2) + 1)" :key="'r'+i" class="text-ink/70 text-[15px] leading-[1.75]">
+              {{ para }}
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- ACCORDION SECTIONS -->
     <section v-if="accordionSections.length > 0" class="bg-white">
-      <div class="container-x pb-[80px] md:pb-[140px]">
+      <div class="container-x py-[80px] md:py-[140px]">
         <div class="max-w-4xl mx-auto">
           <details
             v-for="(section, i) in accordionSections"
