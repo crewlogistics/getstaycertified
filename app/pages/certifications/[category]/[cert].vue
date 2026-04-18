@@ -140,22 +140,26 @@ useHead({
         </p>
 
         <!-- Full title -->
-        <h2 class="section-heading mb-12">{{ displayFullTitle }}</h2>
+        <h2 class="section-heading mb-16">{{ displayFullTitle }}</h2>
 
-        <!-- Two-column body copy -->
+        <!-- Two-column body copy matching live site layout -->
         <div class="grid gap-10 md:grid-cols-2">
-          <div class="space-y-5">
-            <p v-if="cert.description[0]" class="text-ink/80 text-[18px] md:text-[20px] leading-[1.6]">
+          <!-- Left column: lead paragraph only -->
+          <div>
+            <p v-if="cert.description[0]" class="text-ink/80 text-[17px] md:text-[19px] leading-[1.65]">
               {{ cert.description[0] }}
             </p>
-            <p v-for="(para, i) in cert.description.slice(1, Math.ceil(cert.description.length / 2) + 1)" :key="'l'+i" class="text-ink/70 text-[15px] leading-[1.75]">
-              {{ para }}
-            </p>
           </div>
-          <div class="space-y-5">
-            <p v-for="(para, i) in cert.description.slice(Math.ceil(cert.description.length / 2) + 1)" :key="'r'+i" class="text-ink/70 text-[15px] leading-[1.75]">
-              {{ para }}
-            </p>
+          <!-- Right column: remaining paragraphs with bold section headers -->
+          <div class="space-y-6">
+            <template v-for="(para, i) in cert.description.slice(1)" :key="'r'+i">
+              <div>
+                <p v-if="i === 0" class="font-semibold text-ink text-[14px] mb-2">Importance:</p>
+                <p v-else-if="i === 1" class="font-semibold text-ink text-[14px] mb-2">Benefits:</p>
+                <p v-else-if="i === 2" class="font-semibold text-ink text-[14px] mb-2">Risks of Non-Compliance:</p>
+                <p class="text-ink/70 text-[15px] leading-[1.75]">{{ para }}</p>
+              </div>
+            </template>
           </div>
         </div>
       </div>
@@ -165,19 +169,23 @@ useHead({
     <section v-if="accordionSections.length > 0" class="bg-white">
       <div class="container-x py-[80px] md:py-[140px]">
         <div class="max-w-4xl mx-auto">
-          <details
+          <div
             v-for="(section, i) in accordionSections"
             :key="i"
-            class="group border-b border-rule"
+            class="border-t border-ink/10"
           >
-            <summary class="flex items-center justify-between py-5 cursor-pointer">
-              <span class="text-[15px] font-medium text-ink">{{ section.title }}</span>
-              <span class="text-ink/40 transition group-open:rotate-45 text-[20px] leading-none">+</span>
-            </summary>
-            <div class="pb-6 pr-12">
-              <p class="text-ink/70 text-[14px] leading-[1.7]">{{ section.body }}</p>
-            </div>
-          </details>
+            <details class="group py-4">
+              <summary class="flex items-center justify-between py-4 cursor-pointer">
+                <span class="text-[13px] font-medium uppercase tracking-[2px] text-[#2c5282]">{{ section.title }}</span>
+                <span class="text-ink/30 text-[24px] leading-none font-light transition group-open:hidden">+</span>
+                <span class="text-ink/30 text-[24px] leading-none font-light hidden group-open:inline">&mdash;</span>
+              </summary>
+              <div class="pb-6 pt-2">
+                <p class="text-ink/70 text-[15px] leading-[1.75] max-w-3xl">{{ section.body }}</p>
+              </div>
+            </details>
+          </div>
+          <div class="border-t border-ink/10"></div>
         </div>
       </div>
     </section>
