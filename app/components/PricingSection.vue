@@ -75,15 +75,13 @@ const displayPeriod = computed(() => {
 
 <template>
   <!-- PRICING INTRO -->
-  <section class="bg-white">
+  <section class="bg-mist">
     <div class="container-x py-[80px] md:py-[140px]">
-      <div class="max-w-4xl mx-auto text-center">
-        <p class="eyebrow mb-6">Compliance made scalable</p>
-        <h2 class="section-heading">
-          Smart, flexible pricing that grows with your property&mdash;compliance made effortless
-        </h2>
-      </div>
-      <div class="mt-16 grid gap-12 md:grid-cols-2 max-w-5xl mx-auto text-ink/75 text-[15px] leading-[1.75]">
+      <p class="eyebrow mb-6">Compliance made scalable</p>
+      <h2 class="section-heading mb-12">
+        Smart, flexible pricing that grows with your property&mdash;compliance made effortless
+      </h2>
+      <div class="grid gap-10 md:grid-cols-2 text-ink/75 text-[15px] leading-[1.75]">
         <p>
           StayCertified&trade; helps all types of lodging providers&mdash;hotels, motels, inns,
           camps, and workforce housing properties&mdash;stay compliant. No matter how many
