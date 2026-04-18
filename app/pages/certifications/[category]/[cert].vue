@@ -177,8 +177,8 @@ useHead({
             <details class="group py-4">
               <summary class="flex items-center justify-between py-4 cursor-pointer">
                 <span class="text-[13px] font-medium uppercase tracking-[2px] text-[#2c5282]">{{ section.title }}</span>
-                <span class="text-ink/30 text-[24px] leading-none font-light transition group-open:hidden">+</span>
-                <span class="text-ink/30 text-[24px] leading-none font-light hidden group-open:inline">&mdash;</span>
+                <span class="text-[#2c5282] text-[28px] leading-none font-light transition group-open:hidden">+</span>
+                <span class="text-[#2c5282] text-[28px] leading-none font-light hidden group-open:inline">&mdash;</span>
               </summary>
               <div class="pb-6 pt-2">
                 <p class="text-ink/70 text-[15px] leading-[1.75] max-w-3xl">{{ section.body }}</p>

@@ -582,7 +582,7 @@ export const categories: CertCategory[] = [
         title: 'NFPA Fire Safety & Extinguisher Training',
         heroTitle: 'NFPA Fire Safety Training: Certified Fire Response & Evacuation Preparedness',
         fullTitle: 'NFPA Training – Certified Emergency Response for Hotel Fire Risk Reduction',
-        issuingBody: 'NFPA (National Fire Protection Association)',
+        issuingBody: 'NFPA (National Fire Protection Association), Local Fire Marshal or Fire Authority Having Jurisdiction (AHJ)',
         summary: 'NFPA Fire Safety Training prepares hotel personnel to prevent fires, handle extinguishers correctly, and execute life-saving evacuations.',
         description: [
           'NFPA Fire Safety Training equips hotel staff with the skills to prevent, contain, and respond to fire emergencies using extinguishers, alarms, and evacuation plans. It protects lives, complies with law, and reinforces operational trust.',
