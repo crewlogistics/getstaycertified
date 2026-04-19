@@ -115,12 +115,10 @@ const maintenance = [
         <div
           v-for="step in steps"
           :key="step.number"
-          class="grid gap-8 md:grid-cols-[auto_1fr]"
+          class="grid gap-8 md:grid-cols-[80px_1fr]"
         >
-          <div class="flex items-start">
-            <div class="w-[60px] h-[60px] rounded-full border-2 border-ink/20 flex items-center justify-center text-[24px] font-light text-ink/60">
-              {{ step.number }}
-            </div>
+          <div class="flex items-start pt-1">
+            <img :src="`/images/step-${step.number}.webp`" :alt="`Step ${step.number}`" class="w-[60px] h-[60px]" />
           </div>
           <div>
             <h3 class="text-[14px] font-light uppercase tracking-[2px] text-ink mb-3">
@@ -139,6 +137,15 @@ const maintenance = [
         </div>
       </div>
     </div>
+  </section>
+
+  <!-- FULL-BLEED PHOTO: middle -->
+  <section class="bg-white">
+    <img
+      src="/images/process-overview.webp"
+      alt="StayCertified hotel compliance process"
+      class="hero-img"
+    />
   </section>
 
   <!-- DARK BANNER -->
