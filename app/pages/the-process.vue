@@ -185,22 +185,20 @@ const maintenance = [
         training, and certification gaps. It&rsquo;s not just maintenance&mdash;it&rsquo;s peace of mind, built in.
       </p>
 
-      <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-5xl">
+      <div class="grid gap-x-16 gap-y-12 md:grid-cols-2 max-w-5xl">
         <div
           v-for="item in maintenance"
           :key="item.title"
-          class="bg-white rounded-lg p-8 border border-rule"
+          class="flex items-start gap-5"
         >
-          <div class="flex items-start gap-4">
-            <img src="/images/tick-icon.webp" alt="" class="flex-shrink-0 w-9 h-9" />
-            <div>
-              <h3 class="text-[13px] font-light uppercase tracking-[2px] text-ink">
-                {{ item.title }}
-              </h3>
-              <p class="mt-3 text-ink/70 text-[14px] leading-[1.7]">
-                {{ item.body }}
-              </p>
-            </div>
+          <img src="/images/tick-icon.webp" alt="" class="flex-shrink-0 w-10 h-10" />
+          <div>
+            <h3 class="text-[13px] font-light uppercase tracking-[2px] text-ink mb-3">
+              {{ item.title }}
+            </h3>
+            <p class="text-ink/70 text-[15px] leading-[1.75]">
+              {{ item.body }}
+            </p>
           </div>
         </div>
       </div>
