@@ -79,7 +79,7 @@ const mobileOpen = ref(false)
           @click="mobileOpen = false"
         >{{ item.label }}</NuxtLink>
         <details class="py-1">
-          <summary class="cursor-pointer py-2 nav-link">Certifications*</summary>
+          <summary class="cursor-pointer py-2 nav-link">Certifications</summary>
           <div class="pl-4 pb-2 space-y-1">
             <NuxtLink
               v-for="c in certifications"
