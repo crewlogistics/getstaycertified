@@ -103,6 +103,34 @@ const displayHeroTitle = (cert as any).heroTitle || cert.title
 const displayFullTitle = (cert as any).fullTitle || cert.title
 const accordionSections = (cert as any).accordionSections || []
 
+function formatAccordionBody(body: string): string {
+  // Convert patterns like "Bold Header:" into styled HTML
+  const boldPatterns = [
+    'Hotel Job Titles Affected:',
+    'Why These Roles Are Involved:',
+    'Training Requirements:',
+    'Example:',
+    'Result:',
+    'The result:',
+    'ServSafe:',
+    'HACCP:',
+    'Halal:',
+    'Kosher:',
+    'ISO 22000:',
+    'Optional advanced modules:',
+  ]
+
+  let html = body
+  for (const pattern of boldPatterns) {
+    html = html.replace(pattern, `<br><br><strong>${pattern}</strong><br>`)
+  }
+
+  // Clean up leading <br> if it starts with one
+  html = html.replace(/^<br><br>/, '')
+
+  return html
+}
+
 useHead({
   title: `${cert.title} - StayCertified`,
   meta: [
@@ -180,8 +208,7 @@ useHead({
                 <span class="text-[#2c5282] text-[28px] leading-none font-light transition group-open:hidden">+</span>
                 <span class="text-[#2c5282] text-[28px] leading-none font-light hidden group-open:inline">&mdash;</span>
               </summary>
-              <div class="pb-6 pt-2">
-                <p class="text-ink/70 text-[15px] leading-[1.75] max-w-3xl">{{ section.body }}</p>
+              <div class="pb-6 pt-2 text-ink/70 text-[15px] leading-[1.75] max-w-3xl" v-html="formatAccordionBody(section.body)">
               </div>
             </details>
           </div>
