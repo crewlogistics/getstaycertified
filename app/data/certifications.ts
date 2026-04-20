@@ -40,9 +40,9 @@ export const categories: CertCategory[] = [
         heroTitle: 'PCI DSS: Secure Payment Certification for Hospitality Card Data Protection',
         fullTitle: 'PCI DSS – Payment Card Industry Data Security Standard',
         issuingBody: 'PCI Security Standards Council (PCI SSC)',
-        summary: 'PCI DSS – Payment Card Industry Data Security Standard certifies that a hotel’s card payment system is secure, encrypted, and resilient against data breaches.',
+        summary: 'PCI DSS – Payment Card Industry Data Security Standard certifies that a hotel\'s card payment system is secure, encrypted, and resilient against data breaches.',
         description: [
-          'The Payment Card Industry Data Security Standard (PCI DSS) certifies that a hotel’s card payment system is secure, encrypted, and resilient against data breaches. It is the global baseline for financial integrity, regulatory alignment, and protecting guest transactions in hospitality environments.',
+          'The Payment Card Industry Data Security Standard (PCI DSS) certifies that a hotel\'s card payment system is secure, encrypted, and resilient against data breaches. It is the global baseline for financial integrity, regulatory alignment, and protecting guest transactions in hospitality environments.',
           'Hotels process millions in credit and debit card transactions. A single breach of that trust can be catastrophic. PCI DSS certification provides a structured, auditable framework for securing cardholder data—ensuring payment environments meet international security benchmarks.',
           'Compliance prevents data breaches, reduces the risk of fraud, and supports uninterrupted operations. It boosts guest trust, strengthens insurance posture, and protects relationships with banks, OTAs, and corporate accounts. It also satisfies legal obligations in many jurisdictions.',
           'Failure to comply can result in six- or seven-figure fines per incident, brand devaluation, class-action lawsuits, and merchant account termination. Hotels that experience a breach without valid PCI DSS documentation often lose their ability to process cards altogether.',
@@ -70,11 +70,11 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Risk & Non-Compliance Consequences',
-            body: 'Breaches in card data systems can devastate a hotel’s financial and brand standing. Example: In 2020, a regional hotel brand lost over $3.1 million in chargebacks, legal costs, and remediation efforts after a malware breach exposed 40,000 guest card numbers. The hotel had skipped PCI scans and lacked proper access logs. They lost merchant privileges for over 8 months.',
+            body: 'Breaches in card data systems can devastate a hotel\'s financial and brand standing. Example: In 2020, a regional hotel brand lost over $3.1 million in chargebacks, legal costs, and remediation efforts after a malware breach exposed 40,000 guest card numbers. The hotel had skipped PCI scans and lacked proper access logs. They lost merchant privileges for over 8 months.',
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'Guests want to feel secure when booking or checking out. PCI DSS compliance signals that a hotel takes financial privacy seriously. When properly implemented, it’s invisible—but immensely valuable. Hotels with secure payments enjoy smoother guest journeys, fewer disputes, and stronger OTA and loyalty program integration.',
+            body: 'Guests want to feel secure when booking or checking out. PCI DSS compliance signals that a hotel takes financial privacy seriously. When properly implemented, it\'s invisible—but immensely valuable. Hotels with secure payments enjoy smoother guest journeys, fewer disputes, and stronger OTA and loyalty program integration.',
           },
           {
             title: 'Training & Workforce Development',
@@ -92,9 +92,9 @@ export const categories: CertCategory[] = [
         heroTitle: 'IFRS/GAAP: Accounting Standards Certification for Hotel Finance Leaders',
         fullTitle: 'IFRS/GAAP Accounting Standards Training for Hospitality Finance',
         issuingBody: 'International Financial Reporting Standards Foundation (IFRS) and Financial Accounting Standards Board (FASB – GAAP)',
-        summary: 'IFRS/GAAP training standardizes financial reporting across your hotel’s global operations, empowering finance teams to ensure accuracy, transparency, and compliance.',
+        summary: 'IFRS/GAAP training standardizes financial reporting across your hotel\'s global operations, empowering finance teams to ensure accuracy, transparency, and compliance.',
         description: [
-          'IFRS/GAAP training standardizes financial reporting across your hotel’s global operations. From budgeting to audits, this certification empowers finance teams to ensure accuracy, transparency, and compliance—supporting investor confidence and operational clarity.',
+          'IFRS/GAAP training standardizes financial reporting across your hotel\'s global operations. From budgeting to audits, this certification empowers finance teams to ensure accuracy, transparency, and compliance—supporting investor confidence and operational clarity.',
           'Hotels are complex financial ecosystems—blending room revenue, events, F&B, payroll, and asset management. IFRS and GAAP certification ensures your finance team interprets and reports data correctly across internal and external channels—essential for audits, tax compliance, and stakeholder trust.',
           'Certified teams reduce audit risk, enhance investor reporting, and improve comparability of results across properties and countries. IFRS/GAAP training also boosts credibility with regulators, lenders, and management companies—especially during financial reviews, mergers, or franchise disclosures.',
           'Failure to follow accepted standards can result in delayed audits, tax penalties, denied loans, and financial misstatements that lead to executive liability or brand-wide risk. Misalignment with IFRS or GAAP can disqualify a hotel from public financing or large procurement programs.',
@@ -144,10 +144,10 @@ export const categories: CertCategory[] = [
         heroTitle: 'CFE Certification: Global Standard for Hotel Financial Fraud Prevention',
         fullTitle: 'ACFE Certified Fraud Examiner (CFE) Certification',
         issuingBody: 'Association of Certified Fraud Examiners (ACFE), U.S. Sarbanes-Oxley Act, COSO Internal Control Framework, ISO 37001 (Anti-Bribery), OECD Anti-Corruption Guidelines',
-        summary: 'The Certified Fraud Examiner (CFE) credential validates a hotel professional’s ability to detect, prevent, and investigate financial misconduct.',
+        summary: 'The Certified Fraud Examiner (CFE) credential validates a hotel professional\'s ability to detect, prevent, and investigate financial misconduct.',
         description: [
-          'The Certified Fraud Examiner (CFE) credential by ACFE validates a hotel professional’s ability to detect, prevent, and investigate financial misconduct. It strengthens audit outcomes, enhances internal controls, and protects property assets from fraud and abuse.',
-          'Hospitality’s decentralized procurement, complex vendor relationships, and cash-handling practices create fertile ground for fraud. ACFE’s CFE certification empowers your finance and audit teams with the tools to detect red flags early—before losses escalate.',
+          'The Certified Fraud Examiner (CFE) credential by ACFE validates a hotel professional\'s ability to detect, prevent, and investigate financial misconduct. It strengthens audit outcomes, enhances internal controls, and protects property assets from fraud and abuse.',
+          'Hospitality\'s decentralized procurement, complex vendor relationships, and cash-handling practices create fertile ground for fraud. ACFE\'s CFE certification empowers your finance and audit teams with the tools to detect red flags early—before losses escalate.',
           'CFE-certified professionals lead stronger audits, improve controls, and reduce shrinkage and compliance risk. Certification also improves investor and lender confidence and prepares hotels for regulatory inspections or franchise-level financial disclosure reviews.',
           'Failure to detect fraud may lead to financial losses, litigation, reputation damage, and loss of franchise or management agreements. In some jurisdictions, lack of anti-fraud controls constitutes a breach of fiduciary duty or regulatory noncompliance.',
         ],
@@ -178,7 +178,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'While guests don’t see accounting, they do feel its effects—underfunded services, billing errors, or unexplained charges can erode loyalty. Fraud-resilient operations drive stability, reinvestment, and trust. Hotels with strong governance credentials also perform better in ESG ratings and attract institutional partnerships.',
+            body: 'While guests don\'t see accounting, they do feel its effects—underfunded services, billing errors, or unexplained charges can erode loyalty. Fraud-resilient operations drive stability, reinvestment, and trust. Hotels with strong governance credentials also perform better in ESG ratings and attract institutional partnerships.',
           },
           {
             title: 'Training & Workforce Development',
@@ -186,7 +186,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'StayCertified Blockchain Application',
-            body: 'ACFE’s Certified Fraud Examiner (CFE) credential gives hotel finance leaders the tools to detect, prevent, and respond to financial fraud. It safeguards assets, improves audits, and enhances brand governance—anchored by blockchain verification through StayCertified™.',
+            body: 'ACFE\'s Certified Fraud Examiner (CFE) credential gives hotel finance leaders the tools to detect, prevent, and respond to financial fraud. It safeguards assets, improves audits, and enhances brand governance—anchored by blockchain verification through StayCertified™.',
           },
         ],
       },
@@ -250,22 +250,22 @@ export const categories: CertCategory[] = [
     navLabel: 'Environmental & Sustainability',
     heroTagline: 'Future-Proof Your Hotel with Verified Sustainability Standards',
     description: [
-      ‘The Environmental & Sustainability department reflects a hotel\u2019s commitment to responsible stewardship, operational efficiency, and alignment with global sustainability goals.’,
-      ‘As consumer demand for eco-conscious hospitality grows, certifications in this area have become essential for both brand competitiveness and regulatory compliance. Key certifications include LEED (Leadership in Energy and Environmental Design), ISO 14001 Environmental Management, Green Key Eco-Rating, Energy Star, and EPA WaterSense—all of which verify efforts in energy conservation, water efficiency, waste reduction, and sustainable purchasing.’,
-      ‘Certified environmental practices lead to reduced operational costs, enhanced guest loyalty, improved staff morale, and eligibility for green business incentives and contracts. They also signal compliance with environmental regulations and investor ESG (Environmental, Social, and Governance) benchmarks. Failure to meet environmental standards can result in regulatory fines, reputational backlash, and exclusion from government and corporate procurement lists.’,
-      ‘At Stay Certified\u2122, we position sustainability certifications as essential for future-proofing hotel operations and demonstrating authentic leadership in an increasingly climate-conscious market.’,
+      'The Environmental & Sustainability department reflects a hotel\u2019s commitment to responsible stewardship, operational efficiency, and alignment with global sustainability goals.',
+      'As consumer demand for eco-conscious hospitality grows, certifications in this area have become essential for both brand competitiveness and regulatory compliance. Key certifications include LEED (Leadership in Energy and Environmental Design), ISO 14001 Environmental Management, Green Key Eco-Rating, Energy Star, and EPA WaterSense—all of which verify efforts in energy conservation, water efficiency, waste reduction, and sustainable purchasing.',
+      'Certified environmental practices lead to reduced operational costs, enhanced guest loyalty, improved staff morale, and eligibility for green business incentives and contracts. They also signal compliance with environmental regulations and investor ESG (Environmental, Social, and Governance) benchmarks. Failure to meet environmental standards can result in regulatory fines, reputational backlash, and exclusion from government and corporate procurement lists.',
+      'At Stay Certified\u2122, we position sustainability certifications as essential for future-proofing hotel operations and demonstrating authentic leadership in an increasingly climate-conscious market.',
     ],
     certifications: [
       {
-        slug: ‘leed-certification’,
+        slug: 'leed-certification',
         title: 'LEED Certification',
         heroTitle: 'LEED Certification: The Global Standard for Sustainable Hotel Operations',
         fullTitle: 'LEED Certification (Leadership in Energy and Environmental Design)',
         issuingBody: 'U.S. Green Building Council (USGBC)',
         summary: 'LEED Certification confirms that a hotel meets stringent performance thresholds across energy, water, waste, and materials.',
         description: [
-          'The LEED Certification from the U.S. Green Building Council confirms that a hotel meets stringent performance thresholds across energy, water, waste, and materials. It’s the definitive global standard for sustainability in hospitality—trusted by guests, brands, and regulators.',
-          'Sustainability is no longer optional—it’s an operational imperative. LEED Certification offers hotels a verifiable framework to demonstrate environmental responsibility across design, construction, and daily operations. It signals to guests, regulators, and investors that sustainability is not a slogan but a standard.',
+          'The LEED Certification from the U.S. Green Building Council confirms that a hotel meets stringent performance thresholds across energy, water, waste, and materials. It\'s the definitive global standard for sustainability in hospitality—trusted by guests, brands, and regulators.',
+          'Sustainability is no longer optional—it\'s an operational imperative. LEED Certification offers hotels a verifiable framework to demonstrate environmental responsibility across design, construction, and daily operations. It signals to guests, regulators, and investors that sustainability is not a slogan but a standard.',
           'LEED positions your property as a leader in environmental stewardship, enabling cost savings through efficiency, access to green procurement channels, and increased appeal to eco-conscious travelers. It supports ESG reporting, strengthens corporate RFP eligibility, and enhances your hotel& reputation in both luxury and economy segments.',
           'Hotels without verified environmental standards face legal exposure under false marketing laws, rising utility costs, and reputational erosion from sustainability skepticism. Greenwashing accusations can trigger fines, damage guest trust, and disqualify properties from major booking platforms or ESG investment opportunities.',
         ],
@@ -288,11 +288,11 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Operational Impact',
-            body: 'LEED Certification embeds sustainability into the hotel’s operating system. SOPs evolve to optimize energy and water use, waste is systematically reduced, and building systems are maintained for peak performance. It becomes easier to track ESG goals and gain visibility into cost-saving metrics. Procurement shifts to favor vendors offering eco-certified products and services, reducing compliance risks. Interdepartmental alignment improves—engineering, housekeeping, and procurement work from a common green standard. It also aids in global brand standardization for multi-property chains.',
+            body: 'LEED Certification embeds sustainability into the hotel\'s operating system. SOPs evolve to optimize energy and water use, waste is systematically reduced, and building systems are maintained for peak performance. It becomes easier to track ESG goals and gain visibility into cost-saving metrics. Procurement shifts to favor vendors offering eco-certified products and services, reducing compliance risks. Interdepartmental alignment improves—engineering, housekeeping, and procurement work from a common green standard. It also aids in global brand standardization for multi-property chains.',
           },
           {
             title: 'Risk & Non-Compliance Consequences',
-            body: 'Operating without verified sustainability credentials exposes a hotel to public criticism, legal scrutiny, and guest skepticism—especially if environmental claims are made without proof. Example: A European chain advertised “green hotels” without third-party certifications. After a watchdog group exposed the lack of compliance, the chain suffered a PR crisis, booking losses, and had to settle regulatory fines under deceptive advertising laws.',
+            body: 'Operating without verified sustainability credentials exposes a hotel to public criticism, legal scrutiny, and guest skepticism—especially if environmental claims are made without proof. Example: A European chain advertised "green hotels" without third-party certifications. After a watchdog group exposed the lack of compliance, the chain suffered a PR crisis, booking losses, and had to settle regulatory fines under deceptive advertising laws.',
           },
           {
             title: 'Guest Experience & Brand Value',
@@ -300,24 +300,24 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Training & Workforce Development',
-            body: 'Training includes LEED-specific onboarding, GBCI-accredited programs, and internal refreshers on new systems or protocols. Hotels may use USGBC toolkits, partner LMS platforms, or live sessions with certified instructors. Staff with LEED-related training become internal sustainability champions, helping drive performance and shaping SOPs. Certification increases promotion eligibility, team retention, and purpose-driven alignment with the hotel’s mission.',
+            body: 'Training includes LEED-specific onboarding, GBCI-accredited programs, and internal refreshers on new systems or protocols. Hotels may use USGBC toolkits, partner LMS platforms, or live sessions with certified instructors. Staff with LEED-related training become internal sustainability champions, helping drive performance and shaping SOPs. Certification increases promotion eligibility, team retention, and purpose-driven alignment with the hotel\'s mission.',
           },
           {
             title: 'StayCertified Blockchain Application',
-            body: 'LEED Certification proves a hotel’s sustainability practices are real, measured, and globally validated. It ensures operational efficiency, strengthens brand trust, and future-proofs properties against regulatory shifts. Through StayCertified™, its status is recorded on blockchain—unfalsifiable, transparent, and always available for verification.',
+            body: 'LEED Certification proves a hotel\'s sustainability practices are real, measured, and globally validated. It ensures operational efficiency, strengthens brand trust, and future-proofs properties against regulatory shifts. Through StayCertified™, its status is recorded on blockchain—unfalsifiable, transparent, and always available for verification.',
           },
         ],
       },
       {
         slug: 'energy-star',
         title: 'Energy Star Certification',
-        heroTitle: 'Energy Star: EPA’s Benchmark for Energy-Efficient Hotel Operations',
+        heroTitle: 'Energy Star: EPA\'s Benchmark for Energy-Efficient Hotel Operations',
         fullTitle: 'Energy Star Certification for Hotels',
         issuingBody: 'U.S. Environmental Protection Agency (EPA)',
         summary: 'Energy Star Certification for Hotels validates superior energy performance and environmental responsibility.',
         description: [
           'Awarded by the U.S. EPA, Energy Star certification recognizes hotels that achieve superior energy efficiency performance. It proves a property operates in the top percentile for energy use, reduces carbon footprint, and demonstrates verified sustainability leadership in hospitality.',
-          'In a sector defined by utility intensity, energy efficiency is a competitive and environmental imperative. Energy Star certification enables hotels to measure and validate their performance through data-backed comparisons. It&apos;s more than a label—it’s a mark of operational excellence, trusted by governments, corporates, and climate-conscious guests alike.',
+          'In a sector defined by utility intensity, energy efficiency is a competitive and environmental imperative. Energy Star certification enables hotels to measure and validate their performance through data-backed comparisons. It&apos;s more than a label—it\'s a mark of operational excellence, trusted by governments, corporates, and climate-conscious guests alike.',
           'Energy Star hotels benefit from lower operating costs, stronger ESG profiles, and increased appeal to corporate and government travel segments. Certification supports carbon reduction goals, unlocks tax incentives, and provides verified benchmarks for green building programs, LEED alignment, and investor reporting.',
           'Hotels without clear energy benchmarks risk overspending, failing to meet emission reduction goals, and missing eligibility for energy-related incentives or ESG funds. They may also face scrutiny in jurisdictions with mandatory energy disclosure laws, such as New York City (LL84/LL97).',
         ],
@@ -328,7 +328,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Core Requirements & Protocols',
-            body: 'Data entry and annual benchmarking in EPA’s Portfolio Manager tool; minimum ENERGY STAR score of 75 out of 100; third-party verification of utility data, occupancy, and building characteristics.',
+            body: 'Data entry and annual benchmarking in EPA\'s Portfolio Manager tool; minimum ENERGY STAR score of 75 out of 100; third-party verification of utility data, occupancy, and building characteristics.',
           },
           {
             title: 'Applicable Frameworks',
@@ -348,7 +348,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'To guests, Energy Star certification signals a hotel’s commitment to smart resource use and operational precision. Digital signage, QR-code verified credentials, and reduced carbon marketing add to the experience. It aligns with modern traveler values and enhances brand loyalty, especially among business travelers and green-focused groups. Hotels with Energy Star ratings often secure more RFP wins in sustainability-sensitive segments.',
+            body: 'To guests, Energy Star certification signals a hotel\'s commitment to smart resource use and operational precision. Digital signage, QR-code verified credentials, and reduced carbon marketing add to the experience. It aligns with modern traveler values and enhances brand loyalty, especially among business travelers and green-focused groups. Hotels with Energy Star ratings often secure more RFP wins in sustainability-sensitive segments.',
           },
           {
             title: 'Training & Workforce Development',
@@ -399,7 +399,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'ISO 14001 enhances the guest’s perception of operational control and purpose-driven service. Eco-friendly rooms, visible environmental signage, and blockchain-backed proof of compliance instill trust—especially among corporate clients and wellness travelers. Certification supports premium pricing strategies and strengthens positioning on green booking platforms and ESG investment indexes.',
+            body: 'ISO 14001 enhances the guest\'s perception of operational control and purpose-driven service. Eco-friendly rooms, visible environmental signage, and blockchain-backed proof of compliance instill trust—especially among corporate clients and wellness travelers. Certification supports premium pricing strategies and strengthens positioning on green booking platforms and ESG investment indexes.',
           },
           {
             title: 'Training & Workforce Development',
@@ -420,7 +420,7 @@ export const categories: CertCategory[] = [
         summary: 'Green Key Global Sustainable Tourism Certification recognizes hotels committed to sustainable operations.',
         description: [
           'Green Key Global is a premier eco-label for hotels and resorts committed to environmental responsibility and social accountability. Backed by GSTC alignment, it validates your sustainability practices across operations, guest engagement, and supply chains—boosting trust and global market access.',
-          'As global travelers increasingly seek verified sustainability, Green Key Global certification offers a widely recognized and respected seal that validates a hotel’s commitment to responsible tourism. It bridges operational integrity with environmental credibility—positioning certified properties at the forefront of sustainable travel.',
+          'As global travelers increasingly seek verified sustainability, Green Key Global certification offers a widely recognized and respected seal that validates a hotel\'s commitment to responsible tourism. It bridges operational integrity with environmental credibility—positioning certified properties at the forefront of sustainable travel.',
           'Certified hotels gain access to eco-conscious booking channels, qualify for government and NGO sustainability programs, and build stronger appeal among ESG-conscious guests and investors. Operationally, it standardizes environmental practices, supports employee engagement, and strengthens supplier accountability.',
         ],
         accordionSections: [
@@ -446,11 +446,11 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Risk & Non-Compliance Consequences',
-            body: 'Failure to adopt credible certifications like Green Key can lead to fragmented sustainability efforts, missed opportunities in green procurement, and reputational vulnerabilities in ESG-sensitive markets. Example: A Caribbean resort advertising itself as “eco-luxury” was delisted from a major green OTA after guests discovered poor waste practices and no third-party certification. Reviews plummeted, forcing an urgent overhaul of sustainability protocols and rebranding efforts.',
+            body: 'Failure to adopt credible certifications like Green Key can lead to fragmented sustainability efforts, missed opportunities in green procurement, and reputational vulnerabilities in ESG-sensitive markets. Example: A Caribbean resort advertising itself as "eco-luxury" was delisted from a major green OTA after guests discovered poor waste practices and no third-party certification. Reviews plummeted, forcing an urgent overhaul of sustainability protocols and rebranding efforts.',
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'Guests increasingly expect proof of a hotel’s sustainability efforts. Green Key provides that proof—visible on property, searchable online, and explainable at every touchpoint. QR-code verification, sustainability signage, and green amenity kits turn values into guest loyalty. The certification enhances marketing narratives, supports brand positioning in eco-conscious segments, and aligns with loyalty programs rewarding sustainable stays.',
+            body: 'Guests increasingly expect proof of a hotel\'s sustainability efforts. Green Key provides that proof—visible on property, searchable online, and explainable at every touchpoint. QR-code verification, sustainability signage, and green amenity kits turn values into guest loyalty. The certification enhances marketing narratives, supports brand positioning in eco-conscious segments, and aligns with loyalty programs rewarding sustainable stays.',
           },
           {
             title: 'Training & Workforce Development',
@@ -468,12 +468,12 @@ export const categories: CertCategory[] = [
         heroTitle: 'TRUE Zero Waste: Operational Proof That Your Hotel Diverts 90%+ of Waste',
         fullTitle: 'TRUE Zero Waste Certification',
         issuingBody: 'Green Business Certification Inc. (GBCI)',
-        summary: 'TRUE Zero Waste Certification validates a hotel’s commitment to eliminating waste through sustainable practices.',
+        summary: 'TRUE Zero Waste Certification validates a hotel\'s commitment to eliminating waste through sustainable practices.',
         description: [
           'TRUE Zero Waste Certification recognizes hotels that achieve at least 90% waste diversion from landfills, incineration, and the environment. It goes beyond recycling to ensure waste reduction is built into procurement, operations, and staff behavior—proven through audit and verified on-chain.',
-          'Hospitality generates significant waste—food, packaging, housekeeping disposables, and construction materials. TRUE Zero Waste Certification establishes a credible and rigorous framework to redesign those streams. It provides third-party assurance that your hotel isn’t just disposing more carefully but consuming more consciously.',
+          'Hospitality generates significant waste—food, packaging, housekeeping disposables, and construction materials. TRUE Zero Waste Certification establishes a credible and rigorous framework to redesign those streams. It provides third-party assurance that your hotel isn\'t just disposing more carefully but consuming more consciously.',
           'Achieving TRUE Certification reduces landfill costs, qualifies properties for local tax and disposal rebates, and boosts ESG scores across waste KPIs. It also appeals to sustainability-minded guests and corporate buyers demanding circular economy leadership. TRUE is synergistic with LEED, BREEAM, and ISO 14001 initiatives.',
-          'Without a validated waste management system, hotels risk increased landfill fees, negative guest perception, and disqualification from government green programs. Greenwashing allegations can arise when “zero waste” is claimed without proof—exposing the brand to reputational and legal risk.',
+          'Without a validated waste management system, hotels risk increased landfill fees, negative guest perception, and disqualification from government green programs. Greenwashing allegations can arise when "zero waste" is claimed without proof—exposing the brand to reputational and legal risk.',
         ],
         accordionSections: [
           {
@@ -494,15 +494,15 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Operational Impact',
-            body: 'TRUE Certification rewires hotel operations to focus on material flow efficiency. Waste is no longer just removed—it’s measured, sorted, minimized, and tracked by weight and category. Procurement is reoriented toward reusable or recyclable materials, and food waste programs often shift to composting or donation. Departments collaborate to meet unified diversion targets. SOPs include signage, staff scripts, and waste audits, and procurement is tied to life-cycle sustainability. It also simplifies vendor selection—favoring suppliers who share zero-waste goals.',
+            body: 'TRUE Certification rewires hotel operations to focus on material flow efficiency. Waste is no longer just removed—it\'s measured, sorted, minimized, and tracked by weight and category. Procurement is reoriented toward reusable or recyclable materials, and food waste programs often shift to composting or donation. Departments collaborate to meet unified diversion targets. SOPs include signage, staff scripts, and waste audits, and procurement is tied to life-cycle sustainability. It also simplifies vendor selection—favoring suppliers who share zero-waste goals.',
           },
           {
             title: 'Risk & Non-Compliance Consequences',
-            body: 'Hotels without a certified diversion system face rising waste management costs, declining staff morale, and guest disappointment. Failure to achieve diversion goals may impact partnerships with green travel platforms or ESG-rated portfolios. Example: A hotel chain promoting “zero-waste events” was scrutinized when photos revealed single-use plastics and poor waste sorting. Without third-party verification, the chain lost two major B2B contracts and had to restructure its waste operations publicly.',
+            body: 'Hotels without a certified diversion system face rising waste management costs, declining staff morale, and guest disappointment. Failure to achieve diversion goals may impact partnerships with green travel platforms or ESG-rated portfolios. Example: A hotel chain promoting "zero-waste events" was scrutinized when photos revealed single-use plastics and poor waste sorting. Without third-party verification, the chain lost two major B2B contracts and had to restructure its waste operations publicly.',
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'To guests, TRUE Certification is visible proof of a hotel’s commitment to responsible consumption. Signage in public spaces, labeled bins, digital dashboards, and QR-verified certifications all reinforce the story. It resonates strongly with eco-conscious travelers, sustainability-focused corporations, and wellness event planners. Properties that can verify 90%+ diversion often feature in “Greenest Hotels” lists and see higher booking conversions from ESG-aligned OTAs.',
+            body: 'To guests, TRUE Certification is visible proof of a hotel\'s commitment to responsible consumption. Signage in public spaces, labeled bins, digital dashboards, and QR-verified certifications all reinforce the story. It resonates strongly with eco-conscious travelers, sustainability-focused corporations, and wellness event planners. Properties that can verify 90%+ diversion often feature in "Greenest Hotels" lists and see higher booking conversions from ESG-aligned OTAs.',
           },
           {
             title: 'Training & Workforce Development',
@@ -523,7 +523,7 @@ export const categories: CertCategory[] = [
         summary: 'EPA food waste and composting compliance certifies hotels in sustainable organic waste management.',
         description: [
           'The EPA Food Recovery Challenge recognizes hotels that follow a structured hierarchy to reduce food waste—from source reduction to donation and composting. It supports legal compliance, enhances brand sustainability narratives, and turns food loss into a measurable, guest-facing advantage.',
-          'Globally, food waste accounts for over one-third of all produced food. In hospitality, waste isn’t just bad economics—it’s bad optics. The EPA Food Recovery Challenge helps hotels systematize reduction, repurpose surplus through donations, and divert food scraps from landfills via composting. It aligns food operations with environmental values guests expect.',
+          'Globally, food waste accounts for over one-third of all produced food. In hospitality, waste isn\'t just bad economics—it\'s bad optics. The EPA Food Recovery Challenge helps hotels systematize reduction, repurpose surplus through donations, and divert food scraps from landfills via composting. It aligns food operations with environmental values guests expect.',
           'This certification improves ESG performance, reduces hauling fees, supports tax write-offs through food donation, and builds partnerships with local nonprofits. It also reinforces brand sustainability, strengthens RFP responses, and aligns with LEED or Green Key metrics. Operations benefit from lower spoilage and more efficient purchasing cycles.',
           'Without a food waste program, hotels face higher disposal costs, negative environmental impact scores, and reputational damage among eco-conscious guests or investors. Increasingly, municipalities may mandate composting or impose fines for landfill overuse.',
         ],
@@ -550,11 +550,11 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Risk & Non-Compliance Consequences',
-            body: 'Hotels without food waste programs may face scrutiny in ESG audits or lose business from environmentally conscious clients. As landfill costs and regulations increase, non-participants may incur unexpected fines or reputational penalties. Example: A conference hotel failed to meet a Fortune 100 client’s sustainability requirement due to lack of documented food waste mitigation. The contract—worth \\$1.8M—was awarded to a competitor with active EPA Food Recovery participation.',
+            body: 'Hotels without food waste programs may face scrutiny in ESG audits or lose business from environmentally conscious clients. As landfill costs and regulations increase, non-participants may incur unexpected fines or reputational penalties. Example: A conference hotel failed to meet a Fortune 100 client\'s sustainability requirement due to lack of documented food waste mitigation. The contract—worth \\$1.8M—was awarded to a competitor with active EPA Food Recovery participation.',
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'Guests are increasingly sensitive to sustainability claims. Certification offers quantifiable proof of action. Clear bin signage, QR codes linking to food waste data, or “waste diverted this month” dashboards on buffets demonstrate values in action—driving loyalty and differentiation. Participation can also enhance OTA rankings, corporate RFP positioning, and travel program eligibility.',
+            body: 'Guests are increasingly sensitive to sustainability claims. Certification offers quantifiable proof of action. Clear bin signage, QR codes linking to food waste data, or "waste diverted this month" dashboards on buffets demonstrate values in action—driving loyalty and differentiation. Participation can also enhance OTA rankings, corporate RFP positioning, and travel program eligibility.',
           },
           {
             title: 'Training & Workforce Development',
@@ -574,14 +574,14 @@ export const categories: CertCategory[] = [
     navLabel: 'Fire, Life and Safety',
     heroTagline: 'Emergency-Ready Teams Save Lives—and Reputations',
     description: [
-      ‘The Fire, Life & Safety department is the cornerstone of a hotel\u2019s risk management strategy, responsible for protecting lives, property, and regulatory standing.’,
-      ‘This area encompasses fire prevention systems, emergency evacuation protocols, life-saving equipment, and hazard communication standards—all of which are governed by strict local and international codes. Certifications in this domain—such as fire suppression system compliance (NFPA standards), emergency response training (CPR/AED/First Aid), OSHA workplace safety, and building code adherence—are essential for legal operation, insurance coverage, and guest assurance.’,
-      ‘Proper certification ensures that staff are trained to respond swiftly to emergencies, systems are regularly inspected and maintained, and facilities remain compliant with evolving safety mandates. The benefits include minimized risk of injury or death, lower liability exposure, reduced insurance premiums, and readiness for surprise audits or inspections. On the other hand, failure to comply can lead to catastrophic outcomes—fire-related fatalities, lawsuits, business closures, and criminal penalties.’,
-      ‘At Stay Certified\u2122, we highlight Fire, Life & Safety certifications as non-negotiable pillars of operational integrity, crisis readiness, and long-term hotel viability.’,
+      'The Fire, Life & Safety department is the cornerstone of a hotel\u2019s risk management strategy, responsible for protecting lives, property, and regulatory standing.',
+      'This area encompasses fire prevention systems, emergency evacuation protocols, life-saving equipment, and hazard communication standards—all of which are governed by strict local and international codes. Certifications in this domain—such as fire suppression system compliance (NFPA standards), emergency response training (CPR/AED/First Aid), OSHA workplace safety, and building code adherence—are essential for legal operation, insurance coverage, and guest assurance.',
+      'Proper certification ensures that staff are trained to respond swiftly to emergencies, systems are regularly inspected and maintained, and facilities remain compliant with evolving safety mandates. The benefits include minimized risk of injury or death, lower liability exposure, reduced insurance premiums, and readiness for surprise audits or inspections. On the other hand, failure to comply can lead to catastrophic outcomes—fire-related fatalities, lawsuits, business closures, and criminal penalties.',
+      'At Stay Certified\u2122, we highlight Fire, Life & Safety certifications as non-negotiable pillars of operational integrity, crisis readiness, and long-term hotel viability.',
     ],
     certifications: [
       {
-        slug: ‘fire-safety-extinguisher-training’,
+        slug: 'fire-safety-extinguisher-training',
         title: 'NFPA Fire Safety & Extinguisher Training',
         heroTitle: 'NFPA Fire Safety Training: Certified Fire Response & Evacuation Preparedness',
         fullTitle: 'NFPA Training – Certified Emergency Response for Hotel Fire Risk Reduction',
@@ -641,9 +641,9 @@ export const categories: CertCategory[] = [
         summary: 'FEMA Emergency Evacuation Planning certification ensures hotel personnel are trained in structured, role-specific evacuation protocols.',
         description: [
           'Emergency Evacuation Planning certification from FEMA ensures hotel personnel are trained in structured, role-specific evacuation protocols for fire, earthquake, or other disasters. This training reduces panic, saves lives, and fulfills compliance obligations. Fully auditable on StayCertified™ blockchain system.',
-          'Disasters don’t wait for training days. In the hospitality sector—where public access, transient populations, and multiple floors complicate exits—a poorly executed evacuation can result in mass casualties, litigation, or loss of licensure. The FEMA Emergency Evacuation Planning certification ensures every team member understands their role during high-stakes emergencies, from notifying guests to guiding them to safety.',
-          'Compliance with OSHA and FEMA recommendations boosts hotel eligibility for government contracts and disaster insurance. Organized evacuations reduce injury risk and enable faster fire department clearance. Training enhances the reputation of the hotel among corporate travel agencies and embassies who prioritize disaster preparedness. Records stored on the blockchain strengthen the hotel’s defense during litigation or regulatory reviews.',
-          'A delayed or disorganized evacuation increases guest mortality, employee injuries, and legal exposure. Hotels lacking documented evacuation training face fines, shutdowns, or revocation of occupancy certificates by local safety authorities. Civil liability claims and viral social media coverage after a failed evacuation can irreparably damage a hotel’s brand.',
+          'Disasters don\'t wait for training days. In the hospitality sector—where public access, transient populations, and multiple floors complicate exits—a poorly executed evacuation can result in mass casualties, litigation, or loss of licensure. The FEMA Emergency Evacuation Planning certification ensures every team member understands their role during high-stakes emergencies, from notifying guests to guiding them to safety.',
+          'Compliance with OSHA and FEMA recommendations boosts hotel eligibility for government contracts and disaster insurance. Organized evacuations reduce injury risk and enable faster fire department clearance. Training enhances the reputation of the hotel among corporate travel agencies and embassies who prioritize disaster preparedness. Records stored on the blockchain strengthen the hotel\'s defense during litigation or regulatory reviews.',
+          'A delayed or disorganized evacuation increases guest mortality, employee injuries, and legal exposure. Hotels lacking documented evacuation training face fines, shutdowns, or revocation of occupancy certificates by local safety authorities. Civil liability claims and viral social media coverage after a failed evacuation can irreparably damage a hotel\'s brand.',
         ],
         accordionSections: [
           {
@@ -694,7 +694,7 @@ export const categories: CertCategory[] = [
         description: [
           'Red Cross First Aid & AED Training empowers hotel staff to deliver immediate, life-saving care during guest or employee health emergencies—from CPR to injury stabilization—ensuring regulatory compliance and guest safety trust.',
           'Hotels are dynamic environments with elderly guests, children, pools, kitchens, and public access—all increasing the likelihood of medical incidents. Staff are often first responders. First Aid and AED certification ensures they act swiftly and correctly while awaiting professional help, saving lives and reducing liability.',
-          'Certification meets OSHA emergency readiness standards and insurance policy requirements. It’s also increasingly expected by international travelers and corporate clients. When publicly displayed, it reinforces guest perception of safety and professionalism. Staff trained in CPR and AED usage can prevent fatalities from cardiac arrest—a leading cause of sudden death in hotels.',
+          'Certification meets OSHA emergency readiness standards and insurance policy requirements. It\'s also increasingly expected by international travelers and corporate clients. When publicly displayed, it reinforces guest perception of safety and professionalism. Staff trained in CPR and AED usage can prevent fatalities from cardiac arrest—a leading cause of sudden death in hotels.',
           'Failure to deliver immediate care in a medical emergency can result in wrongful death claims, guest injury lawsuits, or citations during inspections. Without trained staff, even minor injuries may escalate. Legal and reputational fallout from poorly handled health incidents can be catastrophic—especially when guests post videos or reviews of negligent response.',
         ],
         accordionSections: [
@@ -708,7 +708,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Applicable Frameworks',
-            body: 'OSHA 29 CFR 1910.151 – Medical Services and First Aid, ILCOR CPR Guidelines, Local emergency medical services (EMS) standards, Some states require First Aid certification for pool, security, or children’s services.',
+            body: 'OSHA 29 CFR 1910.151 – Medical Services and First Aid, ILCOR CPR Guidelines, Local emergency medical services (EMS) standards, Some states require First Aid certification for pool, security, or children\'s services.',
           },
           {
             title: 'Role & Responsibility Mapping',
@@ -732,7 +732,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'StayCertified Blockchain Application',
-            body: 'Red Cross First Aid & AED Certification trains hotel personnel to respond to guest health emergencies—from cardiac events to burns—ensuring compliance, safety, and trust. It’s a life-saving credential verified and timestamped through StayCertified™ blockchain.',
+            body: 'Red Cross First Aid & AED Certification trains hotel personnel to respond to guest health emergencies—from cardiac events to burns—ensuring compliance, safety, and trust. It\'s a life-saving credential verified and timestamped through StayCertified™ blockchain.',
           },
         ],
       },
@@ -796,7 +796,7 @@ export const categories: CertCategory[] = [
         summary: 'ASME Boiler Certification is mandatory for hotels operating pressure systems for hot water, heating, or laundry.',
         description: [
           'ASME Boiler Certification is mandatory for hotels operating pressure systems for hot water, heating, or laundry. It guarantees the safe operation of boilers and pressure vessels, protecting staff, guests, and infrastructure. Certified inspections are immutably tracked via StayCertified™ blockchain compliance hub.',
-          'Boilers and pressure vessels are the hidden engines of hotel infrastructure—powering heating systems, hot water, kitchens, and laundry facilities. Without certification, these systems pose significant explosion and burn risks. ASME and National Board certification proves that a hotel’s pressure equipment has passed rigorous mechanical testing and regulatory inspection.',
+          'Boilers and pressure vessels are the hidden engines of hotel infrastructure—powering heating systems, hot water, kitchens, and laundry facilities. Without certification, these systems pose significant explosion and burn risks. ASME and National Board certification proves that a hotel\'s pressure equipment has passed rigorous mechanical testing and regulatory inspection.',
           'Certified boiler systems protect against catastrophic failure, ensure compliance with municipal safety codes, and reduce liability. Certification also supports insurance validation, energy efficiency incentives, and utility rebates. Blockchain-tracked compliance prevents lapses in renewals and ensures readiness during audits, claims, or legal scrutiny.',
           'Uncertified or expired boiler tags can result in code violations, immediate shutdowns by building or fire inspectors, and increased insurance premiums. A boiler explosion, though rare, can be fatal and lead to criminal negligence charges. Guest or employee injury, especially due to burns or inhalation of steam/gas, carries enormous legal and brand consequences.',
         ],
@@ -823,7 +823,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Risk & Non-Compliance Consequences',
-            body: 'A malfunctioning or uninspected boiler system is a ticking time bomb. Incidents involving overpressure or combustion chamber failure can lead to fatalities, building damage, and media scandals. Insurance claims may be denied if equipment isn’t certified. Hotels found in violation during a safety inspection face fines, citations, or mandatory facility closure. Example: X',
+            body: 'A malfunctioning or uninspected boiler system is a ticking time bomb. Incidents involving overpressure or combustion chamber failure can lead to fatalities, building damage, and media scandals. Insurance claims may be denied if equipment isn\'t certified. Hotels found in violation during a safety inspection face fines, citations, or mandatory facility closure. Example: X',
           },
           {
             title: 'Guest Experience & Brand Value',
@@ -845,17 +845,17 @@ export const categories: CertCategory[] = [
         heroTitle: 'OSHA Workplace Violence Prevention: Staff Safety through De-escalation Training',
         fullTitle: 'Workplace Violence Prevention',
         issuingBody: 'Occupational Safety and Health Administration (OSHA), Local Labor Departments, and Industry-Specific HR Safety Guidelines',
-        summary: 'OSHA’s Workplace Violence Prevention Certification empowers staff to identify risk factors and apply de-escalation tactics.',
+        summary: 'OSHA\'s Workplace Violence Prevention Certification empowers staff to identify risk factors and apply de-escalation tactics.',
         description: [
-          'Workplace violence can occur in any hotel—front desks, bars, back offices, or housekeeping. OSHA’s Workplace Violence Prevention Certification empowers staff to identify risk factors, apply de-escalation tactics, and implement safe reporting protocols, creating a psychologically secure environment for all.',
-          'Hotels are dynamic environments where emotional tensions, intoxication, and public access can converge—especially at the front desk, in bars, or with terminated employees. OSHA’s Workplace Violence Prevention framework is critical in educating staff to recognize warning signs, apply de-escalation strategies, and prevent workplace incidents before they escalate.',
-          'Certified violence prevention programs contribute to a safer work environment, improved morale, and legal protection. OSHA compliance shields hotels from fines and liability in the event of an incident. Guests feel more secure knowing hotel teams are trained to manage threats or emergencies professionally. This training also reduces absenteeism, workers’ compensation claims, and HR turnover.',
+          'Workplace violence can occur in any hotel—front desks, bars, back offices, or housekeeping. OSHA\'s Workplace Violence Prevention Certification empowers staff to identify risk factors, apply de-escalation tactics, and implement safe reporting protocols, creating a psychologically secure environment for all.',
+          'Hotels are dynamic environments where emotional tensions, intoxication, and public access can converge—especially at the front desk, in bars, or with terminated employees. OSHA\'s Workplace Violence Prevention framework is critical in educating staff to recognize warning signs, apply de-escalation strategies, and prevent workplace incidents before they escalate.',
+          'Certified violence prevention programs contribute to a safer work environment, improved morale, and legal protection. OSHA compliance shields hotels from fines and liability in the event of an incident. Guests feel more secure knowing hotel teams are trained to manage threats or emergencies professionally. This training also reduces absenteeism, workers\' compensation claims, and HR turnover.',
           'Failing to train staff in workplace violence protocols may result in lawsuits, insurance denials, regulatory penalties, or reputational loss following an incident. In cases involving guest harm or staff injury, hotels without documented prevention measures face heightened legal exposure and negative press.',
         ],
         accordionSections: [
           {
             title: 'Purpose of the Certification',
-            body: 'To equip hospitality teams with the tools and behaviors to detect, de-escalate, and document incidents involving aggressive behavior or violence in accordance with OSHA’s General Duty Clause.',
+            body: 'To equip hospitality teams with the tools and behaviors to detect, de-escalate, and document incidents involving aggressive behavior or violence in accordance with OSHA\'s General Duty Clause.',
           },
           {
             title: 'Core Requirements & Protocols',
@@ -899,7 +899,7 @@ export const categories: CertCategory[] = [
         issuingBody: 'National Fire Protection Association (NFPA)',
         summary: 'NFPA 96 compliance certifies commercial kitchen fire suppression systems for hotel food service operations.',
         description: [
-          'NFPA 96 Certification confirms that your hotel’s kitchen ventilation and fire suppression systems meet national safety codes. It’s essential for preventing grease fires, passing inspections, and maintaining insurance coverage.',
+          'NFPA 96 Certification confirms that your hotel\'s kitchen ventilation and fire suppression systems meet national safety codes. It\'s essential for preventing grease fires, passing inspections, and maintaining insurance coverage.',
           'Grease-laden vapors, open flames, and high-heat equipment make hotel kitchens one of the highest fire-risk environments in any facility. NFPA 96 Compliance ensures those risks are systematically mitigated through ventilation, suppression systems, and regular inspection—transforming your kitchen from a liability into a fortress of safety.',
           'Certified compliance lowers the risk of fires, ensures insurance validity, and supports rapid recovery if an incident does occur. It also builds confidence among regulators, group event planners, and insurers. Properties with documented NFPA 96 compliance often receive premium discounts and faster claim processing.',
           'Without verified compliance, a grease fire can spread in seconds—threatening lives, shutting down operations, and voiding insurance policies. Hotels have been forced to close entire F&B divisions or entire properties due to hood fires that failed inspection standards.',
@@ -927,11 +927,11 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Risk & Non-Compliance Consequences',
-            body: 'Hotels without NFPA 96 compliance are one fire away from catastrophe. A single spark in an uncleaned hood duct can destroy kitchens, injure guests or staff, and lead to prosecution. Example: In 2020, a major U.S. hotel chain experienced a $9M fire loss when an uninspected suppression system failed to activate. The system hadn’t been serviced in 18 months—well outside NFPA 96 standards. Insurance refused coverage.',
+            body: 'Hotels without NFPA 96 compliance are one fire away from catastrophe. A single spark in an uncleaned hood duct can destroy kitchens, injure guests or staff, and lead to prosecution. Example: In 2020, a major U.S. hotel chain experienced a $9M fire loss when an uninspected suppression system failed to activate. The system hadn\'t been serviced in 18 months—well outside NFPA 96 standards. Insurance refused coverage.',
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'Guests expect clean, safe, and fully operational restaurants. While they don’t ask about hood systems, they notice kitchen closures, smell smoke, and hear about fires. Certified kitchens create operational confidence and invisible protection behind every plated dish. Certification supports group sales and event safety declarations—especially for wedding venues, buffet services, and large-scale banquet operations.',
+            body: 'Guests expect clean, safe, and fully operational restaurants. While they don\'t ask about hood systems, they notice kitchen closures, smell smoke, and hear about fires. Certified kitchens create operational confidence and invisible protection behind every plated dish. Certification supports group sales and event safety declarations—especially for wedding venues, buffet services, and large-scale banquet operations.',
           },
           {
             title: 'Training & Workforce Development',
@@ -951,22 +951,22 @@ export const categories: CertCategory[] = [
     navLabel: 'Fitness, Spa & Wellness',
     heroTagline: 'Luxury Begins Where Wellness is Certified',
     description: [
-      ‘The Fitness, Spa & Wellness department is a high-touch, high-expectation area that directly affects a hotel\u2019s luxury appeal, guest satisfaction, and risk exposure.’,
-      ‘These facilities involve close personal contact, shared equipment, water systems, and potential exposure to biological, chemical, and environmental hazards. Certifications in this area—such as spa sanitation (ISPA Sanitation Standards), pool and hot tub safety (CPO\u00ae Certified Pool Operator), fitness equipment maintenance, water quality control (NSPF/CMAHC), and massage therapist licensing—are essential to maintain hygiene, safety, and regulatory compliance.’,
-      ‘Certified wellness operations help prevent infections, waterborne illnesses, equipment-related injuries, and hygiene-related complaints. They also promote a standard of excellence that enhances guest trust and attracts health-conscious travelers. Key benefits of certification include reduced liability, increased staff competence, stronger health code compliance, and a boost in premium service ratings. Failure to comply can result in legal claims, facility closures, negative reviews, and irreparable brand damage.’,
-      ‘On StayCertified\u2122, we recognize that wellness is not just a service offering—it\u2019s a critical pillar of hotel health, safety, and reputational value.’,
+      'The Fitness, Spa & Wellness department is a high-touch, high-expectation area that directly affects a hotel\u2019s luxury appeal, guest satisfaction, and risk exposure.',
+      'These facilities involve close personal contact, shared equipment, water systems, and potential exposure to biological, chemical, and environmental hazards. Certifications in this area—such as spa sanitation (ISPA Sanitation Standards), pool and hot tub safety (CPO\u00ae Certified Pool Operator), fitness equipment maintenance, water quality control (NSPF/CMAHC), and massage therapist licensing—are essential to maintain hygiene, safety, and regulatory compliance.',
+      'Certified wellness operations help prevent infections, waterborne illnesses, equipment-related injuries, and hygiene-related complaints. They also promote a standard of excellence that enhances guest trust and attracts health-conscious travelers. Key benefits of certification include reduced liability, increased staff competence, stronger health code compliance, and a boost in premium service ratings. Failure to comply can result in legal claims, facility closures, negative reviews, and irreparable brand damage.',
+      'On StayCertified\u2122, we recognize that wellness is not just a service offering—it\u2019s a critical pillar of hotel health, safety, and reputational value.',
     ],
     certifications: [
       {
-        slug: ‘fitness-equipment-safety’,
+        slug: 'fitness-equipment-safety',
         title: 'ASTM Fitness Equipment Safety',
         heroTitle: 'ASTM Equipment Safety: Certified Standards for Hotel Fitness Equipment',
         fullTitle: 'ASTM Equipment Safety – Certification for Safe Fitness Equipment Operation',
         issuingBody: 'ASTM International (Formerly American Society for Testing and Materials) Plus Manufacturer Safety Certifications',
         summary: 'ASTM Equipment Safety certification confirms hotel fitness centers meet internationally recognized safety and maintenance standards.',
         description: [
-          'ASTM Equipment Safety certification confirms that hotel fitness centers meet internationally recognized safety and maintenance standards for exercise equipment. This certification protects guest health, minimizes legal risk, and enhances the hotel’s wellness credibility—verifiable on the StayCertified™ blockchain.',
-          'Hotel fitness centers are high-liability zones where improper equipment maintenance or poor design can lead to injuries or legal claims. ASTM International standards establish clear criteria for everything from treadmill integrity to elliptical ergonomics. Compliance isn’t just about safety—it’s about trust, brand protection, and wellness credibility.',
+          'ASTM Equipment Safety certification confirms that hotel fitness centers meet internationally recognized safety and maintenance standards for exercise equipment. This certification protects guest health, minimizes legal risk, and enhances the hotel\'s wellness credibility—verifiable on the StayCertified™ blockchain.',
+          'Hotel fitness centers are high-liability zones where improper equipment maintenance or poor design can lead to injuries or legal claims. ASTM International standards establish clear criteria for everything from treadmill integrity to elliptical ergonomics. Compliance isn\'t just about safety—it\'s about trust, brand protection, and wellness credibility.',
           'Certification improves guest confidence, reduces injury claims, and supports partnerships with wellness-focused travel platforms. It also protects the hotel in case of equipment failure, ensuring that maintenance logs and inspection protocols meet defensible standards in legal or insurance audits.',
           'Neglected fitness equipment can cause serious guest injury—from falls and fractures to strain-related lawsuits. Hotels without maintenance logs or ASTM-aligned practices are at greater risk of insurance denial, personal injury claims, and negative reviews from health-conscious travelers.',
         ],
@@ -997,7 +997,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'Guests—especially wellness travelers—expect modern, safe, and clean fitness environments. Certification reinforces your brand’s commitment to their health and safety. Visible ASTM compliance notices, QR-linked inspection logs, and responsive maintenance boost satisfaction and reviews. It also supports partnerships with fitness-forward OTAs and travel programs like WELL Certified™, FitWel, and Global Wellness Institute affiliates.',
+            body: 'Guests—especially wellness travelers—expect modern, safe, and clean fitness environments. Certification reinforces your brand\'s commitment to their health and safety. Visible ASTM compliance notices, QR-linked inspection logs, and responsive maintenance boost satisfaction and reviews. It also supports partnerships with fitness-forward OTAs and travel programs like WELL Certified™, FitWel, and Global Wellness Institute affiliates.',
           },
           {
             title: 'Training & Workforce Development',
@@ -1037,7 +1037,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Role & Responsibility Mapping',
-            body: 'Hotel Job Titles Affected: Spa Director, Licensed Massage Therapists, Estheticians, Housekeeping for Spa Zone, Facility Maintenance, Engineering (HVAC), EH\\S Lead. Why These Roles Are Involved: They handle sanitation, guest services, facility upkeep, and regulatory documentation across the spa’s operational chain—from treatment tables to whirlpools. Training Requirements: Annual infection control training, CPR certification, state licensing renewals, ISPA practice standards, bloodborne pathogen protocols, and facility hygiene SOP training for all spa personnel.',
+            body: 'Hotel Job Titles Affected: Spa Director, Licensed Massage Therapists, Estheticians, Housekeeping for Spa Zone, Facility Maintenance, Engineering (HVAC), EH\\S Lead. Why These Roles Are Involved: They handle sanitation, guest services, facility upkeep, and regulatory documentation across the spa\'s operational chain—from treatment tables to whirlpools. Training Requirements: Annual infection control training, CPR certification, state licensing renewals, ISPA practice standards, bloodborne pathogen protocols, and facility hygiene SOP training for all spa personnel.',
           },
           {
             title: 'Operational Impact',
@@ -1069,8 +1069,8 @@ export const categories: CertCategory[] = [
         issuingBody: 'CDC Model Aquatic Health Code',
         summary: 'CDC MAHC Compliance ensures water quality assurance for hotel pools and spas.',
         description: [
-          'The CDC’s Model Aquatic Health Code (MAHC) provides a science-based framework for water quality in pools, spas, and hot tubs. Certification to this standard ensures your aquatic amenities are safe, compliant, and trusted—anchored in blockchain-verified inspections via StayCertified™.',
-          'Pools and hot tubs are highly visible guest amenities—and among the most scrutinized from a health and safety perspective. The CDC’s Model Aquatic Health Code (MAHC) offers a national blueprint to prevent waterborne illness outbreaks, drowning risks, and mechanical failures. Certification ensures your systems are safe, your team is trained, and your brand is protected.',
+          'The CDC\'s Model Aquatic Health Code (MAHC) provides a science-based framework for water quality in pools, spas, and hot tubs. Certification to this standard ensures your aquatic amenities are safe, compliant, and trusted—anchored in blockchain-verified inspections via StayCertified™.',
+          'Pools and hot tubs are highly visible guest amenities—and among the most scrutinized from a health and safety perspective. The CDC\'s Model Aquatic Health Code (MAHC) offers a national blueprint to prevent waterborne illness outbreaks, drowning risks, and mechanical failures. Certification ensures your systems are safe, your team is trained, and your brand is protected.',
           'MAHC compliance enhances safety, satisfies local inspection benchmarks, reduces liability, and strengthens guest trust. It also supports high scores in sustainability and wellness audits, and can be used in government or international tender bids for leisure-focused facilities.',
           'Improperly maintained aquatic facilities can result in recreational water illness outbreaks, regulatory shutdowns, insurance loss, or severe guest harm. Microbial exposure (e.g., Legionella, Cryptosporidium), improperly balanced pH, or poor visibility due to cloudy water are all critical hazards.',
         ],
@@ -1097,11 +1097,11 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Risk & Non-Compliance Consequences',
-            body: 'Health violations from waterborne illness can trigger lawsuits, regulatory closure, and long-term reputational damage. In some jurisdictions, failure to follow MAHC or ANSI standards can lead to license suspension or denial of permit renewals. Example: A guest at a luxury resort developed Legionnaires’ disease linked to an under-chlorinated spa tub. The property lacked routine MAHC-aligned testing logs. The CDC was involved, resulting in national media coverage, a lawsuit, and permanent reputational damage.',
+            body: 'Health violations from waterborne illness can trigger lawsuits, regulatory closure, and long-term reputational damage. In some jurisdictions, failure to follow MAHC or ANSI standards can lead to license suspension or denial of permit renewals. Example: A guest at a luxury resort developed Legionnaires\' disease linked to an under-chlorinated spa tub. The property lacked routine MAHC-aligned testing logs. The CDC was involved, resulting in national media coverage, a lawsuit, and permanent reputational damage.',
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'Guests expect pristine, safe, and well-maintained pools and hot tubs. Certification reassures families, wellness travelers, and tour operators. Displaying “CDC MAHC-Compliant” QR verifications or posting pool chemical check schedules can increase guest satisfaction and trust. Hotels with water safety claims often outperform peers in OTA wellness filters and gain access to medical or athletic travel partnerships.',
+            body: 'Guests expect pristine, safe, and well-maintained pools and hot tubs. Certification reassures families, wellness travelers, and tour operators. Displaying "CDC MAHC-Compliant" QR verifications or posting pool chemical check schedules can increase guest satisfaction and trust. Hotels with water safety claims often outperform peers in OTA wellness filters and gain access to medical or athletic travel partnerships.',
           },
           {
             title: 'Training & Workforce Development',
@@ -1173,8 +1173,8 @@ export const categories: CertCategory[] = [
         issuingBody: 'American Red Cross, American Heart Association (AHA), or Equivalent National Health Authorities',
         summary: 'Red Cross/AHA CPR Certification for emergency response in hotel wellness facilities.',
         description: [
-          'Red Cross and AHA CPR certification equips hotel wellness staff with lifesaving skills to respond to cardiac arrest, choking, or trauma incidents. It’s more than a credential—it’s a visible promise of guest safety, embedded in StayCertified™ blockchain-verified emergency compliance system.',
-          'Emergencies don’t wait. Whether in the gym, spa, or pool area, sudden cardiac arrest or trauma events demand immediate, skilled action. CPR and AED training gives hotel staff the ability—and legal right—to intervene safely. Certification from the American Red Cross or AHA is recognized globally as the gold standard in medical response preparedness.',
+          'Red Cross and AHA CPR certification equips hotel wellness staff with lifesaving skills to respond to cardiac arrest, choking, or trauma incidents. It\'s more than a credential—it\'s a visible promise of guest safety, embedded in StayCertified™ blockchain-verified emergency compliance system.',
+          'Emergencies don\'t wait. Whether in the gym, spa, or pool area, sudden cardiac arrest or trauma events demand immediate, skilled action. CPR and AED training gives hotel staff the ability—and legal right—to intervene safely. Certification from the American Red Cross or AHA is recognized globally as the gold standard in medical response preparedness.',
           'Certified staff reduce response time, improve guest survival rates, and demonstrate duty-of-care excellence. It also limits hotel liability by showing proactive training and may qualify the property for insurance benefits or reduced premiums.',
           'Inability to respond effectively in an emergency can result in preventable death, legal claims of negligence, negative press, and permanent brand damage. In high-traffic or high-risk areas, lack of CPR-trained staff may also violate local health or hospitality codes.',
         ],
@@ -1201,11 +1201,11 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Risk & Non-Compliance Consequences',
-            body: 'Without CPR/AED training, a hotel can be found negligent in court for failure to provide “reasonable care.” This applies to gyms, spas, pools, and even high-rise or remote resort settings. Example: A wellness resort faced a wrongful death lawsuit after a cardiac arrest incident occurred in the sauna with no CPR-trained staff present. Despite having an AED on-site, its use was delayed. The hotel settled out of court for a seven-figure amount.',
+            body: 'Without CPR/AED training, a hotel can be found negligent in court for failure to provide "reasonable care." This applies to gyms, spas, pools, and even high-rise or remote resort settings. Example: A wellness resort faced a wrongful death lawsuit after a cardiac arrest incident occurred in the sauna with no CPR-trained staff present. Despite having an AED on-site, its use was delayed. The hotel settled out of court for a seven-figure amount.',
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'Safety-savvy guests notice—and care—about emergency preparedness. Displaying “Certified Emergency Responders On-Site” builds guest trust. QR-verifiable signage or discreet badges reinforce brand credibility in wellness spaces. Vital for family travelers, wellness tourism, and corporate clients with duty-of-care standards.',
+            body: 'Safety-savvy guests notice—and care—about emergency preparedness. Displaying "Certified Emergency Responders On-Site" builds guest trust. QR-verifiable signage or discreet badges reinforce brand credibility in wellness spaces. Vital for family travelers, wellness tourism, and corporate clients with duty-of-care standards.',
           },
           {
             title: 'Training & Workforce Development',
@@ -1261,7 +1261,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Training & Workforce Development',
-            body: 'Certified professionals have access to continuing education, earn guest loyalty, and command higher wages. Licensure supports career progression, reduces turnover, and affirms a hotel’s commitment to staff dignity and professional standards. Many luxury hotel brands highlight licensed therapists in loyalty communications and wellness marketing.',
+            body: 'Certified professionals have access to continuing education, earn guest loyalty, and command higher wages. Licensure supports career progression, reduces turnover, and affirms a hotel\'s commitment to staff dignity and professional standards. Many luxury hotel brands highlight licensed therapists in loyalty communications and wellness marketing.',
           },
           {
             title: 'StayCertified Blockchain Application',
@@ -1292,7 +1292,7 @@ export const categories: CertCategory[] = [
         description: [
           'ServSafe, HACCP, and ISO 22000 are the global benchmarks in hotel food safety. These certifications enforce structured systems to prevent contamination, ensure regulatory compliance, and protect both guests and F&B operations from critical health and legal risks.',
           'The Food & Beverage department is one of the most regulated and high-risk areas in hospitality. It directly influences guest trust, brand reputation, and legal standing. Food safety certification ensures that every step—from receiving ingredients to plating meals—is carried out under strict, proven hygiene protocols.',
-          'Certification enables hotels to avoid foodborne illness outbreaks, allergic reactions, cross-contamination, and improper alcohol or allergen handling. It leads to higher guest satisfaction, reduced insurance premiums, audit readiness, and alignment with ESG and wellness standards. It’s also critical for bidding on government contracts or hosting regulated events.',
+          'Certification enables hotels to avoid foodborne illness outbreaks, allergic reactions, cross-contamination, and improper alcohol or allergen handling. It leads to higher guest satisfaction, reduced insurance premiums, audit readiness, and alignment with ESG and wellness standards. It\'s also critical for bidding on government contracts or hosting regulated events.',
           'Failing to implement certified food safety systems can result in facility shutdowns, legal penalties, guest illness, or even death. A single breach—such as incorrect storage temperature or allergen mislabeling—can trigger lawsuits, viral reputational damage, and irreversible loss of trust.',
         ],
         accordionSections: [
@@ -1322,7 +1322,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'Guests associate F&B quality with hotel credibility. Visible certifications, clean kitchens, and confidence in allergen handling build trust. QR-verifiable menus, allergen icons, and certification signage in kitchens or buffet zones signal integrity and elevate perceived value. Food safety is no longer back-of-house—it’s a front-facing brand asset.',
+            body: 'Guests associate F&B quality with hotel credibility. Visible certifications, clean kitchens, and confidence in allergen handling build trust. QR-verifiable menus, allergen icons, and certification signage in kitchens or buffet zones signal integrity and elevate perceived value. Food safety is no longer back-of-house—it\'s a front-facing brand asset.',
           },
           {
             title: 'Training & Workforce Development',
@@ -1342,15 +1342,15 @@ export const categories: CertCategory[] = [
         issuingBody: 'Local / Municipal Health Departments',
         summary: 'Your legal license to serve food safely—certified by local health authorities.',
         description: [
-          'This government-mandated kitchen certification confirms that a hotel’s food service operations meet local health codes for cleanliness, temperature control, waste handling, and facility hygiene. It is a legal prerequisite to operating and a frontline shield against foodborne illness and regulatory sanctions.',
-          'This is the core operational license for food service within a hotel. Without it, no food can legally be prepared or served. It encompasses sanitation, equipment standards, waste disposal, pest control, employee hygiene, and more. This certification is your hotel’s first line of regulatory defense—and the baseline proof that your kitchen is fit for service.',
+          'This government-mandated kitchen certification confirms that a hotel\'s food service operations meet local health codes for cleanliness, temperature control, waste handling, and facility hygiene. It is a legal prerequisite to operating and a frontline shield against foodborne illness and regulatory sanctions.',
+          'This is the core operational license for food service within a hotel. Without it, no food can legally be prepared or served. It encompasses sanitation, equipment standards, waste disposal, pest control, employee hygiene, and more. This certification is your hotel\'s first line of regulatory defense—and the baseline proof that your kitchen is fit for service.',
           'Passing a health inspection means your kitchen meets local laws, avoids fines, and can operate without interruption. It supports brand reputation, enables participation in high-profile events, and reinforces food safety certifications like ServSafe and HACCP. It also boosts confidence for guests, investors, and procurement officers.',
           'Operating without this certification—or failing an inspection—can result in immediate kitchen shutdowns, penalties, revoked licenses, and reputational crises. Repeat violations often make headlines, affecting bookings and brand trust. In severe cases, criminal charges may apply.',
         ],
         accordionSections: [
           {
             title: 'Purpose of the Certification',
-            body: 'To certify that a hotel’s food service operations meet public health requirements as set by local or regional health codes, ensuring food safety and sanitation at all times.',
+            body: 'To certify that a hotel\'s food service operations meet public health requirements as set by local or regional health codes, ensuring food safety and sanitation at all times.',
           },
           {
             title: 'Core Requirements & Protocols',
@@ -1370,15 +1370,15 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Risk & Non-Compliance Consequences',
-            body: 'Failure to maintain health department certification is not optional—it’s existential. A failed inspection often leads to red-tagging (closure), fines, retraining mandates, and potential food poisoning claims. Example: A resort in Florida had to cancel 11 weddings after a surprise inspection found expired food, mold in storage units, and rodent droppings in a prep area. The kitchen lost its health certification, and the resort lost $1.3M in revenue and suffered national media fallout.',
+            body: 'Failure to maintain health department certification is not optional—it\'s existential. A failed inspection often leads to red-tagging (closure), fines, retraining mandates, and potential food poisoning claims. Example: A resort in Florida had to cancel 11 weddings after a surprise inspection found expired food, mold in storage units, and rodent droppings in a prep area. The kitchen lost its health certification, and the resort lost $1.3M in revenue and suffered national media fallout.',
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'Guests don’t see the certificate—but they feel the effects. Health department clearance ensures their meals are prepared in safe, hygienic environments. Properties that promote their compliance—via QR-coded posters or integrated menu statements—build trust with conscious travelers and meeting planners. It also supports ESG, wellness, and corporate hospitality narratives by demonstrating that cleanliness and food integrity are non-negotiable.',
+            body: 'Guests don\'t see the certificate—but they feel the effects. Health department clearance ensures their meals are prepared in safe, hygienic environments. Properties that promote their compliance—via QR-coded posters or integrated menu statements—build trust with conscious travelers and meeting planners. It also supports ESG, wellness, and corporate hospitality narratives by demonstrating that cleanliness and food integrity are non-negotiable.',
           },
           {
             title: 'Training & Workforce Development',
-            body: 'While the certification itself is issued to the facility, passing the inspection depends on every team member’s behavior. Ongoing sanitation training, documentation drills, and SOP refreshers are required. Certified kitchens often use LMS platforms to track team awareness and inspection results. Staff trained under health department compliance protocols show higher accountability, lower absenteeism due to workplace illnesses, and smoother onboarding.',
+            body: 'While the certification itself is issued to the facility, passing the inspection depends on every team member\'s behavior. Ongoing sanitation training, documentation drills, and SOP refreshers are required. Certified kitchens often use LMS platforms to track team awareness and inspection results. Staff trained under health department compliance protocols show higher accountability, lower absenteeism due to workplace illnesses, and smoother onboarding.',
           },
           {
             title: 'StayCertified Blockchain Application',
@@ -1389,13 +1389,13 @@ export const categories: CertCategory[] = [
       {
         slug: 'allergen-awareness-training',
         title: 'Allergen Awareness Training',
-        heroTitle: 'Certified Allergen Awareness: Because one bite shouldn’t be fatal',
+        heroTitle: 'Certified Allergen Awareness: Because one bite shouldn\'t be fatal',
         fullTitle: 'Allergen Awareness Training: Protecting Every Plate—and Every Guest',
         issuingBody: 'FARE (Food Allergy Research & Education), MenuTrinfo',
         summary: 'Certifies that hotel F&B teams can identify allergenic ingredients, prevent cross-contact, and communicate clearly with guests.',
         description: [
           'Allergen Awareness Training certifies that hotel F&B teams can identify allergenic ingredients, prevent cross-contact, and communicate clearly with guests about food risks. It transforms kitchen safety from a reactive measure into a proactive, guest-facing advantage—grounded in legal and medical necessity.',
-          'Food allergies are not dietary preferences—they’re potentially life-threatening medical conditions. One error can send a guest to the hospital or cost a hotel its reputation. Allergen Awareness Training arms your team with the skills, vigilance, and procedures needed to manage allergenic ingredients from prep line to plate.',
+          'Food allergies are not dietary preferences—they\'re potentially life-threatening medical conditions. One error can send a guest to the hospital or cost a hotel its reputation. Allergen Awareness Training arms your team with the skills, vigilance, and procedures needed to manage allergenic ingredients from prep line to plate.',
           'This training empowers staff to safely serve millions of guests who live with food allergies or intolerances. It reduces legal exposure, satisfies health code requirements, and is often mandated for corporate and school catering. It also creates a more inclusive guest experience—especially important for families and business travelers with known allergens.',
         ],
         accordionSections: [
@@ -1409,7 +1409,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Applicable Frameworks',
-            body: 'FARE Guidelines, U.S. FDA Food Allergen Labeling and Consumer Protection Act (FALCPA), EU FIC Regulation No. 1169/2011, and MenuTrinfo’s AllerTrain program.',
+            body: 'FARE Guidelines, U.S. FDA Food Allergen Labeling and Consumer Protection Act (FALCPA), EU FIC Regulation No. 1169/2011, and MenuTrinfo\'s AllerTrain program.',
           },
           {
             title: 'Role & Responsibility Mapping',
@@ -1429,11 +1429,11 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Training & Workforce Development',
-            body: 'Programs like FARE’s ServSafe Allergens or MenuTrinfo’s AllerTrain provide digital and instructor-led formats with multilingual support. Hotel LMS platforms can track completions and prompt renewals. Certified staff are viewed as hospitality professionals—not just food handlers. It increases morale, reduces mistakes, and enhances team accountability during high-pressure service windows.',
+            body: 'Programs like FARE\'s ServSafe Allergens or MenuTrinfo\'s AllerTrain provide digital and instructor-led formats with multilingual support. Hotel LMS platforms can track completions and prompt renewals. Certified staff are viewed as hospitality professionals—not just food handlers. It increases morale, reduces mistakes, and enhances team accountability during high-pressure service windows.',
           },
           {
             title: 'StayCertified Blockchain Application',
-            body: 'Allergen Awareness Training certifies hotel F&B staff to safely manage food allergens and prevent life-threatening mistakes. It protects guests, reduces legal exposure, and enhances your brand’s trustworthiness—backed by blockchain-based verification that proves your team is prepared, not just trained.',
+            body: 'Allergen Awareness Training certifies hotel F&B staff to safely manage food allergens and prevent life-threatening mistakes. It protects guests, reduces legal exposure, and enhances your brand\'s trustworthiness—backed by blockchain-based verification that proves your team is prepared, not just trained.',
           },
         ],
       },
@@ -1445,8 +1445,8 @@ export const categories: CertCategory[] = [
         issuingBody: 'Health Communications, Inc. (HCI)',
         summary: 'TIPS Certification ensures hotel food and beverage staff are trained in the responsible service of alcohol.',
         description: [
-          'TIPS Certification ensures hotel food and beverage staff are trained in the responsible service of alcohol—mitigating legal, safety, and reputational risks. It’s essential for venues serving alcohol, from lobby bars to banquet halls.',
-          'Hotels are increasingly held accountable for what happens when a guest is served alcohol on-premises. Whether it’s a wedding bar, rooftop lounge, or minibar, improper service can lead to intoxication, injury, and lawsuits. TIPS Certification provides your staff with the knowledge and confidence to intervene, verify IDs, and serve safely—while keeping your liquor license protected.',
+          'TIPS Certification ensures hotel food and beverage staff are trained in the responsible service of alcohol—mitigating legal, safety, and reputational risks. It\'s essential for venues serving alcohol, from lobby bars to banquet halls.',
+          'Hotels are increasingly held accountable for what happens when a guest is served alcohol on-premises. Whether it\'s a wedding bar, rooftop lounge, or minibar, improper service can lead to intoxication, injury, and lawsuits. TIPS Certification provides your staff with the knowledge and confidence to intervene, verify IDs, and serve safely—while keeping your liquor license protected.',
           'It reduces alcohol-related incidents, aligns your operation with legal requirements, and minimizes the risk of litigation from third-party claims. Certified hotels often receive discounts on liability insurance and are favored by corporate, group, and wedding planners seeking compliant venues. It also empowers staff with scripts, scenarios, and escalation paths.',
           'Failure to train F&B teams may result in overserving intoxicated guests, underage sales, and alcohol-fueled accidents or fatalities. These can lead to criminal charges, civil suits, suspension or loss of a liquor license, and long-term brand damage. In many jurisdictions, untrained service constitutes negligence.',
         ],
@@ -1497,8 +1497,8 @@ export const categories: CertCategory[] = [
         issuingBody: 'Halal: IFANCA (Islamic Food and Nutrition Council of America), JAKIM (Malaysia), ESMA (UAE), and Others. Kosher: Orthodox Union (OU), OK Kosher, KOF-K, and Regional Rabbinical Councils',
         summary: 'Ensures hotel food handling, ingredients, and preparation comply with Islamic and Jewish dietary laws.',
         description: [
-          'Halal and Kosher certifications ensure that a hotel’s food handling, ingredients, sourcing, and preparation are compliant with Islamic and Jewish dietary laws. These credentials enhance guest inclusion, trust, and cultural respect.',
-          'Today’s global travelers expect hotels to not only acknowledge—but actively accommodate—religious dietary needs. Halal and Kosher certifications are not optional for inclusion; they are a legal and spiritual standard for serving observant Muslim and Jewish guests. Without them, properties risk alienating a significant market segment and violating trust.',
+          'Halal and Kosher certifications ensure that a hotel\'s food handling, ingredients, sourcing, and preparation are compliant with Islamic and Jewish dietary laws. These credentials enhance guest inclusion, trust, and cultural respect.',
+          'Today\'s global travelers expect hotels to not only acknowledge—but actively accommodate—religious dietary needs. Halal and Kosher certifications are not optional for inclusion; they are a legal and spiritual standard for serving observant Muslim and Jewish guests. Without them, properties risk alienating a significant market segment and violating trust.',
           'Certification enables access to corporate, diplomatic, and religious travel bookings that require verified dietary compliance. It also expands banquet and event reach, improves OTA listings, and positions a hotel as globally inclusive. Halal and Kosher kitchens also often exceed typical hygiene and traceability requirements, enhancing overall food quality and accountability.',
         ],
         accordionSections: [
@@ -1520,15 +1520,15 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Operational Impact',
-            body: 'This certification requires procedural precision. It may necessitate dedicated storage, cookware, or prep zones—ensuring that compliance isn’t just theoretical, but physically traceable. It strengthens documentation, supplier verification, and cross-departmental awareness from culinary to purchasing. It also opens doors to certified menus, religious events, and inclusion in faith-based travel programs.',
+            body: 'This certification requires procedural precision. It may necessitate dedicated storage, cookware, or prep zones—ensuring that compliance isn\'t just theoretical, but physically traceable. It strengthens documentation, supplier verification, and cross-departmental awareness from culinary to purchasing. It also opens doors to certified menus, religious events, and inclusion in faith-based travel programs.',
           },
           {
             title: 'Risk & Non-Compliance Consequences',
-            body: 'Improperly claiming Halal/Kosher status—without certification—can lead to legal action under food fraud statutes. It also risks offending religious communities and triggering boycotts or reputational backlash. Example: A resort group lost a five-year MICE contract after a Kosher-certified delegation discovered non-certified sourcing during an event. A social media post went viral. The hotel was publicly removed from the client’s approved list across all destinations.',
+            body: 'Improperly claiming Halal/Kosher status—without certification—can lead to legal action under food fraud statutes. It also risks offending religious communities and triggering boycotts or reputational backlash. Example: A resort group lost a five-year MICE contract after a Kosher-certified delegation discovered non-certified sourcing during an event. A social media post went viral. The hotel was publicly removed from the client\'s approved list across all destinations.',
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'This certification sends a powerful message: “We see you, we respect you, and we’re prepared for you.” Guests can dine with confidence, knowing their spiritual values are honored through transparent, certified practice. Visible signage, digital menus with certifying body logos, and staff trained in religious dietary etiquette elevate hospitality from service to stewardship.',
+            body: 'This certification sends a powerful message: "We see you, we respect you, and we\'re prepared for you." Guests can dine with confidence, knowing their spiritual values are honored through transparent, certified practice. Visible signage, digital menus with certifying body logos, and staff trained in religious dietary etiquette elevate hospitality from service to stewardship.',
           },
           {
             title: 'Training & Workforce Development',
@@ -1543,13 +1543,13 @@ export const categories: CertCategory[] = [
       {
         slug: 'pest-control',
         title: 'Pest Control Certification',
-        heroTitle: 'Pests don’t just Spread Disease —they Destroy Reputations',
+        heroTitle: 'Pests don\'t just Spread Disease —they Destroy Reputations',
         fullTitle: 'Pest Control Certification: Required Licensing for Safe and Compliant Kitchens',
         issuingBody: 'State or Local Health Department | Department of Agriculture | Certified Pest Management Agencies',
         summary: 'Required licensing for safe and compliant hotel kitchens.',
         description: [
           'The Pest Control Certification is a government-issued license authorizing the safe and legal treatment of pest threats in food service areas. It prevents infestation, supports inspection readiness, and protects hotel guests and operations.',
-          'Rodents, cockroaches, and flying insects aren’t just nuisances—they’re vectors of disease and legal risk. In F&B areas, a single pest sighting can trigger a health department shutdown, damage your brand, or result in guest exposure. Certification ensures that only qualified, licensed professionals manage pest prevention and elimination within your food zones, using methods that meet food safety and environmental standards.',
+          'Rodents, cockroaches, and flying insects aren\'t just nuisances—they\'re vectors of disease and legal risk. In F&B areas, a single pest sighting can trigger a health department shutdown, damage your brand, or result in guest exposure. Certification ensures that only qualified, licensed professionals manage pest prevention and elimination within your food zones, using methods that meet food safety and environmental standards.',
           'Certified pest control improves cleanliness scores, supports HACCP compliance, and mitigates operational risk. It enables proactive inspections, data logging, and root cause analysis for recurring issues. Hotels with current certification gain favor with health inspectors, insurers, and guests who demand verifiable hygiene in dining environments.',
         ],
         accordionSections: [
@@ -1614,7 +1614,7 @@ export const categories: CertCategory[] = [
         summary: 'Gold-standard hospitality techniques, from personalized greetings to recovery scripting.',
         description: [
           'Forbes Travel Guide and AAA Diamond service training equips hotel teams with gold-standard hospitality techniques, from personalized greetings to recovery scripting. Certification elevates brand reputation and is auditable through StayCertified™ blockchain system for trust and consistency.',
-          'In the hotel business, perception is performance. Forbes Travel Guide and AAA Diamond ratings shape global traveler expectations, OTA rankings, and brand status. Their service training programs don’t just teach manners—they install measurable, teachable standards of warmth, anticipation, and trust-building. Certification in these systems is a mark of consistent excellence in guest-facing teams.',
+          'In the hotel business, perception is performance. Forbes Travel Guide and AAA Diamond ratings shape global traveler expectations, OTA rankings, and brand status. Their service training programs don\'t just teach manners—they install measurable, teachable standards of warmth, anticipation, and trust-building. Certification in these systems is a mark of consistent excellence in guest-facing teams.',
           'Hotels that implement Forbes or AAA service training report higher guest satisfaction, improved review scores, and stronger repeat bookings. These certifications provide competitive leverage in luxury segments, reinforce internal brand culture, and prepare staff to handle high-stakes moments with grace and polish.',
           'Untrained staff can undermine otherwise impeccable hotel assets. Poor greetings, tone mismatches, or inadequate problem-solving often appear in negative guest reviews and lead to falling loyalty program performance. In luxury tiers, this can cost properties their star or diamond designation—impacting pricing power and OTA prominence.',
         ],
@@ -1625,7 +1625,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Core Requirements & Protocols',
-            body: 'Greeting, tone of voice, guest name use, service recovery scripting, upselling etiquette, phone handling, anticipatory service, emotional intelligence, complaint de-escalation, and luxury-standard behaviors (e.g., “show, don’t point”).',
+            body: 'Greeting, tone of voice, guest name use, service recovery scripting, upselling etiquette, phone handling, anticipatory service, emotional intelligence, complaint de-escalation, and luxury-standard behaviors (e.g., "show, don\'t point").',
           },
           {
             title: 'Applicable Frameworks',
@@ -1645,7 +1645,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'Guests expect pristine, safe, and well-maintained pools and hot tubs. Certification reassures families, wellness travelers, and tour operators. Displaying “CDC MAHC-Compliant” QR verifications or posting pool chemical check schedules can increase guest satisfaction and trust. These certifications are visible to guests and often directly influence booking decisions. QR-verified training badges, scripted guest journeys, and review-linked service dashboards show a commitment to excellence. Forbes-aligned hotels are booked for experiences—not just rooms. For loyalty program guests, consistent elite service becomes part of the value promise.',
+            body: 'Guests expect pristine, safe, and well-maintained pools and hot tubs. Certification reassures families, wellness travelers, and tour operators. Displaying "CDC MAHC-Compliant" QR verifications or posting pool chemical check schedules can increase guest satisfaction and trust. These certifications are visible to guests and often directly influence booking decisions. QR-verified training badges, scripted guest journeys, and review-linked service dashboards show a commitment to excellence. Forbes-aligned hotels are booked for experiences—not just rooms. For loyalty program guests, consistent elite service becomes part of the value promise.',
           },
           {
             title: 'Training & Workforce Development',
@@ -1689,7 +1689,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Operational Impact',
-            body: 'Strengthens digital hygiene across systems and behaviors. Enables seamless payment integration, reduces legal review cycles for partnerships, and ensures faster passage of security audits from OTAs or corporate clients. Creates a culture of “data-as-dignity” inside front-line operations. Saves cost by preventing re-dosing errors, reducing water waste, and ensuring efficient system uptime across aquatic assets.',
+            body: 'Strengthens digital hygiene across systems and behaviors. Enables seamless payment integration, reduces legal review cycles for partnerships, and ensures faster passage of security audits from OTAs or corporate clients. Creates a culture of "data-as-dignity" inside front-line operations. Saves cost by preventing re-dosing errors, reducing water waste, and ensuring efficient system uptime across aquatic assets.',
           },
           {
             title: 'Risk & Non-Compliance Consequences',
@@ -1697,7 +1697,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'Guests expect pristine, safe, and well-maintained pools and hot tubs. Certification reassures families, wellness travelers, and tour operators. Displaying “CDC MAHC-Compliant” QR verifications or posting pool chemical check schedules can increase guest satisfaction and trust. In an era of digital suspicion, hotels that visibly respect privacy earn trust. PCI/GDPR/CCPA signage, consent screens, and staff who handle data discreetly and professionally are powerful differentiators. Guests feel seen and secure—without sacrificing personalization. QR-linked “Guest Data Safe” verification builds confidence, especially for corporate, VIP, or privacy-sensitive guests.',
+            body: 'Guests expect pristine, safe, and well-maintained pools and hot tubs. Certification reassures families, wellness travelers, and tour operators. Displaying "CDC MAHC-Compliant" QR verifications or posting pool chemical check schedules can increase guest satisfaction and trust. In an era of digital suspicion, hotels that visibly respect privacy earn trust. PCI/GDPR/CCPA signage, consent screens, and staff who handle data discreetly and professionally are powerful differentiators. Guests feel seen and secure—without sacrificing personalization. QR-linked "Guest Data Safe" verification builds confidence, especially for corporate, VIP, or privacy-sensitive guests.',
           },
           {
             title: 'Training & Workforce Development',
@@ -1718,8 +1718,8 @@ export const categories: CertCategory[] = [
         summary: 'Verifies that hotel staff possess communication skills to interact with guests in non-native languages.',
         description: [
           'Language Proficiency Certification verifies that hotel staff meet internationally recognized fluency benchmarks—CEFR or ACTFL—enabling high-quality multilingual guest service. This credential supports accessibility, guest satisfaction, and inclusive hospitality worldwide.',
-          'In today’s global hospitality landscape, linguistic fluency isn’t just a soft skill—it’s a strategic advantage. Guests expect clear, culturally sensitive communication at check-in, during concierge services, or when seeking emergency assistance. Language certification through ACTFL or CEFR provides objective, standardized assessment of staff fluency. It proves to both guests and regulators that your team is prepared to serve across languages and borders.',
-          'Hotels gain the ability to match multilingual guests with staff who are verified to perform at the required level of fluency—whether it’s conversational Spanish, fluent French, or technical Japanese. This improves service accuracy, inclusivity, and international brand appeal. It also supports partnerships with global travel providers, government delegations, and events requiring verified translation capability.',
+          'In today\'s global hospitality landscape, linguistic fluency isn\'t just a soft skill—it\'s a strategic advantage. Guests expect clear, culturally sensitive communication at check-in, during concierge services, or when seeking emergency assistance. Language certification through ACTFL or CEFR provides objective, standardized assessment of staff fluency. It proves to both guests and regulators that your team is prepared to serve across languages and borders.',
+          'Hotels gain the ability to match multilingual guests with staff who are verified to perform at the required level of fluency—whether it\'s conversational Spanish, fluent French, or technical Japanese. This improves service accuracy, inclusivity, and international brand appeal. It also supports partnerships with global travel providers, government delegations, and events requiring verified translation capability.',
           'Miscommunications due to language barriers can lead to guest frustration, misbookings, complaints, poor reviews, or even legal issues in emergency contexts. Overstating language ability on resumes without certification has resulted in service failures and brand damage, especially during high-pressure scenarios like medical crises or diplomatic visits.',
         ],
         accordionSections: [
@@ -1749,7 +1749,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'Guests expect pristine, safe, and well-maintained pools and hot tubs. Certification reassures families, wellness travelers, and tour operators. Displaying “CDC MAHC-Compliant” QR verifications or posting pool chemical check schedules can increase guest satisfaction and trust. Language fluency is one of the most visible markers of personalized hospitality. Guests feel welcomed and respected when addressed in their language—especially during arrival, assistance, or high-stress moments. Certifications displayed on lanyards or profile boards instill trust and admiration. Guest reviews consistently highlight language-inclusive service as a key differentiator in loyalty and booking preference.',
+            body: 'Guests expect pristine, safe, and well-maintained pools and hot tubs. Certification reassures families, wellness travelers, and tour operators. Displaying "CDC MAHC-Compliant" QR verifications or posting pool chemical check schedules can increase guest satisfaction and trust. Language fluency is one of the most visible markers of personalized hospitality. Guests feel welcomed and respected when addressed in their language—especially during arrival, assistance, or high-stress moments. Certifications displayed on lanyards or profile boards instill trust and admiration. Guest reviews consistently highlight language-inclusive service as a key differentiator in loyalty and booking preference.',
           },
           {
             title: 'Training & Workforce Development',
@@ -1785,11 +1785,11 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Applicable Frameworks',
-            body: 'The Code’s 6 Criteria (ECPAT), UNCRC (United Nations Convention on the Rights of the Child), UNWTO Global Code of Ethics for Tourism, OECD Due Diligence Guidance for Responsible Business Conduct.',
+            body: 'The Code\'s 6 Criteria (ECPAT), UNCRC (United Nations Convention on the Rights of the Child), UNWTO Global Code of Ethics for Tourism, OECD Due Diligence Guidance for Responsible Business Conduct.',
           },
           {
             title: 'Role & Responsibility Mapping',
-            body: 'Hotel Job Titles Affected: Front Desk Staff, Concierge, Bell Staff, Housekeeping Supervisors, Security Teams, Guest Services Management, Night Audit/Managers on Duty. Why These Roles Are Involved: They are often the first to observe unusual booking behaviors, adult-minor dynamics, or requests that raise red flags. Empowering them with protocol ensures safety, legality, and appropriate action. Training Requirements: Completion of The Code’s training modules (online or onsite), annual refreshers, internal SOP adoption, and incorporation into onboarding for all new hires.',
+            body: 'Hotel Job Titles Affected: Front Desk Staff, Concierge, Bell Staff, Housekeeping Supervisors, Security Teams, Guest Services Management, Night Audit/Managers on Duty. Why These Roles Are Involved: They are often the first to observe unusual booking behaviors, adult-minor dynamics, or requests that raise red flags. Empowering them with protocol ensures safety, legality, and appropriate action. Training Requirements: Completion of The Code\'s training modules (online or onsite), annual refreshers, internal SOP adoption, and incorporation into onboarding for all new hires.',
           },
           {
             title: 'Operational Impact',
@@ -1801,7 +1801,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'Today’s guests, especially Millennials and Gen Z travelers, expect ethical operations. Displaying The Code’s participation in lobbies or check-in areas increases trust and emotional alignment. Travel consortia and B2B buyers increasingly select hotels with anti-trafficking protocols in place. Blockchain-backed QR codes offer verifiable guest assurance of anti-exploitation measures.',
+            body: 'Today\'s guests, especially Millennials and Gen Z travelers, expect ethical operations. Displaying The Code\'s participation in lobbies or check-in areas increases trust and emotional alignment. Travel consortia and B2B buyers increasingly select hotels with anti-trafficking protocols in place. Blockchain-backed QR codes offer verifiable guest assurance of anti-exploitation measures.',
           },
           {
             title: 'Training & Workforce Development',
@@ -1821,22 +1821,22 @@ export const categories: CertCategory[] = [
     navLabel: 'Housekeeping',
     heroTagline: 'Standards that Safeguard. Hygiene. Safety. Reputation.',
     description: [
-      ‘Housekeeping blockchain certifications protect guests and staff, boost ratings, and secure contracts. StayCertified\u2122 showcases the standards that safeguard hygiene, safety, and your hotel\u2019s reputation.’,
-      ‘The Guest Rooms & Housekeeping department plays a pivotal role in defining a hotel\u2019s cleanliness standards, brand perception, and guest well-being. It is often the most visible and routinely assessed area by guests and inspectors alike. Certifications in this category—such as sanitation (ISSA CIMS-GB), infection control (GBAC STAR), chemical safety (OSHA HAZCOM), bed bug prevention (NPMA), and occupational hygiene (NIOSH)—are essential to ensure both guest safety and staff health.’,
-      ‘Proper compliance ensures effective disease prevention, allergen control, pest mitigation, and safe handling of cleaning agents and equipment. The benefits of maintaining certified standards in housekeeping include improved guest satisfaction scores, reduced liability, extended asset life, and increased staff confidence and efficiency.’,
-      ‘In contrast, neglecting these standards can lead to negative reviews, health code violations, workplace injuries, and long-term reputational damage. For hotels operating in high-traffic, luxury, or government-regulated environments, certification is not just advisable—it is critical for operational legitimacy, contract eligibility, and the prevention of hazardous or unsanitary conditions. These certifications are the frontline defense for hygiene, safety, and brand integrity.’,
+      'Housekeeping blockchain certifications protect guests and staff, boost ratings, and secure contracts. StayCertified\u2122 showcases the standards that safeguard hygiene, safety, and your hotel\u2019s reputation.',
+      'The Guest Rooms & Housekeeping department plays a pivotal role in defining a hotel\u2019s cleanliness standards, brand perception, and guest well-being. It is often the most visible and routinely assessed area by guests and inspectors alike. Certifications in this category—such as sanitation (ISSA CIMS-GB), infection control (GBAC STAR), chemical safety (OSHA HAZCOM), bed bug prevention (NPMA), and occupational hygiene (NIOSH)—are essential to ensure both guest safety and staff health.',
+      'Proper compliance ensures effective disease prevention, allergen control, pest mitigation, and safe handling of cleaning agents and equipment. The benefits of maintaining certified standards in housekeeping include improved guest satisfaction scores, reduced liability, extended asset life, and increased staff confidence and efficiency.',
+      'In contrast, neglecting these standards can lead to negative reviews, health code violations, workplace injuries, and long-term reputational damage. For hotels operating in high-traffic, luxury, or government-regulated environments, certification is not just advisable—it is critical for operational legitimacy, contract eligibility, and the prevention of hazardous or unsanitary conditions. These certifications are the frontline defense for hygiene, safety, and brand integrity.',
     ],
     certifications: [
       {
-        slug: ‘gbac-star’,
+        slug: 'gbac-star',
         title: 'GBAC STAR Accreditation',
         heroTitle: 'GBAC STAR: Verified​ Infection Control for Hotels that Prioritize Guest Safety',
         fullTitle: 'GBAC STAR Facility Accreditation',
         issuingBody: 'Global Biorisk Advisory Council (GBAC), a Division of ISSA',
         summary: 'Verified cleaning, disinfection, and infectious disease prevention for hotel operations.',
         description: [
-          'GBAC STAR certifies that a hotel’s facility adheres to the highest global standards for infection control. It provides an auditable system of cleaning, disinfection, and outbreak preparedness—trusted by guests, regulators, and institutional partners.',
-          'Infection control has become a baseline expectation, not a luxury. GBAC STAR sets the international benchmark for ensuring hotels are prepared for bio-risk threats—from seasonal viruses to global pandemics. This is not a one-time protocol—it’s an operational mindset woven into SOPs, training, and daily service.',
+          'GBAC STAR certifies that a hotel\'s facility adheres to the highest global standards for infection control. It provides an auditable system of cleaning, disinfection, and outbreak preparedness—trusted by guests, regulators, and institutional partners.',
+          'Infection control has become a baseline expectation, not a luxury. GBAC STAR sets the international benchmark for ensuring hotels are prepared for bio-risk threats—from seasonal viruses to global pandemics. This is not a one-time protocol—it\'s an operational mindset woven into SOPs, training, and daily service.',
           'GBAC STAR enhances credibility with travelers, travel platforms, public health authorities, and insurance providers. It supports readiness for health crises, boosts confidence in housekeeping operations, and enables hotels to meet or exceed guest expectations around hygiene and safety.',
           'Failure to adopt certified bio-risk standards exposes hotels to guest illness, operational shutdowns, negative media exposure, and reputational collapse. In the event of an outbreak, non-accredited properties face severe scrutiny and legal risk—especially if protocols were absent or undocumented.',
         ],
@@ -1888,7 +1888,7 @@ export const categories: CertCategory[] = [
         summary: 'The green standard for cleaning industry management in hotel operations.',
         description: [
           'ISSA CIMS-GB is the definitive green certification for hotel housekeeping operations. It validates sustainable cleaning practices, performance systems, and environmental compliance—building trust with guests, regulators, and ESG-conscious stakeholders.',
-          'Housekeeping is a guest’s first point of contact with hotel hygiene and sustainability. CIMS-GB ensures that this frontline service not only meets cleanliness standards but also advances environmental responsibility. As LEED-aligned and widely adopted in green building protocols, it’s essential for modern, climate-conscious hospitality operations.',
+          'Housekeeping is a guest\'s first point of contact with hotel hygiene and sustainability. CIMS-GB ensures that this frontline service not only meets cleanliness standards but also advances environmental responsibility. As LEED-aligned and widely adopted in green building protocols, it\'s essential for modern, climate-conscious hospitality operations.',
           'CIMS-GB enhances operational efficiency, reduces chemical and water use, and supports government bids requiring green certification. It adds weight to corporate ESG initiatives and differentiates brands in eco-conscious markets. Guests benefit from a healthier in-room environment, while staff benefit from safer working conditions and better procedures.',
           'Without sustainable sanitation protocols, hotels risk overuse of toxic products, excess waste, regulatory scrutiny, and negative sustainability audits. In a market driven by eco-ratings and transparency, non-certified operations may lose out on green traveler segments and premium OTA listings.',
         ],
@@ -1903,7 +1903,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Applicable Frameworks',
-            body: 'Aligned with U.S. Green Building Council’s LEED-EBOM standards, ESG benchmarks, and ISO 14001 environmental management principles.',
+            body: 'Aligned with U.S. Green Building Council\'s LEED-EBOM standards, ESG benchmarks, and ISO 14001 environmental management principles.',
           },
           {
             title: 'Role & Responsibility Mapping',
@@ -1919,7 +1919,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'Guests increasingly seek verified eco-conscious experiences. CIMS-GB certification is proof that a hotel doesn’t just talk about sustainability—it builds it into the fabric of the guest experience. Cleaner air, safer rooms, and visible green practices support wellness, reputation, and review scores. QR-verifiable signage on cleaning carts and in guest rooms communicates that sustainability is active, not just advertised.',
+            body: 'Guests increasingly seek verified eco-conscious experiences. CIMS-GB certification is proof that a hotel doesn\'t just talk about sustainability—it builds it into the fabric of the guest experience. Cleaner air, safer rooms, and visible green practices support wellness, reputation, and review scores. QR-verifiable signage on cleaning carts and in guest rooms communicates that sustainability is active, not just advertised.',
           },
           {
             title: 'Training & Workforce Development',
@@ -1991,8 +1991,8 @@ export const categories: CertCategory[] = [
         issuingBody: 'National Pest Management Association (NPMA)',
         summary: 'Verified bed bug identification, prevention, and response training for hotel staff.',
         description: [
-          'NPMA Bed Bug Training certifies hotel staff to detect, report, and resolve infestations before they escalate. It’s a frontline defense for guest safety, operational continuity, and brand integrity. Fully verifiable via blockchain, this training transforms risk into readiness—and promises into proof.',
-          'Bed bugs are one of the most damaging and visible pests in hospitality. Even a single review or guest complaint tied to an infestation can devastate a property’s reputation and revenue. NPMA’s Bed Bug Training transforms your staff into a first line of defense—equipped to detect issues early, escalate fast, and follow proven protocols to eliminate risk',
+          'NPMA Bed Bug Training certifies hotel staff to detect, report, and resolve infestations before they escalate. It\'s a frontline defense for guest safety, operational continuity, and brand integrity. Fully verifiable via blockchain, this training transforms risk into readiness—and promises into proof.',
+          'Bed bugs are one of the most damaging and visible pests in hospitality. Even a single review or guest complaint tied to an infestation can devastate a property\'s reputation and revenue. NPMA\'s Bed Bug Training transforms your staff into a first line of defense—equipped to detect issues early, escalate fast, and follow proven protocols to eliminate risk',
           'This certification lowers infestation risk, reduces revenue loss from quarantined rooms, and ensures early intervention before guests are impacted. It enhances cross-functional accountability between housekeeping, maintenance, and pest control vendors. Properties also gain leverage in insurance negotiations and maintain OTA listings with cleanliness standards.',
           'Hotels without trained staff risk delayed identification, unchecked outbreaks, and public backlash. Online reviews, lawsuits, guest injuries, and emergency room visits tied to bed bugs have resulted in millions in settlements and long-term reputational loss for unprepared properties.',
         ],
@@ -2019,15 +2019,15 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Risk & Non-Compliance Consequences',
-            body: 'Failure to train staff often results in unnoticed spread across rooms and floors. Guest complaints quickly escalate online, with properties labeled as “infested,” “unhygienic,” or “unsafe.” Once listed, reputational recovery can take years. Example: A New York hotel faced \\$450K in lost bookings after a viral post exposed a weeklong undetected bed bug infestation. Court proceedings revealed a lack of certified training, which worsened liability and damages.',
+            body: 'Failure to train staff often results in unnoticed spread across rooms and floors. Guest complaints quickly escalate online, with properties labeled as "infested," "unhygienic," or "unsafe." Once listed, reputational recovery can take years. Example: A New York hotel faced \\$450K in lost bookings after a viral post exposed a weeklong undetected bed bug infestation. Court proceedings revealed a lack of certified training, which worsened liability and damages.',
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'A certified bed bug protocol is invisible when done right—and unforgettable when ignored. Visible signage stating “Rooms inspected by NPMA-trained staff” or StayCertified™ Blockchain traceability adds confidence for sensitive or high-value guests. The training signals that the hotel isn’t just reactive—it’s prepared. That foresight enhances loyalty, lowers churn, and turns safety into a competitive differentiator.',
+            body: 'A certified bed bug protocol is invisible when done right—and unforgettable when ignored. Visible signage stating "Rooms inspected by NPMA-trained staff" or StayCertified™ Blockchain traceability adds confidence for sensitive or high-value guests. The training signals that the hotel isn\'t just reactive—it\'s prepared. That foresight enhances loyalty, lowers churn, and turns safety into a competitive differentiator.',
           },
           {
             title: 'Training & Workforce Development',
-            body: 'Delivered via NPMA’s training platform or approved hospitality LMS providers, this program includes image libraries, role-based scenarios, and multilingual modules. Certified staff feel empowered, respected, and competent. This boosts morale, lowers turnover, and positions frontline roles as critical contributors to the hotel’s reputation and risk strategy.',
+            body: 'Delivered via NPMA\'s training platform or approved hospitality LMS providers, this program includes image libraries, role-based scenarios, and multilingual modules. Certified staff feel empowered, respected, and competent. This boosts morale, lowers turnover, and positions frontline roles as critical contributors to the hotel\'s reputation and risk strategy.',
           },
           {
             title: 'StayCertified Blockchain Application',
@@ -2085,7 +2085,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Risk & Non-Compliance Consequences',
-            body: 'Improper screening can expose hotels to litigation and public scandal. Example: A national hotel chain paid \\$1.3 million in an FCRA class-action suit after failing to provide pre-adverse action notices. Background checks were conducted, but the candidates weren’t given a chance to respond. The reputational damage far exceeded the settlement.',
+            body: 'Improper screening can expose hotels to litigation and public scandal. Example: A national hotel chain paid \\$1.3 million in an FCRA class-action suit after failing to provide pre-adverse action notices. Background checks were conducted, but the candidates weren\'t given a chance to respond. The reputational damage far exceeded the settlement.',
           },
           {
             title: 'Guest Experience & Brand Value',
@@ -2097,7 +2097,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'StayCertified Blockchain Application',
-            body: 'NAPBS/FCRA-compliant background screening confirms your hotel’s hiring practices are lawful, transparent, and guest-safe. It protects operations, upholds employee rights, and ensures every onboarding step is verifiable—blockchain-anchored through StayCertified™.',
+            body: 'NAPBS/FCRA-compliant background screening confirms your hotel\'s hiring practices are lawful, transparent, and guest-safe. It protects operations, upholds employee rights, and ensures every onboarding step is verifiable—blockchain-anchored through StayCertified™.',
           },
         ],
       },
@@ -2111,7 +2111,7 @@ export const categories: CertCategory[] = [
         description: [
           'ECPAT Child Protection Training teaches hotel employees how to recognize and respond to signs of child sexual exploitation. It aligns hotel operations with global human rights standards and ensures every team member becomes a frontline defender against child trafficking and abuse.',
           'Hotels are frequent targets for those seeking to exploit anonymity and transient occupancy. Without trained staff, signs of trafficking may go unnoticed. ECPAT equips hospitality professionals with the knowledge and confidence to act—because silence is complicity.',
-          'Certification supports compliance with international child protection laws, enables partnership with ethical travel brands, and boosts staff empowerment. It also safeguards the hotel’s reputation and strengthens ESG credentials—especially for companies operating in high-risk regions or transit hubs.',
+          'Certification supports compliance with international child protection laws, enables partnership with ethical travel brands, and boosts staff empowerment. It also safeguards the hotel\'s reputation and strengthens ESG credentials—especially for companies operating in high-risk regions or transit hubs.',
           'Failure to train staff can result in legal liability, reputational damage, and financial fallout. If exploitation occurs on property and prevention measures are deemed inadequate, hotels may face lawsuits, cancellations, or removal from major travel platforms.',
         ],
         accordionSections: [
@@ -2133,7 +2133,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Operational Impact',
-            body: 'This training enhances the hotel’s vigilance and legal defensibility. Security and front desk teams collaborate more tightly with management and local authorities. Guest screening becomes more nuanced without becoming invasive. SOPs include alert flags and confidential reporting systems. Partnerships with NGOs and law enforcement become more feasible when staff are demonstrably trained.',
+            body: 'This training enhances the hotel\'s vigilance and legal defensibility. Security and front desk teams collaborate more tightly with management and local authorities. Guest screening becomes more nuanced without becoming invasive. SOPs include alert flags and confidential reporting systems. Partnerships with NGOs and law enforcement become more feasible when staff are demonstrably trained.',
           },
           {
             title: 'Risk & Non-Compliance Consequences',
@@ -2145,7 +2145,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Training & Workforce Development',
-            body: 'Training is available online via ECPAT’s platform, in collaboration with Safe Hospitality programs and regional NGOs. Courses use role-specific scenarios, multilingual materials, and real-world escalation drills. Certified employees report increased job pride, emotional resilience, and team cohesion. They also develop soft skills in guest observation, intervention, and crisis escalation.',
+            body: 'Training is available online via ECPAT\'s platform, in collaboration with Safe Hospitality programs and regional NGOs. Courses use role-specific scenarios, multilingual materials, and real-world escalation drills. Certified employees report increased job pride, emotional resilience, and team cohesion. They also develop soft skills in guest observation, intervention, and crisis escalation.',
           },
           {
             title: 'StayCertified Blockchain Application',
@@ -2193,7 +2193,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'Today’s high-net-worth travelers expect both discretion and security. AML/KYC training ensures that staff can uphold service standards while verifying legitimacy—quietly, efficiently, and respectfully. Trust is reinforced through consistent policies, visible compliance signage, and optional blockchain-verified ID processes. These protocols build loyalty with institutional clients, consular guests, and event planners.',
+            body: 'Today\'s high-net-worth travelers expect both discretion and security. AML/KYC training ensures that staff can uphold service standards while verifying legitimacy—quietly, efficiently, and respectfully. Trust is reinforced through consistent policies, visible compliance signage, and optional blockchain-verified ID processes. These protocols build loyalty with institutional clients, consular guests, and event planners.',
           },
           {
             title: 'Training & Workforce Development',
@@ -2201,7 +2201,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'StayCertified Blockchain Application',
-            body: 'AML/KYC training ensures that hotels operate within global legal frameworks when handling guest payments and identities. It’s critical for fraud prevention, regulatory trust, and luxury guest service integrity—backed by blockchain-verified records from StayCertified™.',
+            body: 'AML/KYC training ensures that hotels operate within global legal frameworks when handling guest payments and identities. It\'s critical for fraud prevention, regulatory trust, and luxury guest service integrity—backed by blockchain-verified records from StayCertified™.',
           },
         ],
       },
@@ -2237,15 +2237,15 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Operational Impact',
-            body: 'Licensed guards support safe event hosting, secure guest stays, and reduce internal theft or vandalism. They also streamline cooperation with law enforcement and support crisis response teams during medical, fire, or violence-related emergencies. A licensed officer’s presence reassures staff and guests while ensuring compliance documentation is always ready for audits or legal reviews.',
+            body: 'Licensed guards support safe event hosting, secure guest stays, and reduce internal theft or vandalism. They also streamline cooperation with law enforcement and support crisis response teams during medical, fire, or violence-related emergencies. A licensed officer\'s presence reassures staff and guests while ensuring compliance documentation is always ready for audits or legal reviews.',
           },
           {
             title: 'Risk & Non-Compliance Consequences',
-            body: 'Hotels without properly licensed guards risk fines, lawsuits, and regulatory shutdowns. Example: A luxury hotel was fined over $100,000 and lost its public event permit after it was revealed that its night-shift guards were operating without state licenses. A guest incident escalated, and the unlicensed guards’ involvement led to legal claims and settlement payouts.',
+            body: 'Hotels without properly licensed guards risk fines, lawsuits, and regulatory shutdowns. Example: A luxury hotel was fined over $100,000 and lost its public event permit after it was revealed that its night-shift guards were operating without state licenses. A guest incident escalated, and the unlicensed guards\' involvement led to legal claims and settlement payouts.',
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'Professional, licensed security staff subtly reinforce the brand’s promise of safety. Their discreet presence and trained demeanor offer both visible protection and behind-the-scenes vigilance. QR-verifiable licenses enhance confidence in event, VIP, and family travel bookings. Guests are more likely to return—and recommend—hotels where they feel secure but not surveilled.',
+            body: 'Professional, licensed security staff subtly reinforce the brand\'s promise of safety. Their discreet presence and trained demeanor offer both visible protection and behind-the-scenes vigilance. QR-verifiable licenses enhance confidence in event, VIP, and family travel bookings. Guests are more likely to return—and recommend—hotels where they feel secure but not surveilled.',
           },
           {
             title: 'Training & Workforce Development',
@@ -2381,10 +2381,10 @@ export const categories: CertCategory[] = [
         heroTitle: 'TRSA Hygienically Clean: The Gold Standard for Safe Hotel Linen Handling',
         fullTitle: 'TRSA Hygienically Clean Certification – Linen Hygiene & Contamination Control',
         issuingBody: 'Textile Rental Services Association (TRSA)',
-        summary: 'Validates that a hotel’s laundry services follow strict, medically verified standards for cleaning, disinfection, and contamination control.',
+        summary: 'Validates that a hotel\'s laundry services follow strict, medically verified standards for cleaning, disinfection, and contamination control.',
         description: [
-          'The TRSA Hygienically Clean Certification validates that a hotel’s laundry services follow strict, medically verified standards for cleaning, disinfection, and contamination control. It ensures that all linens—guest-facing and staff—are safe, sanitized, and traceably clean across every cycle.',
-          'In hospitality, linen cleanliness is more than aesthetics—it’s a public health imperative. TRSA Hygienically Clean Certification ensures hotel laundry processes meet hospital-grade standards for pathogen control. This is vital for protecting guests from cross-contamination and supporting brand integrity across multi-property portfolios.',
+          'The TRSA Hygienically Clean Certification validates that a hotel\'s laundry services follow strict, medically verified standards for cleaning, disinfection, and contamination control. It ensures that all linens—guest-facing and staff—are safe, sanitized, and traceably clean across every cycle.',
+          'In hospitality, linen cleanliness is more than aesthetics—it\'s a public health imperative. TRSA Hygienically Clean Certification ensures hotel laundry processes meet hospital-grade standards for pathogen control. This is vital for protecting guests from cross-contamination and supporting brand integrity across multi-property portfolios.',
           'Certified laundries reduce the risk of disease transmission (MRSA, norovirus), improve OSHA and health department compliance, and reassure guests through visible claims of hygienic care. The certification also supports procurement transparency, lowers liability, and enables partnerships with healthcare-adjacent travel providers.',
           'Uncertified laundry practices can result in recontaminated linens, outbreaks, and legal claims from guests experiencing rashes, infections, or allergic reactions. In regulated markets, such lapses can lead to shutdowns, fines, or class-action suits tied to preventable exposure.',
         ],
@@ -2399,7 +2399,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Applicable Frameworks',
-            body: 'CDC Guidelines for Environmental Infection Control in Healthcare Facilities, OSHA 1910.1030, ASTM E3135, and TRSA’s proprietary Hygiene Protocol System.',
+            body: 'CDC Guidelines for Environmental Infection Control in Healthcare Facilities, OSHA 1910.1030, ASTM E3135, and TRSA\'s proprietary Hygiene Protocol System.',
           },
           {
             title: 'Role & Responsibility Mapping',
@@ -2415,7 +2415,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'Today’s guests want proof of cleanliness—not just promises. TRSA-certified properties can advertise their commitment via signage, in-room cards, QR-code scan verifications, or sustainability reports. Certification enhances perceptions of wellness, luxury, and credibility. Hotels serving medical travelers or high-risk guests (e.g., infants, immunocompromised) may be contractually required to prove laundry safety.',
+            body: 'Today\'s guests want proof of cleanliness—not just promises. TRSA-certified properties can advertise their commitment via signage, in-room cards, QR-code scan verifications, or sustainability reports. Certification enhances perceptions of wellness, luxury, and credibility. Hotels serving medical travelers or high-risk guests (e.g., infants, immunocompromised) may be contractually required to prove laundry safety.',
           },
           {
             title: 'Training & Workforce Development',
@@ -2435,9 +2435,9 @@ export const categories: CertCategory[] = [
         issuingBody: 'Occupational Safety and Health Administration (OSHA \u2013 U.S.) | Workplace Hazardous Materials Information System (WHMIS \u2013 Canada)',
         summary: 'Chemical safety training for industrial laundry chemical compliance.',
         description: [
-          'The TRSA Hygienically Clean Certification validates that a hotel’s laundry services follow strict, medically verified standards for cleaning, disinfection, and contamination control. It ensures that all linens—guest-facing and staff—are safe, sanitized, and traceably clean across every cycle.',
+          'The TRSA Hygienically Clean Certification validates that a hotel\'s laundry services follow strict, medically verified standards for cleaning, disinfection, and contamination control. It ensures that all linens—guest-facing and staff—are safe, sanitized, and traceably clean across every cycle.',
           'Laundry rooms are chemical environments. From pH adjusters to oxidizing agents, industrial laundry uses substances that can burn skin, corrode equipment, or contaminate textiles if mishandled. Certification ensures hotel staff operate within a protective framework that safeguards human health, facility assets, and guest safety.',
-          'Trained staff are less likely to suffer or cause chemical accidents. Certification also supports regulatory compliance, reduces workers’ comp claims, and improves operational discipline. Facilities gain credibility during health or labor inspections, and chemical vendors are more likely to partner with certified properties.',
+          'Trained staff are less likely to suffer or cause chemical accidents. Certification also supports regulatory compliance, reduces workers\' comp claims, and improves operational discipline. Facilities gain credibility during health or labor inspections, and chemical vendors are more likely to partner with certified properties.',
           'Mishandled chemicals can cause burns, respiratory injury, or contaminate linens with residues that trigger rashes or allergic reactions in guests. Untrained staff increase the risk of spills, mislabeling, or incompatible chemical mixing—leading to OSHA fines, incident investigations, and even civil litigation.',
         ],
         accordionSections: [
@@ -2488,7 +2488,7 @@ export const categories: CertCategory[] = [
         summary: 'EPA WaterSense Certification for water-smart laundry operations in sustainable hotels.',
         description: [
           'WaterSense by the EPA recognizes facilities that implement high-efficiency washers, conservation technologies, and responsible water management strategies. For hotels, it means a laundry operation that supports both profitability and planet protection—anchored in verified performance.',
-          'Laundry operations account for up to 30% of a hotel’s water consumption. EPA WaterSense certification ensures your equipment, policies, and team are reducing waste while maintaining high hygiene standards. In water-scarce regions or drought-impacted markets, more than a sustainability measure — a business imperative.',
+          'Laundry operations account for up to 30% of a hotel\'s water consumption. EPA WaterSense certification ensures your equipment, policies, and team are reducing waste while maintaining high hygiene standards. In water-scarce regions or drought-impacted markets, more than a sustainability measure — a business imperative.',
           'Certified facilities can save thousands of gallons of water daily, lower utility bills, and earn favorable ESG and LEED scoring. It also enhances brand positioning, supports municipal rebate eligibility, and reduces environmental impact—all without compromising laundry performance.',
           'Failing to optimize water use may lead to excessive operating costs, exclusion from sustainable procurement listings, or negative media coverage. Properties in regulated water zones risk fines, operational restrictions, or denied permits during renovations if non-compliant.',
         ],
@@ -2593,7 +2593,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'StayCertified Blockchain Application',
-            body: 'The State Electrical License certifies that hotel personnel are authorized to manage electrical systems in full compliance with NEC and local laws. It’s a safety anchor, legal requirement, and operational safeguard—all verified on-chain through StayCertified™.',
+            body: 'The State Electrical License certifies that hotel personnel are authorized to manage electrical systems in full compliance with NEC and local laws. It\'s a safety anchor, legal requirement, and operational safeguard—all verified on-chain through StayCertified™.',
           },
         ],
       },
@@ -2658,8 +2658,8 @@ export const categories: CertCategory[] = [
         summary: 'Mold and asbestos awareness certification for hotel maintenance staff.',
         description: [
           'EPA AHERA and IICRC mold awareness training ensures hotel engineers and custodial teams can identify early signs of asbestos and mold exposure. It prevents health risks during renovation, water damage, or HVAC failures—protecting guests, preserving indoor air quality, and ensuring safe operations.',
-          'Asbestos and mold are invisible risks until it’s too late. Both can be triggered during routine maintenance—such as cutting walls, replacing HVAC systems, or after water leaks. Certification ensures hotel staff know how to respond without spreading contaminants or triggering lawsuits.',
-          'AHERA and IICRC training equips teams to spot early risks and coordinate safe remediation. It protects staff from exposure, ensures lawful containment, and maintains guest trust in indoor health standards. It’s critical for renovation planning, insurance claims, and ESG compliance tied to indoor air quality and health metrics.',
+          'Asbestos and mold are invisible risks until it\'s too late. Both can be triggered during routine maintenance—such as cutting walls, replacing HVAC systems, or after water leaks. Certification ensures hotel staff know how to respond without spreading contaminants or triggering lawsuits.',
+          'AHERA and IICRC training equips teams to spot early risks and coordinate safe remediation. It protects staff from exposure, ensures lawful containment, and maintains guest trust in indoor health standards. It\'s critical for renovation planning, insurance claims, and ESG compliance tied to indoor air quality and health metrics.',
           'Untrained staff can unknowingly disturb asbestos or mold during wall work, water cleanups, or HVAC maintenance. That can lead to toxic exposure, guest illnesses, shutdowns, and lawsuits. EPA and OSHA fines can escalate quickly, and insurance coverage may be denied for undocumented negligence.',
         ],
         accordionSections: [
@@ -2689,15 +2689,15 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'Guests today are increasingly aware of indoor environmental quality. Public signage, in-room QR codes, or health disclosures on booking platforms boost transparency. Mold and asbestos awareness training reinforces your brand’s care for wellness, safety, and property integrity. Hotels that disclose certified remediation readiness often gain trust among wellness travelers, parents, and long-stay guests.',
+            body: 'Guests today are increasingly aware of indoor environmental quality. Public signage, in-room QR codes, or health disclosures on booking platforms boost transparency. Mold and asbestos awareness training reinforces your brand\'s care for wellness, safety, and property integrity. Hotels that disclose certified remediation readiness often gain trust among wellness travelers, parents, and long-stay guests.',
           },
           {
             title: 'Training & Workforce Development',
-            body: 'Training is delivered via certified IICRC instructors or EPA-recognized environmental health consultants. Online modules, live simulations, and certification tests are used to reinforce protocols. Training is delivered via certified IICRC instructors or EPA-recognized environmental health consultants. Online modules, live simulations, and certification tests are used to reinforce protocols. Certified employees perform better under pressure, reduce incident rates, and play a key role in pre-renovation planning and emergency response. It’s a foundational credential for promotion into engineering and facilities leadership roles.',
+            body: 'Training is delivered via certified IICRC instructors or EPA-recognized environmental health consultants. Online modules, live simulations, and certification tests are used to reinforce protocols. Training is delivered via certified IICRC instructors or EPA-recognized environmental health consultants. Online modules, live simulations, and certification tests are used to reinforce protocols. Certified employees perform better under pressure, reduce incident rates, and play a key role in pre-renovation planning and emergency response. It\'s a foundational credential for promotion into engineering and facilities leadership roles.',
           },
           {
             title: 'StayCertified Blockchain Application',
-            body: 'EPA AHERA and IICRC Mold Awareness Training equip hotel staff with the knowledge to prevent, identify, and properly escalate asbestos and mold risks. It’s vital to indoor air quality, health compliance, and safe renovations—logged immutably through StayCertified™ blockchain registry.',
+            body: 'EPA AHERA and IICRC Mold Awareness Training equip hotel staff with the knowledge to prevent, identify, and properly escalate asbestos and mold risks. It\'s vital to indoor air quality, health compliance, and safe renovations—logged immutably through StayCertified™ blockchain registry.',
           },
         ],
       },
@@ -2741,7 +2741,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'Guests don’t see confined spaces—but they feel the results. Outages, equipment failures, or fire alarms often trace back to improperly maintained systems. OSHA-trained technicians reduce incidents and boost system uptime—enhancing guest comfort and safety indirectly but critically. Visible compliance policies can also be shared with stakeholders and procurement partners as part of the hotel’s verified safety narrative.',
+            body: 'Guests don\'t see confined spaces—but they feel the results. Outages, equipment failures, or fire alarms often trace back to improperly maintained systems. OSHA-trained technicians reduce incidents and boost system uptime—enhancing guest comfort and safety indirectly but critically. Visible compliance policies can also be shared with stakeholders and procurement partners as part of the hotel\'s verified safety narrative.',
           },
           {
             title: 'Training & Workforce Development',
@@ -2749,7 +2749,7 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'StayCertified Blockchain Application',
-            body: 'OSHA Confined Space & Ladder Safety certification equips hotel technicians to work safely in elevated and enclosed zones. It ensures compliance, reduces injuries, and strengthens operational resilience. Logged on-chain through StayCertified™, your hotel’s safety record becomes visible, verifiable, and defensible.',
+            body: 'OSHA Confined Space & Ladder Safety certification equips hotel technicians to work safely in elevated and enclosed zones. It ensures compliance, reduces injuries, and strengthens operational resilience. Logged on-chain through StayCertified™, your hotel\'s safety record becomes visible, verifiable, and defensible.',
           },
         ],
       },
@@ -2761,10 +2761,10 @@ export const categories: CertCategory[] = [
         issuingBody: 'American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASHRAE), U.S. Centers for Disease Control (CDC), ANSI/ASHRAE Standard 188, ISO 13843',
         summary: 'ASHRAE 188 Legionella Water Safety Plan for hotel water system compliance.',
         description: [
-          'ASHRAE 188 establishes the gold standard for preventing Legionella in hotel water systems. Certification ensures engineering teams implement risk management protocols across cooling towers, showers, spas, and plumbing—protecting guests from Legionnaires’ disease through proactive, proven control plans.',
-          'Legionella bacteria can proliferate in hotel water systems, leading to serious, sometimes fatal illness. ASHRAE 188 certification confirms your hotel has a documented, auditable system in place to prevent outbreaks. In an era of increasing public health vigilance, it’s a non-negotiable standard for risk mitigation.',
+          'ASHRAE 188 establishes the gold standard for preventing Legionella in hotel water systems. Certification ensures engineering teams implement risk management protocols across cooling towers, showers, spas, and plumbing—protecting guests from Legionnaires\' disease through proactive, proven control plans.',
+          'Legionella bacteria can proliferate in hotel water systems, leading to serious, sometimes fatal illness. ASHRAE 188 certification confirms your hotel has a documented, auditable system in place to prevent outbreaks. In an era of increasing public health vigilance, it\'s a non-negotiable standard for risk mitigation.',
           'Hotels with ASHRAE 188-compliant plans reduce the likelihood of disease transmission, meet CDC and industry best practices, and strengthen their defensibility in health-related legal claims. It also supports readiness for health department inspections, crisis communications, and ESG reporting on health and safety protocols.',
-          'Failure to adopt ASHRAE 188 can result in outbreak events, lawsuits, insurance denials, or shutdowns. Without a verified water safety plan, hotels are exposed to regulatory fines and irreparable brand damage if even one guest is affected by Legionnaires’ disease.',
+          'Failure to adopt ASHRAE 188 can result in outbreak events, lawsuits, insurance denials, or shutdowns. Without a verified water safety plan, hotels are exposed to regulatory fines and irreparable brand damage if even one guest is affected by Legionnaires\' disease.',
         ],
         accordionSections: [
           {
@@ -2789,19 +2789,19 @@ export const categories: CertCategory[] = [
           },
           {
             title: 'Risk & Non-Compliance Consequences',
-            body: 'Non-compliance with ASHRAE 188 can be catastrophic. Example: In 2018, a major U.S. hotel faced a wrongful death lawsuit after a guest contracted Legionnaires’ disease from an unmonitored spa system. The hotel lacked an ASHRAE 188 plan. The case settled for $2.7 million and led to citywide inspections of hotel water systems.',
+            body: 'Non-compliance with ASHRAE 188 can be catastrophic. Example: In 2018, a major U.S. hotel faced a wrongful death lawsuit after a guest contracted Legionnaires\' disease from an unmonitored spa system. The hotel lacked an ASHRAE 188 plan. The case settled for $2.7 million and led to citywide inspections of hotel water systems.',
           },
           {
             title: 'Guest Experience & Brand Value',
-            body: 'Guests increasingly inquire about water safety—especially in spas, pools, and wellness suites. QR-code verified water safety plans offer transparency and assurance. ASHRAE 188 certification protects brand reputation by turning invisible risk into visible trust. Public signage, app disclosures, or even booking filters (like “Wellness Certified”) can be integrated with blockchain verification to amplify guest confidence.',
+            body: 'Guests increasingly inquire about water safety—especially in spas, pools, and wellness suites. QR-code verified water safety plans offer transparency and assurance. ASHRAE 188 certification protects brand reputation by turning invisible risk into visible trust. Public signage, app disclosures, or even booking filters (like "Wellness Certified") can be integrated with blockchain verification to amplify guest confidence.',
           },
           {
             title: 'Training & Workforce Development',
-            body: 'Training is typically delivered through ASHRAE-authorized partners or environmental engineering consultants. In-house sessions, LMS modules, and CDC toolkits are used for onboarding. Certified teams feel more empowered and responsible for public health. Their competency boosts morale, reduces turnover, and elevates the hotel’s reputation for operational rigor.',
+            body: 'Training is typically delivered through ASHRAE-authorized partners or environmental engineering consultants. In-house sessions, LMS modules, and CDC toolkits are used for onboarding. Certified teams feel more empowered and responsible for public health. Their competency boosts morale, reduces turnover, and elevates the hotel\'s reputation for operational rigor.',
           },
           {
             title: 'StayCertified Blockchain Application',
-            body: 'ASHRAE 188 certification confirms your hotel’s water systems are actively managed to prevent Legionella outbreaks. It protects lives, mitigates liability, and demonstrates compliance with CDC and global health standards. Verified on blockchain by StayCertified™, it’s your hotel’s proof of water safety integrity.',
+            body: 'ASHRAE 188 certification confirms your hotel\'s water systems are actively managed to prevent Legionella outbreaks. It protects lives, mitigates liability, and demonstrates compliance with CDC and global health standards. Verified on blockchain by StayCertified™, it\'s your hotel\'s proof of water safety integrity.',
           },
         ],
       },
