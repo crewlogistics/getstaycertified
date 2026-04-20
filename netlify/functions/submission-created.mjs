@@ -5,9 +5,9 @@
 const BOT1_TOKEN = process.env.TELEGRAM_BOT_TOKEN
 const BOT1_CHAT_ID = process.env.TELEGRAM_CHAT_ID
 
-// Bot 2: @CrewWebLeads_bot
+// Bot 2: @CrewWebLeads_bot → Crew Logistics Inbound Leads group
 const BOT2_TOKEN = process.env.TELEGRAM_BOT2_TOKEN
-const BOT2_CHAT_ID = process.env.TELEGRAM_BOT2_CHAT_ID
+const BOT2_CHAT_ID = '-1002888860048'
 
 export default async (req) => {
   try {
