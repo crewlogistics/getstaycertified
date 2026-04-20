@@ -38,7 +38,7 @@ const mobileOpen = ref(false)
 
         <div class="relative group">
           <NuxtLink to="/certifications" class="nav-link flex items-center gap-1">
-            Certifications<span class="text-coral">*</span>
+            Certifications
             <svg class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor"><path d="M5.5 7.5l4.5 4.5 4.5-4.5"/></svg>
           </NuxtLink>
           <div class="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition absolute left-1/2 top-full -translate-x-1/2 pt-4">
