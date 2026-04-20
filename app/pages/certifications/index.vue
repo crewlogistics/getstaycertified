@@ -5,6 +5,17 @@ useHead({
   title: 'Hotel Blockchain Certifications - StayCertified',
   meta: [
     { name: 'description', content: 'Browse all hotel blockchain certification categories. From fire safety to housekeeping, StayCertified covers every department.' },
+    { property: 'og:title', content: 'Hotel Blockchain Certifications - StayCertified' },
+    { property: 'og:description', content: 'Browse all hotel blockchain certification categories. From fire safety to housekeeping, StayCertified covers every department.' },
+    { property: 'og:url', content: 'https://getstaycertified.com/certifications' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: 'https://getstaycertified.com/images/certifications-hero.webp' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Hotel Blockchain Certifications - StayCertified' },
+    { name: 'twitter:description', content: 'Browse all hotel blockchain certification categories. From fire safety to housekeeping, StayCertified covers every department.' },
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://getstaycertified.com/certifications' },
   ],
 })
 
@@ -100,6 +111,7 @@ const categories = [
   <!-- CATEGORIES GRID -->
   <section class="bg-white">
     <div class="container-x py-[80px] md:py-[140px]">
+      <h2 class="sr-only">Certification Categories</h2>
       <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto">
         <NuxtLink
           v-for="cat in categories"
@@ -110,6 +122,7 @@ const categories = [
           <img
             :src="cat.image"
             :alt="cat.title"
+            loading="lazy"
             class="w-full h-[180px] object-cover object-top group-hover:scale-105 transition duration-500"
           />
           <div class="p-6">

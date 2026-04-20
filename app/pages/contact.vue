@@ -5,6 +5,17 @@ useHead({
   title: 'Contact - StayCertified',
   meta: [
     { name: 'description', content: 'Get in touch with StayCertified. We\u2019re here to help your property get compliant and stay certified.' },
+    { property: 'og:title', content: 'Contact - StayCertified' },
+    { property: 'og:description', content: 'Get in touch with StayCertified. We\u2019re here to help your property get compliant and stay certified.' },
+    { property: 'og:url', content: 'https://getstaycertified.com/contact' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: 'https://getstaycertified.com/images/front-desk.webp' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Contact - StayCertified' },
+    { name: 'twitter:description', content: 'Get in touch with StayCertified. We\u2019re here to help your property get compliant and stay certified.' },
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://getstaycertified.com/contact' },
   ],
 })
 

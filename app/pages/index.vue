@@ -1,6 +1,40 @@
 <script setup lang="ts">
 definePageMeta({ layout: 'default' })
 
+useHead({
+  title: 'StayCertified — Verified Environments. Trusted Operations.',
+  meta: [
+    { name: 'description', content: 'StayCertified keeps your hotel GSA/FedRooms compliant. Automate certifications, win government contracts, and stay bid-ready — without paperwork stress.' },
+    { property: 'og:title', content: 'StayCertified — Verified Environments. Trusted Operations.' },
+    { property: 'og:description', content: 'The certification and compliance layer behind every qualified facility. Blockchain-verified hotel compliance for GSA, FedRooms, and beyond.' },
+    { property: 'og:url', content: 'https://getstaycertified.com/' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: 'https://getstaycertified.com/images/front-desk.webp' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'StayCertified — Verified Environments. Trusted Operations.' },
+    { name: 'twitter:description', content: 'The certification and compliance layer behind every qualified facility. Blockchain-verified hotel compliance for GSA, FedRooms, and beyond.' },
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://getstaycertified.com/' },
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Service',
+        'name': 'StayCertified Hotel Certification Platform',
+        'description': 'Blockchain-verified hotel compliance for GSA, FedRooms, and beyond.',
+        'provider': {
+          '@type': 'Organization',
+          'name': 'StayCertified',
+        },
+        'serviceType': 'Hotel Compliance Certification',
+      }),
+    },
+  ],
+})
+
 const features = [
   {
     title: 'Build trust with guests',
@@ -125,6 +159,7 @@ const features = [
     <img
       src="/images/inspector.webp"
       alt="Compliance inspector in hotel lobby"
+      loading="lazy"
       class="w-full h-auto block"
     />
   </section>

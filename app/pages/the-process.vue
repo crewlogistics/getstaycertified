@@ -5,6 +5,17 @@ useHead({
   title: 'The Process - StayCertified',
   meta: [
     { name: 'description', content: 'From paperwork to peace of mind in three simple steps. Upload, verify, and get listed with StayCertified.' },
+    { property: 'og:title', content: 'The Process - StayCertified' },
+    { property: 'og:description', content: 'From paperwork to peace of mind in three simple steps. Upload, verify, and get listed with StayCertified.' },
+    { property: 'og:url', content: 'https://getstaycertified.com/the-process' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: 'https://getstaycertified.com/images/hero-process.webp' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'The Process - StayCertified' },
+    { name: 'twitter:description', content: 'From paperwork to peace of mind in three simple steps. Upload, verify, and get listed with StayCertified.' },
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://getstaycertified.com/the-process' },
   ],
 })
 
@@ -144,6 +155,7 @@ const maintenance = [
     <img
       src="/images/process-overview.webp"
       alt="StayCertified hotel compliance process"
+      loading="lazy"
       class="hero-img"
     />
   </section>
@@ -162,6 +174,7 @@ const maintenance = [
     <img
       src="/images/process-inspection.webp"
       alt="Hotel compliance inspection"
+      loading="lazy"
       class="hero-img"
     />
   </section>

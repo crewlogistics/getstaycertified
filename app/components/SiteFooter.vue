@@ -21,6 +21,7 @@ const partners = [
             :key="partner.name + Math.random()"
             :src="partner.src"
             :alt="partner.name"
+            loading="lazy"
             class="h-[40px] md:h-[50px] w-auto object-contain brightness-0 invert opacity-70 flex-shrink-0"
           />
         </div>
@@ -59,7 +60,7 @@ const partners = [
     <!-- Bottom strip -->
     <div class="border-t border-white/10">
       <div class="container-x py-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
-        <img src="/images/built-on-hedera.png" alt="Built on Hedera Hashgraph" class="h-10 w-auto opacity-90" />
+        <img src="/images/built-on-hedera.png" alt="Built on Hedera Hashgraph" loading="lazy" class="h-10 w-auto opacity-90" />
 
         <p class="text-[11px] text-white/40 text-left md:text-left max-w-2xl leading-relaxed">
           &ldquo;Hedera&rdquo; is a trademark of Hedera Hashgraph, LLC. StayCertified is not affiliated with,

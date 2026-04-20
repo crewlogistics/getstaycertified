@@ -5,6 +5,17 @@ useHead({
   title: 'Features - StayCertified',
   meta: [
     { name: 'description', content: 'Full marks for full features. Compliance made effortless with StayCertified\u2122.' },
+    { property: 'og:title', content: 'Features - StayCertified' },
+    { property: 'og:description', content: 'Full marks for full features. Compliance made effortless with StayCertified\u2122.' },
+    { property: 'og:url', content: 'https://getstaycertified.com/features' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: 'https://getstaycertified.com/images/features-hero.webp' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Features - StayCertified' },
+    { name: 'twitter:description', content: 'Full marks for full features. Compliance made effortless with StayCertified\u2122.' },
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://getstaycertified.com/features' },
   ],
 })
 
@@ -175,6 +186,7 @@ const upcomingFeatures = [
     <img
       src="/images/features-front-desk.webp"
       alt="Hotel front desk operations"
+      loading="lazy"
       class="hero-img"
     />
   </section>
@@ -216,6 +228,7 @@ const upcomingFeatures = [
     <img
       src="/images/features-inspector.webp"
       alt="Hotel compliance inspector"
+      loading="lazy"
       class="hero-img"
     />
   </section>

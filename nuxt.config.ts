@@ -5,6 +5,9 @@ export default defineNuxtConfig({
   ],
   devtools: { enabled: true },
   compatibilityDate: '2024-04-03',
+  experimental: {
+    payloadExtraction: false,
+  },
   nitro: {
     preset: 'static',
     prerender: {
@@ -113,6 +116,7 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'robots', content: 'index, follow' },
         {
           name: 'description',
           content:
@@ -125,15 +129,46 @@ export default defineNuxtConfig({
             'The certification and compliance layer behind every qualified facility. Blockchain-verified hotel compliance for GSA, FedRooms, and beyond.',
         },
         { property: 'og:type', content: 'website' },
-        { property: 'og:image', content: '/images/front-desk.webp' },
+        { property: 'og:image', content: 'https://getstaycertified.com/images/front-desk.webp' },
+        { property: 'og:url', content: 'https://getstaycertified.com' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: 'StayCertified — Verified Environments. Trusted Operations.' },
+        {
+          name: 'twitter:description',
+          content:
+            'The certification and compliance layer behind every qualified facility. Blockchain-verified hotel compliance for GSA, FedRooms, and beyond.',
+        },
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'canonical', href: 'https://getstaycertified.com' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
         {
           rel: 'stylesheet',
           href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap',
+        },
+      ],
+      script: [
+        {
+          type: 'application/ld+json',
+          innerHTML: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Organization',
+            'name': 'StayCertified',
+            'url': 'https://getstaycertified.com',
+            'description': 'The certification and compliance layer behind every qualified facility.',
+            'logo': 'https://getstaycertified.com/images/logo-black.svg',
+          }),
+        },
+        {
+          type: 'application/ld+json',
+          innerHTML: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            'name': 'StayCertified',
+            'url': 'https://getstaycertified.com',
+          }),
         },
       ],
     },

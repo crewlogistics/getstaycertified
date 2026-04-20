@@ -56,10 +56,24 @@ if (!category) {
 
 const heroImage = categoryImages[slug] || '/images/certifications-hero.webp'
 
+const pageTitle = `${category.title} Blockchain Certifications - StayCertified`
+const pageDescription = category.description[0] || `${category.title} hotel blockchain certifications managed by StayCertified.`
+
 useHead({
-  title: `${category.title} Blockchain Certifications - StayCertified`,
+  title: pageTitle,
   meta: [
-    { name: 'description', content: category.description[0] || `${category.title} hotel blockchain certifications managed by StayCertified.` },
+    { name: 'description', content: pageDescription },
+    { property: 'og:title', content: pageTitle },
+    { property: 'og:description', content: pageDescription },
+    { property: 'og:url', content: `https://getstaycertified.com${route.path}` },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: 'https://getstaycertified.com/images/front-desk.webp' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: pageTitle },
+    { name: 'twitter:description', content: pageDescription },
+  ],
+  link: [
+    { rel: 'canonical', href: `https://getstaycertified.com${route.path}` },
   ],
 })
 </script>
@@ -144,7 +158,7 @@ useHead({
 
     <!-- FULL-BLEED PHOTO -->
     <section class="bg-white">
-      <img src="/images/features-inspector.webp" alt="Hotel compliance" class="hero-img" />
+      <img src="/images/features-inspector.webp" alt="Hotel compliance" loading="lazy" class="hero-img" />
     </section>
 
     <!-- PRICING -->
