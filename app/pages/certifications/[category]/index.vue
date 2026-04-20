@@ -122,9 +122,9 @@ useHead({
           >
             <details class="group py-4">
               <summary class="flex items-center justify-between py-4 cursor-pointer">
-                <span class="text-[13px] font-medium uppercase tracking-[2px] text-[#2c5282]">{{ cert.title }}</span>
-                <span class="text-[#2c5282] text-[32px] leading-none transition group-open:hidden" style="font-weight:300">+</span>
-                <span class="text-[#2c5282] text-[32px] leading-none hidden group-open:inline" style="font-weight:300">&minus;</span>
+                <span class="text-[13px] font-medium uppercase tracking-[2px] text-ink/70 group-open:text-[#005C99]">{{ cert.title }}</span>
+                <span class="text-ink/40 group-open:text-[#005C99] text-[32px] leading-none transition group-open:hidden" style="font-weight:300">+</span>
+                <span class="text-[#005C99] text-[32px] leading-none hidden group-open:inline" style="font-weight:300">&minus;</span>
               </summary>
               <div class="pb-6 pt-2">
                 <p class="text-ink/70 text-[15px] leading-[1.75] max-w-3xl">{{ cert.summary }}</p>
