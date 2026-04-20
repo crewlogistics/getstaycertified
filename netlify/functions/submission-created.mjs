@@ -1,8 +1,13 @@
 // Netlify triggers this function automatically on every form submission
 // Function name "submission-created" is a Netlify convention
 
-const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN
-const CHAT_ID = process.env.TELEGRAM_CHAT_ID
+// Bot 1: @BrettHoganBot (Donna)
+const BOT1_TOKEN = process.env.TELEGRAM_BOT_TOKEN
+const BOT1_CHAT_ID = process.env.TELEGRAM_CHAT_ID
+
+// Bot 2: @CrewWebLeads_bot
+const BOT2_TOKEN = process.env.TELEGRAM_BOT2_TOKEN
+const BOT2_CHAT_ID = process.env.TELEGRAM_BOT2_CHAT_ID
 
 export default async (req) => {
   try {
@@ -14,6 +19,7 @@ export default async (req) => {
     const name = `${data.firstName || ''} ${data.lastName || ''}`.trim()
     const message = [
       `📩 *New Contact Form Submission*`,
+      `*getstaycertified.com*`,
       ``,
       `*Name:* ${name}`,
       `*Email:* ${data.email || 'N/A'}`,
@@ -27,18 +33,40 @@ export default async (req) => {
       `🔗 [View in Netlify](https://app.netlify.com/projects/getstaycertified/forms)`,
     ].filter(Boolean).join('\n')
 
-    const telegramUrl = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`
+    // Send to both bots in parallel
+    const sends = []
 
-    await fetch(telegramUrl, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        chat_id: CHAT_ID,
-        text: message,
-        parse_mode: 'Markdown',
-        disable_web_page_preview: true,
-      }),
-    })
+    if (BOT1_TOKEN && BOT1_CHAT_ID) {
+      sends.push(
+        fetch(`https://api.telegram.org/bot${BOT1_TOKEN}/sendMessage`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            chat_id: BOT1_CHAT_ID,
+            text: message,
+            parse_mode: 'Markdown',
+            disable_web_page_preview: true,
+          }),
+        })
+      )
+    }
+
+    if (BOT2_TOKEN && BOT2_CHAT_ID) {
+      sends.push(
+        fetch(`https://api.telegram.org/bot${BOT2_TOKEN}/sendMessage`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            chat_id: BOT2_CHAT_ID,
+            text: message,
+            parse_mode: 'Markdown',
+            disable_web_page_preview: true,
+          }),
+        })
+      )
+    }
+
+    await Promise.all(sends)
 
     return new Response('OK', { status: 200 })
   } catch (err) {
