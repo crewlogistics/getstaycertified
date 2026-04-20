@@ -76,13 +76,49 @@ useHead({
           </div>
 
           <div>
-            <label for="property" class="block text-[12px] font-medium uppercase tracking-[0.08em] text-ink/60 mb-2">Property Name</label>
+            <label for="company" class="block text-[12px] font-medium uppercase tracking-[0.08em] text-ink/60 mb-2">Company Name</label>
             <input
-              id="property"
+              id="company"
               type="text"
               class="w-full rounded-lg border border-rule px-4 py-3 text-[15px] text-ink focus:outline-none focus:ring-2 focus:ring-coral/30 focus:border-coral"
-              placeholder="Hotel / Property name"
+              placeholder="Your company name"
             />
+          </div>
+
+          <div>
+            <label for="position" class="block text-[12px] font-medium uppercase tracking-[0.08em] text-ink/60 mb-2">Your Position</label>
+            <input
+              id="position"
+              type="text"
+              class="w-full rounded-lg border border-rule px-4 py-3 text-[15px] text-ink focus:outline-none focus:ring-2 focus:ring-coral/30 focus:border-coral"
+              placeholder="Your role or title"
+            />
+          </div>
+
+          <div class="grid gap-6 md:grid-cols-2">
+            <div>
+              <label for="phone" class="block text-[12px] font-medium uppercase tracking-[0.08em] text-ink/60 mb-2">Phone</label>
+              <input
+                id="phone"
+                type="tel"
+                class="w-full rounded-lg border border-rule px-4 py-3 text-[15px] text-ink focus:outline-none focus:ring-2 focus:ring-coral/30 focus:border-coral"
+                placeholder="Your phone number"
+              />
+            </div>
+            <div>
+              <label for="employees" class="block text-[12px] font-medium uppercase tracking-[0.08em] text-ink/60 mb-2">Number of Employees</label>
+              <select
+                id="employees"
+                class="w-full rounded-lg border border-rule px-4 py-3 text-[15px] text-ink focus:outline-none focus:ring-2 focus:ring-coral/30 focus:border-coral bg-white"
+              >
+                <option value="">Please select</option>
+                <option value="1-49">1-49</option>
+                <option value="50-99">50-99</option>
+                <option value="100-499">100-499</option>
+                <option value="499-999">499-999</option>
+                <option value="1000+">1000+</option>
+              </select>
+            </div>
           </div>
 
           <div>
@@ -100,7 +136,7 @@ useHead({
               type="submit"
               class="btn-coral-lg"
             >
-              Send Message
+              Say Hello
             </button>
           </div>
         </form>

@@ -137,6 +137,11 @@ const upcomingFeatures = [
             brand, our platform automates compliance and prepares you for government
             bids&mdash;saving your team time, resources, and revenue lost to missed opportunities.
           </p>
+          <p>
+            From instant uploads and audit-ready reports to real-time alerts and vendor
+            coordination, StayCertified&trade; gives you every tool to stay bid-ready and
+            booking&mdash;automatically.
+          </p>
         </div>
       </div>
     </div>
