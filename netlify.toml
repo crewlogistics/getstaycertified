@@ -1,3 +1,4 @@
 [build]
   command = "npx nuxt generate"
   publish = ".output/public"
+  functions = "netlify/functions"
