@@ -31,6 +31,7 @@ export const categories: CertCategory[] = [
       'The Back Office & Finance department is the financial nerve center of hotel operations, responsible for budgeting, accounting, payroll, procurement, and regulatory reporting.',
       'While largely invisible to guests, this area directly influences profitability, legal compliance, and operational transparency. Certifications in this domain—such as Certified Hospitality Accountant Executive (CHAE), PCI-DSS compliance for secure payment processing, GAAP/IFRS training, anti-money laundering (AML), and internal controls (COSO framework)—are vital for financial integrity, fraud prevention, and compliance with local and international financial regulations.',
       'Certified financial operations reduce the risk of embezzlement, tax penalties, audit failures, and data breaches. Benefits include improved investor and stakeholder confidence, smoother audits, better cash flow management, and eligibility for government contracts or public funding.',
+      'Without proper certification and compliance, hotels face serious consequences such as financial misstatements, reputational harm, regulatory sanctions, and legal action. At StayCertified\u2122, we underscore Back Office & Finance certifications as critical safeguards for fiscal responsibility, operational continuity, and long-term viability in a complex and regulated industry.',
     ],
     certifications: [
       {
@@ -249,13 +250,14 @@ export const categories: CertCategory[] = [
     navLabel: 'Environmental & Sustainability',
     heroTagline: 'Future-Proof Your Hotel with Verified Sustainability Standards',
     description: [
-      'The Environmental & Sustainability department reflects a hotel’s commitment to responsible stewardship, operational efficiency, and alignment with global sustainability goals.',
-      'As consumer demand for eco-conscious hospitality grows, certifications in this area have become essential for both brand competitiveness and regulatory compliance.',
-      'At Stay Certified™, we position sustainability certifications as essential for future-proofing hotel operations and demonstrating authentic leadership in an increasingly climate-conscious market.',
+      ‘The Environmental & Sustainability department reflects a hotel\u2019s commitment to responsible stewardship, operational efficiency, and alignment with global sustainability goals.’,
+      ‘As consumer demand for eco-conscious hospitality grows, certifications in this area have become essential for both brand competitiveness and regulatory compliance. Key certifications include LEED (Leadership in Energy and Environmental Design), ISO 14001 Environmental Management, Green Key Eco-Rating, Energy Star, and EPA WaterSense—all of which verify efforts in energy conservation, water efficiency, waste reduction, and sustainable purchasing.’,
+      ‘Certified environmental practices lead to reduced operational costs, enhanced guest loyalty, improved staff morale, and eligibility for green business incentives and contracts. They also signal compliance with environmental regulations and investor ESG (Environmental, Social, and Governance) benchmarks. Failure to meet environmental standards can result in regulatory fines, reputational backlash, and exclusion from government and corporate procurement lists.’,
+      ‘At Stay Certified\u2122, we position sustainability certifications as essential for future-proofing hotel operations and demonstrating authentic leadership in an increasingly climate-conscious market.’,
     ],
     certifications: [
       {
-        slug: 'leed-certification',
+        slug: ‘leed-certification’,
         title: 'LEED Certification',
         heroTitle: 'LEED Certification: The Global Standard for Sustainable Hotel Operations',
         fullTitle: 'LEED Certification (Leadership in Energy and Environmental Design)',
@@ -572,13 +574,14 @@ export const categories: CertCategory[] = [
     navLabel: 'Fire, Life and Safety',
     heroTagline: 'Emergency-Ready Teams Save Lives—and Reputations',
     description: [
-      'The Fire, Life & Safety department is the cornerstone of a hotel’s risk management strategy, responsible for protecting lives, property, and regulatory standing.',
-      'This area encompasses fire prevention systems, emergency evacuation protocols, life-saving equipment, and hazard communication standards—all of which are governed by strict local and international codes.',
-      'At Stay Certified™, we highlight Fire, Life & Safety certifications as non-negotiable pillars of operational integrity, crisis readiness, and long-term hotel viability.',
+      ‘The Fire, Life & Safety department is the cornerstone of a hotel\u2019s risk management strategy, responsible for protecting lives, property, and regulatory standing.’,
+      ‘This area encompasses fire prevention systems, emergency evacuation protocols, life-saving equipment, and hazard communication standards—all of which are governed by strict local and international codes. Certifications in this domain—such as fire suppression system compliance (NFPA standards), emergency response training (CPR/AED/First Aid), OSHA workplace safety, and building code adherence—are essential for legal operation, insurance coverage, and guest assurance.’,
+      ‘Proper certification ensures that staff are trained to respond swiftly to emergencies, systems are regularly inspected and maintained, and facilities remain compliant with evolving safety mandates. The benefits include minimized risk of injury or death, lower liability exposure, reduced insurance premiums, and readiness for surprise audits or inspections. On the other hand, failure to comply can lead to catastrophic outcomes—fire-related fatalities, lawsuits, business closures, and criminal penalties.’,
+      ‘At Stay Certified\u2122, we highlight Fire, Life & Safety certifications as non-negotiable pillars of operational integrity, crisis readiness, and long-term hotel viability.’,
     ],
     certifications: [
       {
-        slug: 'fire-safety-extinguisher-training',
+        slug: ‘fire-safety-extinguisher-training’,
         title: 'NFPA Fire Safety & Extinguisher Training',
         heroTitle: 'NFPA Fire Safety Training: Certified Fire Response & Evacuation Preparedness',
         fullTitle: 'NFPA Training – Certified Emergency Response for Hotel Fire Risk Reduction',
@@ -948,13 +951,14 @@ export const categories: CertCategory[] = [
     navLabel: 'Fitness, Spa & Wellness',
     heroTagline: 'Luxury Begins Where Wellness is Certified',
     description: [
-      'The Fitness, Spa & Wellness department is a high-touch, high-expectation area that directly affects a hotel’s luxury appeal, guest satisfaction, and risk exposure.',
-      'These facilities involve close personal contact, shared equipment, water systems, and potential exposure to biological, chemical, and environmental hazards.',
-      'On StayCertified™, we recognize that wellness is not just a service offering—it’s a critical pillar of hotel health, safety, and reputational value.',
+      ‘The Fitness, Spa & Wellness department is a high-touch, high-expectation area that directly affects a hotel\u2019s luxury appeal, guest satisfaction, and risk exposure.’,
+      ‘These facilities involve close personal contact, shared equipment, water systems, and potential exposure to biological, chemical, and environmental hazards. Certifications in this area—such as spa sanitation (ISPA Sanitation Standards), pool and hot tub safety (CPO\u00ae Certified Pool Operator), fitness equipment maintenance, water quality control (NSPF/CMAHC), and massage therapist licensing—are essential to maintain hygiene, safety, and regulatory compliance.’,
+      ‘Certified wellness operations help prevent infections, waterborne illnesses, equipment-related injuries, and hygiene-related complaints. They also promote a standard of excellence that enhances guest trust and attracts health-conscious travelers. Key benefits of certification include reduced liability, increased staff competence, stronger health code compliance, and a boost in premium service ratings. Failure to comply can result in legal claims, facility closures, negative reviews, and irreparable brand damage.’,
+      ‘On StayCertified\u2122, we recognize that wellness is not just a service offering—it\u2019s a critical pillar of hotel health, safety, and reputational value.’,
     ],
     certifications: [
       {
-        slug: 'fitness-equipment-safety',
+        slug: ‘fitness-equipment-safety’,
         title: 'ASTM Fitness Equipment Safety',
         heroTitle: 'ASTM Equipment Safety: Certified Standards for Hotel Fitness Equipment',
         fullTitle: 'ASTM Equipment Safety – Certification for Safe Fitness Equipment Operation',
@@ -1595,8 +1599,10 @@ export const categories: CertCategory[] = [
     navLabel: 'Front Desk / Concierge',
     heroTagline: 'Certified Guest Service is the Mark of a Trusted Brand',
     description: [
-      'As the primary point of contact for check-ins, complaints, and inquiries, this department must operate with precision, discretion, and compliance.',
-      'Certified front desk operations lead to improved guest satisfaction scores, reduced risk of fraud, stronger compliance with legal and financial standards, and more empowered staff.',
+      'The Front Desk & Concierge department is the nerve center of guest interaction, playing a key role in first impressions, service delivery, and crisis response.',
+      'As the primary point of contact for check-ins, complaints, and inquiries, this department must operate with precision, discretion, and compliance. Certifications in this area—such as guest service excellence (AHLEI Guest Service Gold\u00ae), anti-human trafficking awareness (DHS Blue Campaign, AHLA No Room for Trafficking), PCI compliance for payment processing, and emergency preparedness—are vital to ensure ethical conduct, guest safety, and data security.',
+      'Certified front desk operations lead to improved guest satisfaction scores, reduced risk of fraud, stronger compliance with legal and financial standards, and more empowered staff. Front-line staff trained and certified in safety and sensitivity protocols are better equipped to handle high-stress situations, recognize red flags (e.g., trafficking or fraud), and uphold brand integrity. The risks of non-compliance include data breaches, discriminatory incidents, safety violations, and reputational fallout.',
+      'At StayCertified\u2122, we position Front Desk & Concierge certifications as essential safeguards that elevate both service quality and operational trust across every guest interaction.',
     ],
     certifications: [
       {
@@ -1815,13 +1821,14 @@ export const categories: CertCategory[] = [
     navLabel: 'Housekeeping',
     heroTagline: 'Standards that Safeguard. Hygiene. Safety. Reputation.',
     description: [
-      'Guest Rooms & Housekeeping blockchain certifications protect guests and staff, boost ratings, and secure contracts.',
-      'StayCertified™ showcases the standards that safeguard hygiene, safety, and your hotel’s reputation.',
-      'For hotels operating in high-traffic, luxury, or government-regulated environments, certification is critical for operational legitimacy, contract eligibility, and the prevention of hazardous or unsanitary conditions.',
+      ‘Housekeeping blockchain certifications protect guests and staff, boost ratings, and secure contracts. StayCertified\u2122 showcases the standards that safeguard hygiene, safety, and your hotel\u2019s reputation.’,
+      ‘The Guest Rooms & Housekeeping department plays a pivotal role in defining a hotel\u2019s cleanliness standards, brand perception, and guest well-being. It is often the most visible and routinely assessed area by guests and inspectors alike. Certifications in this category—such as sanitation (ISSA CIMS-GB), infection control (GBAC STAR), chemical safety (OSHA HAZCOM), bed bug prevention (NPMA), and occupational hygiene (NIOSH)—are essential to ensure both guest safety and staff health.’,
+      ‘Proper compliance ensures effective disease prevention, allergen control, pest mitigation, and safe handling of cleaning agents and equipment. The benefits of maintaining certified standards in housekeeping include improved guest satisfaction scores, reduced liability, extended asset life, and increased staff confidence and efficiency.’,
+      ‘In contrast, neglecting these standards can lead to negative reviews, health code violations, workplace injuries, and long-term reputational damage. For hotels operating in high-traffic, luxury, or government-regulated environments, certification is not just advisable—it is critical for operational legitimacy, contract eligibility, and the prevention of hazardous or unsanitary conditions. These certifications are the frontline defense for hygiene, safety, and brand integrity.’,
     ],
     certifications: [
       {
-        slug: 'gbac-star',
+        slug: ‘gbac-star’,
         title: 'GBAC STAR Accreditation',
         heroTitle: 'GBAC STAR: Verified​ Infection Control for Hotels that Prioritize Guest Safety',
         fullTitle: 'GBAC STAR Facility Accreditation',
@@ -2037,8 +2044,9 @@ export const categories: CertCategory[] = [
     heroTagline: 'From Background Checks to Crisis Protocols—Certify What Matters',
     description: [
       'The HR, Security & Operations department forms the operational and ethical core of any hotel, overseeing workforce management, guest protection, and regulatory compliance across all departments.',
-      'Certified operations in HR and security ensure lawful hiring practices, safe working conditions, rapid incident response, and protection against fraud, discrimination, and cyber threats.',
-      'At StayCertified™, we position HR, Security & Operations certifications as the invisible architecture that supports trust, resilience, and long-term success across the entire hotel ecosystem.',
+      'This area encompasses a wide spectrum of responsibilities—from hiring and training to data security, workplace conduct, and emergency response. Certifications in this domain—such as HR compliance (SHRM or HRCI), anti-harassment and DEI training, cybersecurity (CompTIA Security+ or PCI-DSS), physical security standards (ASIS CPP), and crisis management—are essential to building a safe, lawful, and high-functioning hotel environment.',
+      'Certified operations in HR and security ensure lawful hiring practices, safe working conditions, rapid incident response, and protection against fraud, discrimination, and cyber threats. Key benefits include reduced legal exposure, improved employee morale, better risk mitigation, and stronger alignment with government contracting or corporate travel standards. In contrast, failure to maintain compliance can result in lawsuits, regulatory fines, internal conflict, and reputational damage.',
+      'At StayCertified\u2122, we position HR, Security & Operations certifications as the invisible architecture that supports trust, resilience, and long-term success across the entire hotel ecosystem.',
     ],
     certifications: [
       {
@@ -2362,8 +2370,9 @@ export const categories: CertCategory[] = [
     heroTagline: 'Beyond Clean: Laundry that Meets Standards',
     description: [
       'The Laundry & Linen Services department is a critical behind-the-scenes operation that directly supports hygiene, guest comfort, and infection control across the entire hotel.',
-      'From bedding and towels to staff uniforms and dining linens, every item processed must meet strict cleanliness and handling standards.',
-      'At StayCertified™ we emphasize laundry certification as a foundational element of hotel hygiene infrastructure and operational excellence.',
+      'From bedding and towels to staff uniforms and dining linens, every item processed must meet strict cleanliness and handling standards. Certifications in this area—such as industrial laundry sanitation (TRSA Hygienically Clean), infection prevention (GBAC STAR for Laundry), water and energy efficiency (EPA WaterSense), and chemical safety (OSHA HAZCOM)—ensure that linens are processed, stored, and delivered in a way that upholds both public health and environmental responsibility.',
+      'Certified laundry operations help prevent the spread of pathogens, reduce fabric contamination, minimize allergic reactions, and improve laundering efficiency and sustainability. Benefits include longer linen life cycles, improved guest satisfaction, safer working environments, and lower utility costs. Conversely, failure to maintain compliance in this department can result in microbial outbreaks, cross-contamination, legal penalties, and lost contracts—especially in healthcare-adjacent or government facilities.',
+      'At StayCertified\u2122 we build the trust layer Hotels run on. We emphasize laundry certification as a foundational element of hotel hygiene infrastructure and operational excellence.',
     ],
     certifications: [
       {
@@ -2531,8 +2540,9 @@ export const categories: CertCategory[] = [
     heroTagline: 'Prevent Breakdowns Before They Happen—Certify Maintenance',
     description: [
       'The Maintenance & Engineering department is the backbone of hotel infrastructure, ensuring that all physical systems—from HVAC and plumbing to elevators and electrical—function safely, efficiently, and in compliance with building codes.',
-      'Certified maintenance operations help prevent equipment failures, energy waste, workplace accidents, and costly emergency repairs.',
-      'At StayCertified™, we spotlight Maintenance & Engineering certifications as essential safeguards that ensure every system behind the scenes supports safety, comfort, and uninterrupted guest satisfaction.',
+      'This department directly affects guest comfort, energy consumption, and emergency preparedness. Certifications in this area—such as Certified Hospitality Facilities Executive (CHFE), EPA Section 608 for HVAC, OSHA General Industry Safety, ASME elevator and boiler compliance, and NFPA fire safety systems—are critical for operational reliability and regulatory adherence.',
+      'Certified maintenance operations help prevent equipment failures, energy waste, workplace accidents, and costly emergency repairs. Benefits include extended asset life, reduced liability, regulatory confidence, and stronger resilience in crisis situations. Conversely, lack of compliance can lead to infrastructure breakdowns, guest injuries, unplanned shutdowns, and legal penalties.',
+      'At StayCertified\u2122, we spotlight Maintenance & Engineering certifications as essential safeguards that ensure every system behind the scenes supports safety, comfort, and uninterrupted guest satisfaction.',
     ],
     certifications: [
       {
