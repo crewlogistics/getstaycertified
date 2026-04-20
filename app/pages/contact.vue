@@ -7,6 +7,24 @@ useHead({
     { name: 'description', content: 'Get in touch with StayCertified. We\u2019re here to help your property get compliant and stay certified.' },
   ],
 })
+
+const submitted = ref(false)
+
+async function submitForm(e: Event) {
+  const form = e.target as HTMLFormElement
+  const formData = new FormData(form)
+
+  try {
+    await fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(formData as any).toString(),
+    })
+    submitted.value = true
+  } catch (err) {
+    alert('Something went wrong. Please try again.')
+  }
+}
 </script>
 
 <template>
@@ -43,7 +61,17 @@ useHead({
           </p>
         </div>
 
-        <form class="space-y-6" @submit.prevent>
+        <form
+          v-if="!submitted"
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+          class="space-y-6"
+          @submit.prevent="submitForm"
+        >
+          <input type="hidden" name="form-name" value="contact" />
+          <p class="hidden"><label>Don't fill this out: <input name="bot-field" /></label></p>
           <div class="grid gap-6 md:grid-cols-2">
             <div>
               <label for="firstName" class="block text-[12px] font-medium uppercase tracking-[0.08em] text-ink/60 mb-2">First Name</label>
@@ -140,6 +168,14 @@ useHead({
             </button>
           </div>
         </form>
+
+        <!-- Success message -->
+        <div v-if="submitted" class="text-center py-16">
+          <h3 class="text-[28px] font-light text-ink mb-4">Thank you!</h3>
+          <p class="text-ink/70 text-[16px] leading-[1.7]">
+            We&rsquo;ve received your message and will be in touch shortly.
+          </p>
+        </div>
       </div>
     </div>
   </section>

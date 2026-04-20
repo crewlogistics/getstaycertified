@@ -58,10 +58,10 @@ const partners = [
 
     <!-- Bottom strip -->
     <div class="border-t border-white/10">
-      <div class="container-x py-8 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="container-x py-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
         <img src="/images/built-on-hedera.png" alt="Built on Hedera Hashgraph" class="h-10 w-auto opacity-90" />
 
-        <p class="text-[11px] text-white/40 text-center md:text-left max-w-2xl leading-relaxed">
+        <p class="text-[11px] text-white/40 text-left md:text-left max-w-2xl leading-relaxed">
           &ldquo;Hedera&rdquo; is a trademark of Hedera Hashgraph, LLC. StayCertified is not affiliated with,
           sponsored, or endorsed by Hedera Hashgraph, LLC. All rights reserved.
         </p>
