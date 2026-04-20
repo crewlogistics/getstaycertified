@@ -74,19 +74,23 @@ async function submitForm(e: Event) {
           <p class="hidden"><label>Don't fill this out: <input name="bot-field" /></label></p>
           <div class="grid gap-6 md:grid-cols-2">
             <div>
-              <label for="firstName" class="block text-[12px] font-medium uppercase tracking-[0.08em] text-ink/60 mb-2">First Name</label>
+              <label for="firstName" class="block text-[12px] font-medium uppercase tracking-[0.08em] text-ink/60 mb-2">First Name *</label>
               <input
                 id="firstName"
+                name="firstName"
                 type="text"
+                required
                 class="w-full rounded-lg border border-rule px-4 py-3 text-[15px] text-ink focus:outline-none focus:ring-2 focus:ring-coral/30 focus:border-coral"
                 placeholder="Your first name"
               />
             </div>
             <div>
-              <label for="lastName" class="block text-[12px] font-medium uppercase tracking-[0.08em] text-ink/60 mb-2">Last Name</label>
+              <label for="lastName" class="block text-[12px] font-medium uppercase tracking-[0.08em] text-ink/60 mb-2">Last Name *</label>
               <input
                 id="lastName"
+                name="lastName"
                 type="text"
+                required
                 class="w-full rounded-lg border border-rule px-4 py-3 text-[15px] text-ink focus:outline-none focus:ring-2 focus:ring-coral/30 focus:border-coral"
                 placeholder="Your last name"
               />
@@ -94,30 +98,36 @@ async function submitForm(e: Event) {
           </div>
 
           <div>
-            <label for="email" class="block text-[12px] font-medium uppercase tracking-[0.08em] text-ink/60 mb-2">Email</label>
+            <label for="email" class="block text-[12px] font-medium uppercase tracking-[0.08em] text-ink/60 mb-2">Email *</label>
             <input
               id="email"
+              name="email"
               type="email"
+              required
               class="w-full rounded-lg border border-rule px-4 py-3 text-[15px] text-ink focus:outline-none focus:ring-2 focus:ring-coral/30 focus:border-coral"
               placeholder="you@hotel.com"
             />
           </div>
 
           <div>
-            <label for="company" class="block text-[12px] font-medium uppercase tracking-[0.08em] text-ink/60 mb-2">Company Name</label>
+            <label for="company" class="block text-[12px] font-medium uppercase tracking-[0.08em] text-ink/60 mb-2">Company Name *</label>
             <input
               id="company"
+              name="company"
               type="text"
+              required
               class="w-full rounded-lg border border-rule px-4 py-3 text-[15px] text-ink focus:outline-none focus:ring-2 focus:ring-coral/30 focus:border-coral"
               placeholder="Your company name"
             />
           </div>
 
           <div>
-            <label for="position" class="block text-[12px] font-medium uppercase tracking-[0.08em] text-ink/60 mb-2">Your Position</label>
+            <label for="position" class="block text-[12px] font-medium uppercase tracking-[0.08em] text-ink/60 mb-2">Your Position *</label>
             <input
               id="position"
+              name="position"
               type="text"
+              required
               class="w-full rounded-lg border border-rule px-4 py-3 text-[15px] text-ink focus:outline-none focus:ring-2 focus:ring-coral/30 focus:border-coral"
               placeholder="Your role or title"
             />
@@ -128,15 +138,18 @@ async function submitForm(e: Event) {
               <label for="phone" class="block text-[12px] font-medium uppercase tracking-[0.08em] text-ink/60 mb-2">Phone</label>
               <input
                 id="phone"
+                name="phone"
                 type="tel"
                 class="w-full rounded-lg border border-rule px-4 py-3 text-[15px] text-ink focus:outline-none focus:ring-2 focus:ring-coral/30 focus:border-coral"
                 placeholder="Your phone number"
               />
             </div>
             <div>
-              <label for="employees" class="block text-[12px] font-medium uppercase tracking-[0.08em] text-ink/60 mb-2">Number of Employees</label>
+              <label for="employees" class="block text-[12px] font-medium uppercase tracking-[0.08em] text-ink/60 mb-2">Number of Employees *</label>
               <select
                 id="employees"
+                name="employees"
+                required
                 class="w-full rounded-lg border border-rule px-4 py-3 text-[15px] text-ink focus:outline-none focus:ring-2 focus:ring-coral/30 focus:border-coral bg-white"
               >
                 <option value="">Please select</option>
@@ -153,6 +166,7 @@ async function submitForm(e: Event) {
             <label for="message" class="block text-[12px] font-medium uppercase tracking-[0.08em] text-ink/60 mb-2">Message</label>
             <textarea
               id="message"
+              name="message"
               rows="5"
               class="w-full rounded-lg border border-rule px-4 py-3 text-[15px] text-ink focus:outline-none focus:ring-2 focus:ring-coral/30 focus:border-coral resize-none"
               placeholder="How can we help?"
