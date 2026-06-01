@@ -2158,7 +2158,7 @@ export const categories: CertCategory[] = [
         title: 'AML/KYC Compliance Training',
         heroTitle: 'AML/KYC Training: Guest Identity and Transaction Risk Training for Hotels',
         fullTitle: 'AML/KYC Compliance Training',
-        issuingBody: 'State Licensing Boards & National Electrical Code (NEC)',
+        issuingBody: 'Financial Crimes Enforcement Network (FinCEN) / Bank Secrecy Act (BSA); certification via ACAMS (Association of Certified Anti-Money Laundering Specialists)',
         summary: 'Empowers hotel staff to detect suspicious activity, verify identities, and prevent misuse of hospitality assets for money laundering.',
         description: [
           'AML/KYC training empowers hotel staff to detect suspicious activity, verify identities, and prevent misuse of hospitality assets for money laundering. It aligns your property with global compliance frameworks—especially relevant for high-end bookings and cross-border clientele.',
@@ -2210,7 +2210,7 @@ export const categories: CertCategory[] = [
         title: 'Licensed Security Officer Certification',
         heroTitle: 'Security Officer Licensing: Verified Guard Compliance for Guest Protection',
         fullTitle: 'Licensed Security Officer Certification',
-        issuingBody: 'U.S. Equal Employment Opportunity Commission (EEOC)',
+        issuingBody: 'State regulatory agency / Department of Public Safety (varies by state; e.g. California Bureau of Security and Investigative Services (BSIS))',
         summary: 'Licensed Security Officer Certification for hotel security personnel.',
         description: [
           'Licensed Security Officer certification verifies that guards meet all legal and operational standards for protecting hotel properties. It ensures background checks, training, and regulatory alignment—offering peace of mind to guests and defensibility for operators during incidents.',
