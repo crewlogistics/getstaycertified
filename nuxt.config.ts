@@ -105,6 +105,9 @@ export default defineNuxtConfig({
         '/issa-cims-gb-blockchain-certificates',
         '/osha-hazard-blockchain-certificates',
         '/npma-bed-bug-training-blockain-certifications',
+        // Retired WordPress pages (no 1:1 match — redirect to nearest live page)
+        '/staycertified-home',
+        '/niosh-hygiene-training-blockchain-certificates',
       ],
     },
   },

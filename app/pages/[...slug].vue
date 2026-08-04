@@ -52,6 +52,17 @@ const topLevelPages: Record<string, string> = {
   'hotel-blockchain-certifications': '/certifications',
 }
 
+// Retired WordPress pages → nearest live equivalent.
+// These have no 1:1 match on the new site, so they point at the closest
+// relevant page rather than 404 and lose the inbound link.
+const retiredPages: Record<string, string> = {
+  // Duplicate of the WordPress homepage.
+  'staycertified-home': '/',
+  // NIOSH occupational hygiene was dropped from the certification set;
+  // its parent category is the nearest match.
+  'niosh-hygiene-training-blockchain-certificates': '/certifications/housekeeping',
+}
+
 const route = useRoute()
 const fullSlug = (route.params.slug as string[]).join('/')
 
@@ -60,6 +71,8 @@ let target = ''
 
 if (topLevelPages[fullSlug]) {
   target = topLevelPages[fullSlug]
+} else if (retiredPages[fullSlug]) {
+  target = retiredPages[fullSlug]
 } else if (categorySlugs[fullSlug]) {
   target = `/certifications/${categorySlugs[fullSlug]}`
 } else {
