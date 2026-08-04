@@ -1,0 +1,84 @@
+# Legacy WordPress URL redirects
+#
+# staycertified.ai ran on WordPress until Aug 2026. Its URLs are
+# redirected here by a Cloudflare rule that preserves the path, so these
+# legacy slugs arrive at getstaycertified.com and must resolve.
+#
+# Nuxt's catch-all (app/pages/[...slug].vue) already handles them, but it
+# emits meta-refresh stubs. These rules serve real 301s at the CDN edge
+# instead, which is the stronger signal for search engines.
+#
+# Forced (301!) because a prerendered stub exists at each of these paths
+# and an unforced rule would be shadowed by it. The stubs remain in place
+# as a fallback if this file is ever lost.
+#
+# Generated from the build output - do not hand-edit; regenerate instead.
+
+/accounting-standards-training-blockchain-hotel-certificates                                    /certifications/back-office-and-finance/accounting-standards-training  301!
+/alcohol-service-blockchain-hotel-certificates                                                  /certifications/food-and-beverage/alcohol-service                      301!
+/allergen-awareness-training-blockchain-hotel-certificates                                      /certifications/food-and-beverage/allergen-awareness-training          301!
+/ardhin-3-blockchain-hotel-certificates                                                         /certifications/environmental-sustainability/leed-certification        301!
+/ashrae-188-legionella-water-safety-plan-blockchain-hotel-certificates                          /certifications/maintenance-and-engineering/ashrae-188-legionella      301!
+/back-office-and-finance-hotel-blockchain-certificates                                          /certifications/back-office-and-finance                                301!
+/background-screening-standards-blockchain-hotel-certificates                                   /certifications/hr-security-ops/background-screening                   301!
+/boiler-pressure-vessel-blockchain-hotel-certificates                                           /certifications/fire-life-safety/boiler-pressure-vessel                301!
+/certifications-fitness-spa-wellness-blockchain-hotel-certificates                              /certifications/fitness-spa-wellness/massage-therapy-licensing         301!
+/chemical-handling-safety-blockchain-hotel-certificates                                         /certifications/laundry-and-linen-services/chemical-handling-safety    301!
+/child-protection-training-blockchain-hotel-certificates                                        /certifications/hr-security-ops/child-protection-training              301!
+/code-of-conduct-anti-trafficking-blockchain-hotel-certificates                                 /certifications/front-desk-concierge/code-of-conduct-anti-trafficking  301!
+/customer-service-blockchain-hotel-certificates                                                 /certifications/front-desk-concierge/customer-service                  301!
+/data-privacy-pci-compliance-blockchain-hotel-certificates                                      /certifications/front-desk-concierge/data-privacy-pci-compliance       301!
+/data-protection-cybersecurity-blockchain-hotel-certificates                                    /certifications/back-office-and-finance/data-protection-cybersecurity  301!
+/elevator-escalator-blockchain-hotel-certificates                                               /certifications/fire-life-safety/elevator-escalator                    301!
+/emergency-evacuation-planning-blockchain-hotel-certificates                                    /certifications/fire-life-safety/emergency-evacuation-planning         301!
+/energy-star-certification-for-hotels-blockchain-hotel-certificates                             /certifications/environmental-sustainability/energy-star               301!
+/environmental-sustainability-blockchain-certificates                                           /certifications/environmental-sustainability                           301!
+/epa-ahera-iicrc-mold-and-asbestos-awareness-certification-blockchain-hotel-certificates        /certifications/maintenance-and-engineering/epa-ahera-mold-asbestos    301!
+/epa-section-608-hvac-blockchain-hotel-certificates                                             /certifications/maintenance-and-engineering/epa-section-608-hvac       301!
+/financial-auditing-anti-fraud-blockchain-hotel-certificates                                    /certifications/back-office-and-finance/financial-auditing-anti-fraud  301!
+/fire-life-safety-blockchain-certificates                                                       /certifications/fire-life-safety                                       301!
+/fire-safety-extinguisher-training-blockchain-hotel-certificates                                /certifications/fire-life-safety/fire-safety-extinguisher-training     301!
+/fire-suppression-system-blockchain-hotel-certificates                                          /certifications/fire-life-safety/fire-suppression-system               301!
+/first-aid-and-training-blockchain-hotel-certificates                                           /certifications/fire-life-safety/first-aid-training                    301!
+/first-aid-cpr-aed-blockchain-hotel-certificates                                                /certifications/fitness-spa-wellness/first-aid-cpr-aed                 301!
+/fitness-equipment-safety-and-maintenance-blockchain-hotel-certificates                         /certifications/fitness-spa-wellness/fitness-equipment-safety          301!
+/fitness-spa-wellness-blockchain-certificates                                                   /certifications/fitness-spa-wellness                                   301!
+/food-and-beverage-blockchain-certificates                                                      /certifications/food-and-beverage                                      301!
+/food-waste-composting-compliance-blockchain-hotel-certificates                                 /certifications/environmental-sustainability/food-waste-composting     301!
+/front-desk-concierge-blockchain-certificates                                                   /certifications/front-desk-concierge                                   301!
+/gbac-star-blockchain-certificates                                                              /certifications/housekeeping/gbac-star                                 301!
+/green-key-global-sustainable-tourism-blockchain-hotel-certificates                             /certifications/environmental-sustainability/green-key-global          301!
+/halal-kosher-kitchen-compliance-blockchain-hotel-certificates                                  /certifications/food-and-beverage/halal-kosher-kitchen                 301!
+/health-department-kitchen-blockchain-hotel-certificates                                        /certifications/food-and-beverage/health-department-kitchen            301!
+/hotel-blockchain-certifications                                                                /certifications                                                        301!
+/housekeeping-blockchain-certificates                                                           /certifications/housekeeping                                           301!
+/hr-security-ops-blockchain-certificates                                                        /certifications/hr-security-ops                                        301!
+/iso-14001-environmental-management-systems-blockchain-hotel-certificates                       /certifications/environmental-sustainability/iso-14001                 301!
+/issa-cims-gb-blockchain-certificates                                                           /certifications/housekeeping/issa-cims-gb                              301!
+/kyc-anti-money-laundering-blockchain-hotel-certificates                                        /certifications/hr-security-ops/kyc-anti-money-laundering              301!
+/language-proficiency-blockchain-hotel-certificates                                             /certifications/front-desk-concierge/language-proficiency              301!
+/laundry-and-linen-services-blockchain-certificates                                             /certifications/laundry-and-linen-services                             301!
+/maintenance-and-engineering-blockchain-certificates                                            /certifications/maintenance-and-engineering                            301!
+/maintenance-and-engineering-blockchain-hotel-certificates                                      /certifications/maintenance-and-engineering                            301!
+/niosh-hygiene-training-blockchain-certificates                                                 /certifications/housekeeping                                           301!
+/npma-bed-bug-training-blockain-certifications                                                  /certifications/housekeeping/npma-bed-bug-training                     301!
+/osha-confined-space-and-ladder-safety-blockchain-hotel-certificates                            /certifications/maintenance-and-engineering/osha-confined-space-ladder 301!
+/osha-hazard-blockchain-certificates                                                            /certifications/housekeeping/osha-hazard-communication                 301!
+/osha-nebosh-iosh-workplace-safety-blockchain-hotel-certificates                                /certifications/hr-security-ops/osha-workplace-safety                  301!
+/pci-dss-compliance-blockchain-hotel-certificates                                               /certifications/back-office-and-finance/pci-dss-compliance             301!
+/pest-control-blockchain-hotel-certificates                                                     /certifications/food-and-beverage/pest-control                         301!
+/pool-and-hot-tub-water-quality-blockchain-hotel-certificates                                   /certifications/fitness-spa-wellness/pool-hot-tub-water-quality        301!
+/sauna-steam-room-maintenance-blockchain-hotel-certificates                                     /certifications/fitness-spa-wellness/sauna-steam-room-maintenance      301!
+/security-officer-licensing-blockchain-hotel-certificates                                       /certifications/hr-security-ops/security-officer-licensing             301!
+/servsafe-haccp-iso-22000-blockchain-hotel-certificates                                         /certifications/food-and-beverage/servsafe-haccp-iso-22000             301!
+/servsafe-haccp-laundry-sanitation-compliance-blockchain-hotel-certificates                     /certifications/laundry-and-linen-services/trsa-hygienically-clean     301!
+/spa-hygiene-infection-control-blockchain-hotel-certificates                                    /certifications/fitness-spa-wellness/spa-hygiene-infection-control     301!
+/state-electrical-license-blockchain-hotel-certificates                                         /certifications/maintenance-and-engineering/state-electrical-license   301!
+/stay-certified-blockchain-certification-features                                               /features                                                              301!
+/staycertified-home                                                                             /                                                                      301!
+/staycertified                                                                                  /contact                                                               301!
+/the-hotel-blockchain-certification-process                                                     /the-process                                                           301!
+/true-zero-waste-certification-blockchain-hotel-certificates                                    /certifications/environmental-sustainability/true-zero-waste           301!
+/water-energy-efficiency-programs-blockchain-hotel-certificates                                 /certifications/laundry-and-linen-services/water-energy-efficiency     301!
+/workplace-harassment-prevention-blockchain-hotel-certificates                                  /certifications/hr-security-ops/workplace-harassment-prevention        301!
+/workplace-violence-prevention-blockchain-hotel-certificates                                    /certifications/fire-life-safety/workplace-violence-prevention         301!
