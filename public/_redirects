@@ -9,9 +9,6 @@
 
 # Legacy WordPress URL redirects
 #
-# The rules below this line are generated - see the note at the end of
-# this block before editing them.
-#
 # staycertified.ai ran on WordPress until Aug 2026. Its URLs are
 # redirected here by a Cloudflare rule that preserves the path, so these
 # legacy slugs arrive at getstaycertified.com and must resolve.
@@ -24,7 +21,9 @@
 # and an unforced rule would be shadowed by it. The stubs remain in place
 # as a fallback if this file is ever lost.
 #
-# Generated from the build output - do not hand-edit; regenerate instead.
+# Generated from the build output - do not hand-edit. If a redirect target
+# changes in app/pages/[...slug].vue, REGENERATE this block or the stale
+# forced rule will silently win over the new one.
 
 /accounting-standards-training-blockchain-hotel-certificates                                    /certifications/back-office-and-finance/accounting-standards-training  301!
 /alcohol-service-blockchain-hotel-certificates                                                  /certifications/food-and-beverage/alcohol-service                      301!
@@ -88,7 +87,7 @@
 /state-electrical-license-blockchain-hotel-certificates                                         /certifications/maintenance-and-engineering/state-electrical-license   301!
 /stay-certified-blockchain-certification-features                                               /features                                                              301!
 /staycertified-home                                                                             /                                                                      301!
-/staycertified                                                                                  /contact                                                               301!
+/staycertified                                                                                  /#enquire                                                              301!
 /the-hotel-blockchain-certification-process                                                     /the-process                                                           301!
 /true-zero-waste-certification-blockchain-hotel-certificates                                    /certifications/environmental-sustainability/true-zero-waste           301!
 /water-energy-efficiency-programs-blockchain-hotel-certificates                                 /certifications/laundry-and-linen-services/water-energy-efficiency     301!
