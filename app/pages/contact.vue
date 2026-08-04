@@ -15,7 +15,7 @@ useHead({
     { name: 'twitter:description', content: 'Get in touch with StayCertified. We\u2019re here to help your property get compliant and stay certified.' },
   ],
   link: [
-    { rel: 'canonical', href: 'https://getstaycertified.com/contact' },
+    { rel: 'canonical', href: 'https://getstaycertified.com/contact/' },
   ],
 })
 

@@ -15,7 +15,7 @@ useHead({
     { name: 'twitter:description', content: 'Browse all hotel blockchain certification categories. From fire safety to housekeeping, StayCertified covers every department.' },
   ],
   link: [
-    { rel: 'canonical', href: 'https://getstaycertified.com/certifications' },
+    { rel: 'canonical', href: 'https://getstaycertified.com/certifications/' },
   ],
 })
 

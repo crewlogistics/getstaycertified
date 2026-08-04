@@ -15,7 +15,7 @@ useHead({
     { name: 'twitter:description', content: 'From paperwork to peace of mind in three simple steps. Upload, verify, and get listed with StayCertified.' },
   ],
   link: [
-    { rel: 'canonical', href: 'https://getstaycertified.com/the-process' },
+    { rel: 'canonical', href: 'https://getstaycertified.com/the-process/' },
   ],
 })
 

@@ -73,7 +73,7 @@ useHead({
     { name: 'twitter:description', content: pageDescription },
   ],
   link: [
-    { rel: 'canonical', href: `https://getstaycertified.com${route.path}` },
+    { rel: 'canonical', href: `https://getstaycertified.com${route.path}/` },
   ],
 })
 </script>

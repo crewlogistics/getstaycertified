@@ -15,7 +15,7 @@ useHead({
     { name: 'twitter:description', content: 'Full marks for full features. Compliance made effortless with StayCertified\u2122.' },
   ],
   link: [
-    { rel: 'canonical', href: 'https://getstaycertified.com/features' },
+    { rel: 'canonical', href: 'https://getstaycertified.com/features/' },
   ],
 })
 
