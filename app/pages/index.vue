@@ -164,7 +164,7 @@ const features = [
     />
   </section>
 
-  <!-- PRICING -->
-  <PricingSection />
+  <!-- PRICING: hidden 2026-08-03 - no pricing displayed publicly. To restore, uncomment the line below. -->
+  <!-- <PricingSection /> -->
 
 </template>

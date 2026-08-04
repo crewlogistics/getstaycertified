@@ -50,11 +50,11 @@ const maintenance = [
   },
   {
     title: 'Multi-Property Oversight',
-    body: 'View and manage certifications, staff training, and risk audits across all your locations from a single dashboard. (Multi-Property Plan)',
+    body: 'View and manage certifications, staff training, and risk audits across all your locations from a single dashboard.',
   },
   {
     title: 'Vendor Coordination & Uploads',
-    body: 'We follow up with vendors directly, collect updated documents, and upload them on your behalf\u2014keeping you hands-free. (Concierge Plan)',
+    body: 'We follow up with vendors directly, collect updated documents, and upload them on your behalf\u2014keeping you hands-free.',
   },
   {
     title: 'Continuous Updates & Feature Upgrades',
@@ -225,6 +225,6 @@ const maintenance = [
     </div>
   </section>
 
-  <!-- PRICING -->
-  <PricingSection />
+  <!-- PRICING: hidden 2026-08-03 - no pricing displayed publicly. To restore, uncomment the line below. -->
+  <!-- <PricingSection /> -->
 </template>

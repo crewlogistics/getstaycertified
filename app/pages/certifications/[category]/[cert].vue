@@ -236,7 +236,7 @@ useHead({
       <img src="/images/features-inspector.webp" alt="Hotel compliance" loading="lazy" class="hero-img" />
     </section>
 
-    <!-- PRICING -->
-    <PricingSection />
+    <!-- PRICING: hidden 2026-08-03 - no pricing displayed publicly. To restore, uncomment the line below. -->
+    <!-- <PricingSection /> -->
   </div>
 </template>
