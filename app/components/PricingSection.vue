@@ -162,7 +162,7 @@ const displayPeriod = computed(() => {
 
           <div class="mt-6">
             <NuxtLink
-              to="/contact"
+              to="/#enquire"
               :class="[
                 'inline-flex items-center justify-center rounded-[20px] px-6 py-[10px] text-[11px] font-semibold uppercase tracking-[0.08em] transition',
                 plan.featured

@@ -48,7 +48,7 @@ const categorySlugs: Record<string, string> = {
 const topLevelPages: Record<string, string> = {
   'the-hotel-blockchain-certification-process': '/the-process',
   'stay-certified-blockchain-certification-features': '/features',
-  'staycertified': '/contact',
+  'staycertified': '/#enquire',
   'hotel-blockchain-certifications': '/certifications',
 }
 

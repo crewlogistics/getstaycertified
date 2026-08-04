@@ -1,24 +1,4 @@
 <script setup lang="ts">
-definePageMeta({ layout: 'default' })
-
-useHead({
-  title: 'Contact - StayCertified',
-  meta: [
-    { name: 'description', content: 'Get in touch with StayCertified. We\u2019re here to help your property get compliant and stay certified.' },
-    { property: 'og:title', content: 'Contact - StayCertified' },
-    { property: 'og:description', content: 'Get in touch with StayCertified. We\u2019re here to help your property get compliant and stay certified.' },
-    { property: 'og:url', content: 'https://getstaycertified.com/contact' },
-    { property: 'og:type', content: 'website' },
-    { property: 'og:image', content: 'https://getstaycertified.com/images/front-desk.webp' },
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'Contact - StayCertified' },
-    { name: 'twitter:description', content: 'Get in touch with StayCertified. We\u2019re here to help your property get compliant and stay certified.' },
-  ],
-  link: [
-    { rel: 'canonical', href: 'https://getstaycertified.com/contact/' },
-  ],
-})
-
 const submitted = ref(false)
 
 async function submitForm(e: Event) {
@@ -39,27 +19,11 @@ async function submitForm(e: Event) {
 </script>
 
 <template>
-  <!-- HERO -->
-  <section class="bg-ink text-white">
-    <div class="container-x py-32 md:py-48 text-center">
-      <h1 class="font-medium leading-[1.05] tracking-tight text-[48px] sm:text-[64px] md:text-[78px] lg:text-[85px]">
-        Real People.<br />
-        Real Help.
-      </h1>
-    </div>
-  </section>
-
-  <!-- TEAM PHOTO -->
-  <section class="bg-white">
-    <img
-      src="/images/team.webp"
-      alt="The StayCertified team"
-      class="hero-img"
-    />
-  </section>
-
-  <!-- CONTACT FORM -->
-  <section class="bg-white">
+  <!-- ENQUIRE -->
+  <!-- Form name and field names must stay in sync with public/form-placeholder.html,
+       which is how Netlify detects the form, and with netlify/functions/submission-created.mjs,
+       which sends the Telegram notification. Renaming anything here silently stops leads. -->
+  <section id="enquire" class="bg-white scroll-mt-[72px]">
     <div class="container-x py-[80px] md:py-[140px]">
       <div class="max-w-2xl mx-auto">
         <div class="text-center mb-12">
@@ -204,7 +168,4 @@ async function submitForm(e: Event) {
       </div>
     </div>
   </section>
-
-  <!-- PRICING: hidden 2026-08-03 - no pricing displayed publicly. To restore, uncomment the line below. -->
-  <!-- <PricingSection /> -->
 </template>

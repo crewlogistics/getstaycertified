@@ -167,4 +167,7 @@ const features = [
   <!-- PRICING: hidden 2026-08-03 - no pricing displayed publicly. To restore, uncomment the line below. -->
   <!-- <PricingSection /> -->
 
+  <!-- ENQUIRE - the site's only lead capture since /contact was retired -->
+  <EnquireSection />
+
 </template>

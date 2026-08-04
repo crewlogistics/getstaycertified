@@ -51,7 +51,7 @@ const partners = [
         <h4 class="text-[12px] font-semibold uppercase tracking-[0.2em] text-white/50 mb-4">Company</h4>
         <ul class="space-y-2 text-[14px] text-white/80">
           <li>
-            <NuxtLink to="/contact" class="hover:text-white">Contact</NuxtLink>
+            <NuxtLink to="/#enquire" class="hover:text-white">Contact</NuxtLink>
           </li>
         </ul>
       </div>

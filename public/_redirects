@@ -1,4 +1,16 @@
+# Retired pages
+#
+# /contact was removed Aug 2026; enquiries now happen inline on the
+# homepage. The URL was indexed and appeared in a submitted sitemap, so it
+# redirects rather than 404s.
+
+/contact    /#enquire    301!
+
+
 # Legacy WordPress URL redirects
+#
+# The rules below this line are generated - see the note at the end of
+# this block before editing them.
 #
 # staycertified.ai ran on WordPress until Aug 2026. Its URLs are
 # redirected here by a Cloudflare rule that preserves the path, so these

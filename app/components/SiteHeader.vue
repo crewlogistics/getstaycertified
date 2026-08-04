@@ -55,7 +55,7 @@ const mobileOpen = ref(false)
       </nav>
 
       <div class="hidden lg:block">
-        <NuxtLink to="/contact" class="btn-coral">Stay Certified Now</NuxtLink>
+        <NuxtLink to="/#enquire" class="btn-coral">Stay Certified Now</NuxtLink>
       </div>
 
       <button
@@ -90,7 +90,7 @@ const mobileOpen = ref(false)
             >{{ c.label }}</NuxtLink>
           </div>
         </details>
-        <NuxtLink to="/contact" class="btn-coral mt-2" @click="mobileOpen = false">Stay Certified Now</NuxtLink>
+        <NuxtLink to="/#enquire" class="btn-coral mt-2" @click="mobileOpen = false">Stay Certified Now</NuxtLink>
       </div>
     </div>
   </header>
