@@ -156,6 +156,22 @@ export default defineNuxtConfig({
         },
       ],
       script: [
+        // Google Analytics 4 - G-HSNTD6TEMD.
+        // Same property the old staycertified.ai WordPress site reported to, so
+        // the domain migration reads as one continuous dataset rather than an
+        // old property flatlining beside a new one.
+        //
+        // No manual page_view calls on route change: Nuxt navigates client-side,
+        // and GA4 Enhanced Measurement already counts those via browser history
+        // events (on by default). Sending them here as well would double-count.
+        {
+          src: 'https://www.googletagmanager.com/gtag/js?id=G-HSNTD6TEMD',
+          async: true,
+        },
+        {
+          innerHTML:
+            "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-HSNTD6TEMD');",
+        },
         {
           type: 'application/ld+json',
           innerHTML: JSON.stringify({
