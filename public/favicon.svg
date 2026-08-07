@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="StayCertified">
+  <!-- Derived from the StayCertified tier coin (staycertified-final.html):
+       same struck-seal geometry - circular body with an inset ring - with the
+       arc text dropped so the mark survives at 16px.
+       Colours are canonical brand tokens: green #0A5C3E, gold #D6B25E.
+       The check is white rather than mint #2FD08C: mint on green loses too
+       much contrast at 16px, and white keeps the mark legible on both light
+       and dark browser tab bars. -->
+  <circle cx="100" cy="100" r="98" fill="#0A5C3E"/>
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#D6B25E" stroke-width="7"/>
+  <path d="M60 104 L88 132 L142 70"
+        fill="none" stroke="#FFFFFF" stroke-width="24"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
